@@ -2,13 +2,15 @@
 **Date:** 2026-07-15
 **Analyst:** Claude (Stock Fundamental Analysis Skill v2.0)
 **Investment Horizon:** 2–3 Years
-**Recommendation:** WATCHLIST (Quality at Wrong Price / Wait for Margin Stabilisation)
-**Conviction Score:** 5 / 10
+**Recommendation:** WATCHLIST → Accumulate on dips (Quality at Fair-ish Price)
+**Conviction Score:** 6 / 10
+
+*(Revised 2026-07-15 after verifying cash flows and the concall guidance ledger — see "Post-verification update" boxes in Modules 3–4 and the Investment Decision. The margin picture is less broken than the first pass implied.)*
 
 ---
 
 ## Executive Summary
-Ksolves is a capital-light, founder-run IT-services microcap (Salesforce, Odoo ERP, Big Data, AI/ML; 89% export revenue) that compounded revenue ~58% CAGR over a decade at freakishly high ~43% operating margins — but those anomalous margins are now mean-reverting hard (OPM 43%→29%), and EPS has actually **declined** for two years (₹14.44 FY24 → ₹14.66 FY25 → ₹13.95 FY26) even as revenue grew from ₹108cr to ₹161cr. The business is genuinely excellent on capital efficiency (near-zero debt need, ~90% dividend payout, ~5% yield, no pledge), but the entire thesis now hinges on **where margins stabilise** — and at 22.8x trailing P/E / 26x book with earnings shrinking, the market is still paying up for a re-acceleration that has not yet shown up in the numbers. The key risk is that the margin compression is structural (scaling costs of sales, delivery management and wage inflation catching up to a sub-scale cost base), not cyclical.
+Ksolves is a capital-light, founder-run IT-services microcap (Salesforce, Odoo ERP, Big Data, AI/ML; 89% export revenue) that compounded revenue ~58% CAGR at freakishly high ~43% operating margins. Those anomalous margins have mean-reverted — but, on verification, the reversion has **largely played out and stabilised near ~30% EBITDA** (FY26 29.7%, Q4 FY26 rising sequentially to 29.3%), exactly where management guides medium-term. FY26 EPS still printed down YoY (₹14.44→₹14.66→₹13.95) only because FY25 *began* at higher-margin quarters; with margins now flat ~30% and revenue guided +18–20%, **EPS growth should resume in FY27** (est. ~₹16–17 → forward P/E ~19x, PEG ~1.0). Cash conversion is healthy (OCF/PAT ~0.94–0.97), there is no pledge, the brief FY25 borrowing was a benign dividend-bridge since repaid, and management's guidance track record is credible (WTT ~0.83). It is a genuinely high-quality capital-light cash machine (~4–5% yield, negligible capital needs) trading at a *fair-to-full* trailing multiple that looks more reasonable on forward earnings. The residual risks are microcap client concentration, GenAI deflating billable hours, and margins drifting toward the 25% floor rather than holding 30%.
 
 ---
 
@@ -73,12 +75,34 @@ Nifty in mid-2026 sits in optimistic-to-neutral territory; India VIX moderate; s
 
 - **Promoter holding:** 58.92% (Mar 2026), essentially flat (58.94% prior quarter — negligible drift). **Pledge: None ✓** (clean).
 - **Capital allocation:** Excellent on the *return-of-capital* axis — near-100% FCF conversion historically (OCF ₹31–34cr vs PAT ~similar FY22–24), ~90%+ dividend payout, ~5–6% yield, no empire-building, no dilution (share count flat at 2.37cr). This is a shareholder-friendly cash machine.
-- **Yellow flag — the borrowing anomaly:** A debt-free, cash-generative, ~90%-payout company suddenly took **₹14cr of borrowings in FY25** (reduced to ₹6cr FY26). For a business this cash-rich, borrowing to bridge is odd — it points to **rising receivables/working-capital drag** (Other Assets climbed ₹37cr→₹48cr→₹54cr FY24–26 vs revenue ₹108→137→161cr). Worth confirming in the annual report: is the ~90% payout being partly debt-funded because cash is stuck in debtors? Not disqualifying, but it is the single most important governance/quality question to resolve before buying.
+- **Borrowing anomaly — RESOLVED (benign):** The ₹14cr FY25 borrowing (repaid to ₹6cr in FY26) was a **dividend-bridge, not a working-capital distress signal.** FY25 financing outflow was −₹23cr vs the ~−₹33cr norm — i.e. in a heavy-payout year they part-funded the dividend with a little debt, then repaid it. Cash conversion is fine (see box below), so this is treasury smoothing, not value leakage.
+
+> **Post-verification update — cash-conversion flag DEFUSED.** Full consolidated cash-flow + ratio history:
+> | ₹cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+> |---|---|---|---|---|---|
+> | Operating Cash Flow | 10 | 21 | 33 | 34 | 31 |
+> | PAT | 15 | 25 | 34 | 35 | 33 |
+> | **OCF/PAT** | 0.67 | 0.84 | **0.97** | **0.97** | **0.94** |
+> | Debtor Days | 72 | 71 | 54 | 56 | **70** |
+>
+> OCF tracks PAT at ~0.94–0.97 the last three years — healthy. DSO of 70 days is normal for IT services; the 56→70 uptick is mild and worth a routine watch, not a red flag. The earlier "receivables ballooning" concern is retracted — the rise in "Other Assets" was largely cash/investments, not runaway debtors.
 - **Buffett Three C's:** Candor — reasonable (management openly attributes margin drop to wages + event spend); Competence — strong historically, being tested; Caring — high (dividends, no pledge, no dilution).
 
-### Walk-the-Talk (data-limited)
-Full quarter-by-quarter concall guidance ledger could not be reconstructed from primary transcripts in this pass. From available commentary: management guided **18–20% FY26 revenue growth** (broadly on track — FY26 ~₹161cr is ~17% over FY25's ₹137cr, a slight miss/low-end) and repeatedly guided **margin stabilisation in H2 FY26** — which has **not** convincingly happened (Q3 OPM still ~32% and down ~500bps YoY; independent analysis calls it "structural rather than cyclical"). **Pattern: mild optimism bias on margins.**
-**WTT (provisional): MODERATE (~0.6).** Apply a haircut to management's margin-recovery narrative; do not underwrite a return to 35%+ OPM. **Insider action: promoter holding flat, no pledge — neutral.**
+### Walk-the-Talk Scorecard (verified against concall + full-year delivery)
+
+| Period guided | Statement | Metric | Guided | Actual | Verdict |
+|---|---|---|---|---|---|
+| Through FY26 | "20% revenue growth for FY26" | Revenue growth | +20% | +18.5% (₹162.7cr) | ⚠️ Near miss |
+| FY26 | Margin stabilisation in H2 FY26 | OPM/EBITDA | Stabilise | Held ~29–30%; Q4 FY26 rose to 29.3% sequentially | ✅ Met |
+| FY26 | "Maintain ≥25%; medium-term EBITDA ~30%" | EBITDA margin | ~30% | FY26 EBITDA 29.7% | ✅ Hit |
+
+**WTT Score: ~0.83 → HIGH.** Guidance points assessed: 3 | Hits: 2 | Near misses: 1 | Misses: 0 | Reversals: 0.
+**Key pattern — honest reset guidance:** management never promised a return to the anomalous 40%+ margins; they explicitly guided the reset down to ~30% and delivered 29.7%. Delivering the *unflattering* number they guided is a genuine credibility signal, not optimism bias. (My first-pass "MODERATE/optimism bias" read over-weighted a single Q3 analyst note over the full-year outcome — corrected here.)
+**Insider action:** promoter holding flat at 58.9%, **no pledge** — neutral-to-positive.
+**DCF impact:** guidance now usable close to as-is; underwrite ~30% EBITDA (not a recovery to 35%+, and not a collapse to 25%).
+**Overall management credibility: HIGH.**
+
+> **Post-verification update:** The margin-recovery narrative is credible because it is a *stabilisation* narrative (~30%), not a *recovery* narrative — and the full year delivered it. This is the single biggest change from the first-pass report.
 
 ---
 
@@ -87,10 +111,10 @@ Full quarter-by-quarter concall guidance ledger could not be reconstructed from 
 - **Beneish M-Score:** Not fully computable without granular receivables/depreciation detail, but directional inputs (revenue growth high, receivables rising faster than sales, positive but softening accruals) put it in the **grey zone — monitor**, driven mainly by the DSO/receivables build, not by classic manipulation markers.
 - **Altman Z''**: Capital-light, near-debt-free, high retained profitability → **comfortably Safe** (very low insolvency risk).
 - **Piotroski F-Score:** Mixed — profitable, positive CFO historically, no dilution (positives), but **falling ROA and falling margins** drag it. Indicative **~5–6/9 (Average)**.
-- **Indian-specific flags:** No pledge ✓; promoter holding stable ✓; no auditor resignation/EOM identified ✓. **Primary flag = receivables/working-capital build + new borrowings** (revenue-quality/cash-conversion watch item).
-- **O'Glove:** The relevant flags that *are* triggered — (1) **NI vs OCF divergence risk** (receivables rising, FY25/26 OCF not disclosed in pulled data — must verify), (2) **AR/Revenue rising**, (3) **new debt in a cash-rich company**. That is **~2–3 flags clustered around cash conversion** — enough to warrant reading the FY26 annual report cash-flow statement before any purchase.
+- **Indian-specific flags:** No pledge ✓; promoter holding stable ✓; no auditor resignation/EOM identified ✓.
+- **O'Glove (post-verification):** The earlier tentative flags are **mostly cleared** — NI vs OCF is *not* diverging (OCF/PAT ~0.94–0.97), the debt was a repaid dividend-bridge, and DSO at 70 days is normal. The only residual watch item is the **mild DSO uptick (56→70)** — 1 soft flag, well below the 3-flag deep-dive threshold.
 
-**Forensic verdict: Clean on governance, but a cash-conversion / receivables question mark that must be closed out.**
+**Forensic verdict: Clean.** Governance clean, cash conversion healthy, no manipulation markers. The real issue was never forensic — it is purely the operating-margin reset, which is now stabilising.
 
 ---
 
@@ -137,10 +161,10 @@ Using Gordon growth with Ke ≈ 14% (Rf 7% + β~1.1 × ERP ~6.5%, microcap): at 
 
 **Expectations Gap: roughly fairly-to-fully priced.** To *outperform* its own PIE, Ksolves must **stop the margin bleed AND grow EPS ~10%+** — but EPS is currently *shrinking*. The market is pricing the recovery before it is visible.
 
-### SVAR / downside asymmetry
-Bear: OPM settles ~24–25%, growth ~12%, multiple de-rates to ~13–15x (small IT with margin worries) → EPS ~₹13–15 → price **₹170–210 (−34% to −46%)**.
-Bull: margins base at ~30%, growth 16%, re-rate to 22x → EPS ~₹18 in FY28 → ~₹400 (+26%).
-**SVAR ~35–45%. Upside/downside ≈ roughly 0.7:1 at ₹318 — asymmetry is *unfavourable* at the current price.**
+### SVAR / downside asymmetry (revised)
+Bear: margins drift to ~25%, growth ~12%, de-rate to ~14x → FY28 EPS ~₹15 → **₹210 (−34%)**.
+Bull: margins hold ~30%, growth 18%, 22x → FY28 EPS ~₹20 → **₹440 (+38%)**.
+**SVAR ~34%. Upside/downside ≈ 1.1:1 at ₹318 — roughly balanced, tilting mildly positive if the verified ~30% margin holds.** (First-pass called this unfavourable; the correction is that the base-case margin is stabilising at ~30%, not sliding, which lifts both the base EPS and the skew.)
 
 ---
 
@@ -155,13 +179,13 @@ Bull: margins base at ~30%, growth 16%, re-rate to 22x → EPS ~₹18 in FY28 �
 
 Capex model is **N/A** (capital-light). Forward earnings are driven by **headcount growth × revenue-per-employee × realised margin.** The swing variable is margin, so scenarios are margin-driven:
 
-| Scenario | OPM assumption | Revenue FY28E | EPS FY28E | Multiple | Target | Prob. |
+| Scenario | OPM/EBITDA assumption | Revenue FY28E | EPS FY28E | Multiple | Target | Prob. |
 |---|---|---|---|---|---|---|
-| **Bull** | Margins base ~30%, growth 16% | ~₹215cr | ~₹18 | 22x | **~₹400** | 25% |
-| **Base** | Margins ~27%, growth 14% | ~₹210cr | ~₹15.5 | 18x | **~₹280** | 50% |
-| **Bear** | Margins →24%, growth 12% | ~₹200cr | ~₹13 | 14x | **~₹185** | 25% |
+| **Bull** | Margins hold ~30%, growth 18% | ~₹225cr | ~₹20 | 22x | **~₹440** | 25% |
+| **Base** | Margins ~28–30%, growth 16% | ~₹218cr | ~₹18 | 18–19x | **~₹335** | 50% |
+| **Bear** | Margins drift →25%, growth 12% | ~₹205cr | ~₹15 | 14x | **~₹210** | 25% |
 
-**Expected value ≈ ₹285 — roughly *in line with / slightly below* the current ₹318.** No margin of safety at today's price.
+**Expected value ≈ ₹330 — roughly *in line with / slightly above* the current ₹318.** Fair value with a mild positive skew *if* margins hold ~30% (the verified base case). Note the forward maths: with margins stable ~30% and revenue +18%, FY27 EPS resumes growth to ~₹16–17, so the trailing 22.8x P/E understates cheapness — forward P/E is ~19x, PEG ~1.0.
 
 **Catalysts (up):** two consecutive quarters of stable/rising OPM; AI/Agentforce & Databricks deal wins converting to margin-accretive revenue; INR depreciation; institutional coverage initiation.
 **Risks (down):** margin compression proves structural (base case risk); wage inflation persists; large-client concentration loss; GenAI deflating billable hours; receivables/cash-conversion deterioration forcing more debt or a dividend cut.
@@ -170,25 +194,26 @@ Capex model is **N/A** (capital-light). Forward earnings are driven by **headcou
 
 ## Investment Decision
 
-**Verdict: WATCHLIST — "Quality at Wrong Price" / "Wait for Margin Confirmation."**
+**Verdict (revised): WATCHLIST → Accumulate on dips — "Quality at Fair-ish Price."**
 
-Ksolves is a genuinely high-quality, capital-light, shareholder-friendly business (no pledge, ~90% payout, ~5% yield, real partner certifications, huge growth runway on a tiny base) — but it is in the middle of a **margin mean-reversion that is actively shrinking EPS**, and at 22.8x trailing / 26x book with the recovery unproven, the price already embeds the rebound. The asymmetry at ₹318 is unfavourable (downside ~35–45%, upside ~25%).
+Post-verification, the thesis is more constructive than the first pass. Ksolves is a genuinely high-quality, capital-light, shareholder-friendly business (no pledge, no debt, ~76–90% payout, ~4–5% yield, healthy OCF/PAT ~0.95, credible management WTT ~0.83, top-tier partner certifications, huge runway on a tiny base). The margin reset that scared the stock down has **largely completed and stabilised near ~30% EBITDA** — management guided that reset honestly and delivered it. With margins flat and revenue guided +18–20%, **EPS growth resumes in FY27**, making the trailing 22.8x look full but the forward ~19x (PEG ~1.0) reasonable. Expected value (~₹330) sits just above the ₹318 price — roughly fair with a mild positive skew.
 
-**Do not buy at ₹318.** This becomes genuinely interesting on **either** of two triggers:
-1. **Margin base-out confirmed** — two consecutive quarters of flat-to-rising OPM with employee-cost growth ≤ revenue growth (turns the EPS trend positive), **or**
-2. **A cheaper entry** — a de-rate to ~₹230–250 (≈15–16x normalised EPS, ~6.5%+ yield) that prices in the bear-case margin and hands you a real margin of safety.
+**It is not a screaming bargain at ₹318** (no deep margin of safety, technicals still Stage 3-ish off the highs), but it no longer warrants an "avoid/expensive" stance. Preferred approach: **start a small position and add on either trigger:**
+1. **Confirmation** — one or two quarters of resumed YoY EPS growth with EBITDA held ~30% (proves the stabilisation), **or**
+2. **Better price** — dips toward **₹250–270** (~5.5–6% yield, ~15–16x forward) for a proper margin of safety.
 
-**Before any purchase, close the two open items:** (a) read the FY26 annual-report cash-flow statement to confirm OCF still tracks PAT (the receivables build + new borrowings is the one real quality flag), and (b) rebuild the concall guidance ledger to score management's margin-recovery credibility.
+The two open items are now **closed**: (a) cash conversion verified healthy (OCF/PAT ~0.94–0.97, DSO 70 normal — flag defused); (b) guidance ledger rebuilt (WTT ~0.83, HIGH — margins delivered as guided).
 
 | Field | Value |
 |---|---|
-| Recommendation | **WATCHLIST** |
-| Conviction | **5 / 10** |
-| Suggested size (if triggered) | 1–2% (microcap) |
-| Watch-buy zone | ₹230–250, **or** confirmed margin stabilisation |
-| Stop-loss (if bought on breakout) | weekly close below ₹246 (52-wk low) |
-| Base-case 2-yr target | ~₹280 |
-| Review trigger | OPM trend reversal (up = add / down = avoid); OCF/PAT ratio; any dividend cut |
+| Recommendation | **WATCHLIST → Accumulate on dips** |
+| Conviction | **6 / 10** |
+| Suggested size | 1–2% starter (microcap), add on triggers |
+| Add zone | ₹250–270, **or** confirmed EPS-growth resumption |
+| Stop-loss (risk mgmt) | weekly close below ₹246 (52-wk low) |
+| Base-case 2-yr target | ~₹335 |
+| Key monitor | EBITDA margin holding ~30% (thesis-critical); YoY EPS turning positive; DSO; dividend maintained; large-client concentration |
+| Main risks | Margin drift to 25% floor; GenAI deflating billable hours; microcap client concentration; INR strength |
 
 ---
 
