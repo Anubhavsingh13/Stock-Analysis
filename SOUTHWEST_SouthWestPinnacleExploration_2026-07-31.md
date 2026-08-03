@@ -48,8 +48,8 @@ This is an **asset-heavy, working-capital-intensive services** business tied to 
 ## Module 4 — Financial Forensics
 - **No cluster of red flags.** Ten years of positive PAT, no loss years, OPM stable in a 16–31% band, moderate leverage, stable promoter.
 - **Genuine watch-items (monitor, not disqualify):** (1) **Debtor days 175** — high, inherent to PSU billing; the receivable is the main working-capital risk and the reason to scrutinise cash conversion. (2) The public quarterly series shows a **screener parsing artifact** (Dec-24/Mar-25 values duplicated into Dec-25/Mar-26) — rely on the audited annual FY26 numbers, not the quarterly split, and verify H2 FY26 from the filed results. (3) Q1 (Jun) is a structurally weak, monsoon-hit quarter — don't annualise it.
-- Cash-flow lines came through as zeros in the pull (not parsed) — **verify FY26 operating cash flow and OCF/PAT from the filed cash-flow statement** before committing; given 175 debtor days this is the single most important number to confirm.
-**Forensic verdict:** Clean, subject to confirming cash conversion.
+- **Cash conversion — now confirmed and it holds up (the decisive positive vs the other three names).** Operating cash flow has been **positive in 9 of the last 10 years** (FY17–FY26: ₹26, −16, 9, 13, 17, 10, 4, 19, 27, 12 Cr). Cumulative OCF is solidly positive — earnings are cash-backed over the cycle, unlike Akiko. The nuance: **growth years absorb working capital** — FY26 OCF ₹12 Cr vs PAT ₹31 Cr (conversion ~0.4×) because +35% revenue growth locked up receivables/WIP, and net cash flow was −₹18 Cr after ₹38 Cr of rig capex. FY25 was the reverse (OCF ₹27 Cr > PAT ₹15 Cr). This is a self-funding-but-WC-hungry grower, not a cash-burner — acceptable, but it means faster growth will periodically need working-capital funding.
+**Forensic verdict:** Clean. Cash conversion confirmed positive through-cycle; monitor WC absorption in high-growth years.
 
 ---
 

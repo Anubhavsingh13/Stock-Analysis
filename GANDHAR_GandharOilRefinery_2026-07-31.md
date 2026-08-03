@@ -2,7 +2,7 @@
 **Date:** 2026-07-31
 **Analyst:** Claude (Stock Fundamental Analysis Skill v2.0)
 **Investment Horizon:** 2–3 Years
-**Recommendation:** WATCHLIST (Cheap but Flawed — confirm margin durability first)
+**Recommendation:** WATCHLIST (Cheap but Flawed — margin surge confirmed by management as event-driven, not structural)
 **Conviction Score:** 4 / 10
 
 ---
@@ -39,7 +39,7 @@ This is a **commodity/specialty converter** — closer to a low-margin manufactu
 **Promoter holding:** 66.6% (Jun 2026), stable; **no pledge disclosed** in the data (verify on NSE).
 **Balance sheet:** Modest and reasonable — borrowings ₹315 Cr against reserves ₹1,333 Cr; net leverage low. FY26 operating cash flow ₹128 Cr, investing −₹62 Cr, financing −₹88 Cr (deleveraging/dividend). Dividend-paying (yield ~0.84%).
 **Capital allocation:** Adequate, not exceptional. Capex modest (Fixed assets ₹450→498 Cr; CWIP ₹29 Cr). The company is guiding a **mix shift toward higher-margin pharma/healthcare specialty oils** — the credibility of that shift is the crux of the entire investment case and needs 2–3 quarters of confirmation, not one.
-**Credibility:** MODERATE — established, IPO'd Nov-2023, clean-ish disclosure, but the Q1 blowout invites the classic "is this the new normal or a spread windfall" scrutiny. Concall (Q1 FY27 audio released) should be read before acting.
+**Credibility:** MODERATE — established, IPO'd Nov-2023, clean-ish disclosure. **The Q1 FY27 concall (23-Jul-2026) settles the key question — and confirms the caution.** Management stated the margin jump was *"mainly due to higher selling prices,"* explicitly ruled out inventory gains (*"we don't carry significant inventory to attribute gains to it"*), and called it the product of *"exceptional market conditions and efficient sourcing."* They were only *"hopeful that margins will remain at current levels"* while flagging *"risk of potential degrowth in subsequent quarters if exceptional market conditions do not persist."* Volume-growth guidance stays a modest 8–11%; the structural PHPO (pharma/healthcare specialty) segment grew a solid but unspectacular 18% YoY and was **not** the primary margin driver. **In management's own words, the surge is event-driven pricing, not a structural re-rating** — which is the crux of the verdict below.
 
 ---
 
