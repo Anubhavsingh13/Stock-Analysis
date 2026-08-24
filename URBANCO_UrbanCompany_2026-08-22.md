@@ -135,6 +135,32 @@ A loss-making platform must be valued on **EV/NTV, EV/Revenue, and sum-of-the-pa
 ## Module 10 — Forward View: 2–3 Year Thesis
 **What must be true for the bull case:** (1) core NTV keeps compounding ~30% with margin expanding past ~8–10% of NTV; (2) **InstaHelp loss-per-order keeps falling and a path to contribution-positive appears within ~6–8 quarters**; (3) no forced dilution. **What breaks it:** InstaHelp burn balloons without per-unit inflection, or core NTV decelerates.
 
+### 10A-ii — Unit Economics Build (formal module; asset-light/platform track)
+*Trigger test passed (B2C-transactional, repeat, acquisition-driven, reports NTV/retention, "profitable core investing for growth"). Two units modelled separately: mature marketplace order and InstaHelp order.*
+
+**Unit & counts:** 8.4 M annual users (+24%); ~34–38 M orders/yr; **NTV/user ~₹5,100, rising +7%** (NTV +33% > users +24% → engagement deepening); ~59,500 partners (earnings ₹28.3k/mo, rising).
+
+**Contribution/unit (core):** take rate ~30% of NTV; **core adj-EBITDA 6.9% of NTV (↑ from 5.2%)** → ~₹337 contribution/user/yr — positive & expanding.
+
+**CAC & payback:** ⚠️ *fully-loaded CAC not disclosed.* Inferred core payback **< 12 months** (a segment-profitable core growing users +24% with 83% repeat NTV cannot have broken payback). **CAC problem is quarantined in InstaHelp.**
+
+**Retention/cohorts:** 83% NTV from retained users; NTV/user rising → cohorts monetising better, not decaying. **Green.**
+
+**LTV/CAC:** core ~₹337/user/yr over a multi-year life ⇒ LTV/CAC comfortably **>3×** (directional — lifespan assumed, retention observed).
+
+**Blended vs. marginal (decisive):**
+| Layer | Q1FY27 | Read |
+|---|---|---|
+| Blended company | **−₹92 Cr** | Looks loss-making |
+| Marginal — mature (Core +82.0, Intl +3.2, Native −7.8) | **+₹77 Cr** | Contribution-positive & expanding |
+| Marginal — InstaHelp | **−₹131.6 Cr** | Entire loss, by choice |
+
+InstaHelp loss/order **₹346, narrowing from ₹447**, but volume scaling faster → **per-unit improving while absolute burn widens** (land-grab pattern, deliberate).
+
+**Units-to-breakeven:** mature engine ~+₹77 Cr/qtr (growing ~30%) vs InstaHelp ~−₹132 Cr/qtr. InstaHelp per-order breakeven ~Q4FY27–H1FY28 *if* not traded for volume; consolidated profit plausibly FY28–29. **Cash ₹2,021 Cr ÷ ~₹450–530 Cr burn ≈ ~4 yrs runway → no forced dilution.**
+
+**PIE cross-check:** EV/FY29E NTV = 2.2× (UBS ₹10,000 Cr). Core cohort math (~30% core NTV CAGR) **supports the price's implied volume on the core alone.** → **The entire expectations gap is InstaHelp's per-order economics, not core growth** — the single most important line for monitoring this position.
+
 ### Key Catalysts
 1. **InstaHelp unit-economics inflection** (loss/order → breakeven) — the single biggest re-rating trigger.
 2. Core adj-EBITDA margin marching from 6.9% toward 10%+ of NTV.
