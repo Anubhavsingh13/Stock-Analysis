@@ -175,5 +175,55 @@ Expected value skews toward the base/bear given the asymmetry and financing risk
 **If owned:** treat as a small, high-risk position only; watch the fundraise terms and API segment losses each quarter. A discounted equity raise is the most likely near-term catalyst — and a negative one for existing holders.
 
 ---
+
+## ADDENDUM A — Q1 FY27 Concall: Walk-the-Talk & API-Breakeven Read
+
+**The single most important finding: management gives NO API breakeven timeline, NO API margin target, and NO consolidated-profitability timeline.** They speak confidently and specifically about the *easy* metric (capsule margins — "confident in sustaining profitability through the year") but go **silent on the hard one** — when the API business stops losing money and when consolidated turns positive. In the Walk-the-Talk framework this is the **"selective disclosure" pattern**: guide on what's going well, stay vague on the swing factor. Treat the absence of an API breakeven commitment as a flag, not a neutral.
+
+**What management *did* commit to (track these):**
+| Statement | Metric | Value | Status to watch |
+|---|---|---|---|
+| FY27 consolidated revenue (Q4 call) | Revenue | ₹274 cr (gelatin 170 + HPMC 20 + API 70 + Fermbox 14) | +47% YoY — aggressive; API from ~0 |
+| WHO-GMP audit | Regulatory | By end Q2 FY27 | Near-term, verifiable catalyst |
+| PLI incentive | Cash support | ~₹67 cr over FY25–FY30 (3 steroidal APIs) | ~₹11 cr/yr — modest vs losses |
+| Fermbox Bio CMO | Contract | First batch commenced Aug 2026 (value undisclosed) | Undisclosed = low visibility |
+| Capsule profitability | Margin | "Sustain through the year" (~13% gelatin) | The reliable leg |
+
+**Reversal flag — HPMC:** management is converting **two HPMC lines *back* to gelatin** ("to protect capacity utilisation amid erratic US demand and duty uncertainty"). This is a candid but real **walk-back of the earlier HPMC growth narrative** — the veg-capsule expansion that was part of the capex story underdelivered. Credibility-neutral (they're being honest) but thesis-negative (a growth leg is being retired).
+
+**On the core API risk, management's own words:** Chinese capacities are "fungible," Indian steroid-API prices are "significantly lower than in China," and the plan is to "move up the value chain to semi-regulated and regulated markets for better margins." Translation: **they are currently a price-taker at the low-margin end**, betting on a multi-year migration up the quality curve (WHO-GMP → regulated markets) that has not yet happened. This is an aspiration, not a demonstrated capability.
+
+**WTT read:** MODERATE-to-LOW credibility on the growth story specifically — honest tone, but a retired HPMC leg, an unquantified API path, and a +47% revenue guide dependent on a near-zero-base segment. **Apply a haircut to the ₹274 cr guide; do not anchor a DCF to it.**
+
+---
+
+## ADDENDUM B — Steroid-API Peer Cross-Check (the decisive lens)
+
+Natural's API bet must be judged against what the steroid-API business actually pays *even for the people who win it*. The cleanest benchmark just listed: **Symbiotec Pharmalab** (IPO Aug 2026), the **global corticosteroid/steroidal-hormone API leader**.
+
+| | **Symbiotec (global #1)** | **Natural Capsules (API)** |
+|---|---|---|
+| Global corticosteroid share | **38.2%** | negligible (new entrant) |
+| Global steroidal-hormone share | **23.8%** | negligible |
+| API revenue (FY26) | **₹869 cr** | ~near-zero → ₹70 cr *guided* FY27 |
+| EBITDA margin | **26.6%** | negative (segment loss ~₹8 cr in Q1) |
+| PAT margin | 12.6% | negative |
+| **ROCE** | **~11.6%** | negative |
+| PAT CAGR FY24–26 | **4.81%** | n/a (pre-scale) |
+| IPO valuation | **~57× P/E**, mcap ₹6,244 cr | — |
+
+**Two conclusions fall straight out of this table:**
+
+1. **The prize is modest, even for the champion.** The *global market leader* in steroid APIs earns only ~**26% EBITDA / ~11–12% ROCE** and grew PAT at **<5%** — this is a **decent-margin but capital-heavy, slow-compounding, price-pressured** business. Winning steroid APIs does not produce Divi's/Concord-style economics; it produces pedestrian returns. So the *best realistic outcome* of Natural's ₹180 cr, debt-funded API bet is to become a small player in a business that pays low-teens ROCE — hardly a jackpot, and years away.
+
+2. **The competitive gap is enormous.** Natural is a **sub-scale, loss-making new entrant** trying to take share in a market where one incumbent holds **38% global volume** and generates **₹869 cr** of API revenue. On cost, scale, approvals and customer relationships, Natural starts far behind.
+
+**Higher-quality API/CDMO comps for context** (aspirational, not current peers): Concord Biotech, Divi's Laboratories, Laurus Labs, Cohance Lifesciences trade at premium multiples (~40–60× P/E) — but on the back of **30%+ EBITDA margins, high ROCE, and fermentation/CDMO moats** Natural's API does not have. The market pays up for *proven* API franchises; Natural is asking equity holders to fund an *unproven* one.
+
+**Valuation implication:** You cannot value Natural's API on Symbiotec's 57× — that multiple belongs to a profitable global leader. Natural's API is worth, at best, invested capital adjusted for execution risk (i.e., a discount to the ~₹180 cr spent), and quite possibly less if breakeven slips. This **reinforces the SOTP conclusion**: the ₹223 cr mcap is not discounting API failure, so the risk/reward is skewed against the buyer.
+
+**Net effect on verdict:** The peer cross-check makes the AVOID *more* confident, not less — the upside case (become a mid-tier steroid-API maker) is worth less than the market seems to assume, while the downside case (continued losses + dilution) is unchanged. **Conviction stays 3.5/10; the asymmetry is unfavourable.**
+
+---
 *Report generated by Stock Fundamental Analysis Skill v2.0 | Indian Markets Context*
-*Primary sources: Screener.in (consolidated), Q1 FY27 & Q4 FY26 concall/results coverage, exchange price data (28 Aug 2026). Some segment-level profit splits and full 10-yr forensic model are limited by small-cap disclosure; flagged where data is unavailable — not fabricated.*
+*Primary sources: Screener.in (consolidated), Q1 FY27 & Q4 FY26 concall/results coverage, Symbiotec Pharmalab IPO disclosures (peer benchmark), exchange price data (28 Aug 2026). Some segment-level profit splits and full 10-yr forensic model are limited by small-cap disclosure; flagged where data is unavailable — not fabricated.*
