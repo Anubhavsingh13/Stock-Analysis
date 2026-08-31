@@ -93,10 +93,20 @@ This is best classified as a **capital-heavy, transitioning specialty-chemical/p
 **Buffett's Three C's:** Candor — adequate disclosure but no clear owner-oriented communication on the ROCE collapse; Competence — unproven on this transition; Caring — dilution + minority-heavy structure is not obviously minority-friendly.
 
 ### Walk-the-Talk
-*Full 8-quarter guidance ledger could not be reconstructed from public sources without concall transcripts (not accessible this session).* Directional read: the **USFDA-approval milestone was delivered** (positive), but the **margin/ROCE recovery repeatedly implied by the growth capex has NOT yet shown up** in three years of results.
-**WTT (provisional): MODERATE-to-LOW** — apply a haircut to any forward-recovery guidance; demand it in the actuals first.
-**Insider action:** No promoter open-market buying detected; instead **equity dilution via preferential issue** — a net-neutral-to-negative signal.
-**Overall management credibility: MODERATE.**
+**Structural finding: Shivalik Rasayan does not hold public investor concalls.** Repeated searches for a Shivalik Rasayan earnings call return only the unrelated *Shivalik Bimetal Controls*. There is therefore **no quarterly guidance ledger to score** — which is itself a **disclosure/governance flag** (Schilit "selective disclosure"): a company mid-way through a capital-intensive transition that does not host investor calls gives shareholders no forward accountability. Assessment must rely on results-vs-implied-promise instead.
+
+**Deliver-vs-implied read (from actions and outcomes, not spoken guidance):**
+| What was implied by capital deployment | What actually happened | Verdict |
+|---|---|---|
+| Heavy API capex → higher-value, higher-margin revenue | OPM fell 22%→12%; ROCE 32%→5% | ❌ Not delivered (yet) |
+| USFDA approval of Dahej API facility | **Achieved (2024)** | ✅ Delivered |
+| Growth funding self-sustaining | OCF negative 3 yrs; debt ↑; preferential issue to plug cash | ❌ Miss |
+| Medicamen consolidation adds value | Medicamen ROCE also 16%→5%, OCF **−₹33 Cr** FY26, also diluted | ❌ Compounds the problem |
+
+**WTT (provisional): LOW-to-MODERATE** — the one hard milestone (USFDA) was hit, but every *financial* promise implicit in the capex story (margin recovery, cash generation, non-dilution) has been missed so far. Haircut all forward-recovery assumptions; demand them in the actuals first.
+**Insider action:** No promoter open-market buying; instead **equity dilution via preferential share + warrant issue** — net-negative signal.
+**Medicamen read-through:** Because Shivalik consolidates a 40%-owned entity carrying the *same* disease (declining ROCE, negative and worsening OCF, working-capital bloat, its own FY26 equity raise), a large part of the consolidated cash bleed is Medicamen's — the two must be judged together (see companion report [MEDICAMEQ_MedicamenBiotech_2026-08-31.md]).
+**Overall management credibility: MODERATE (with a disclosure-quality flag added).**
 
 ---
 
