@@ -5,6 +5,14 @@
 **Recommendation:** WATCHLIST (Quality at Wrong Price)
 **Conviction Score:** 5 / 10
 
+## Revision Log
+| Version | Date | Recommendation | Conviction | Price | Key change |
+|---|---|---|---|---|---|
+| Current | 2026-07-30 | Watchlist (Quality at Wrong Price) | 5/10 | ₹1,678 | Full rebuild covering all 11 modules (10-yr P&L, DuPont, WTT, capex model, scenarios) |
+| Previous | 2026-07-08 | Quality at Wrong Price → Watchlist / accumulate on weakness | 5/10 (7/10 at ₹1,200–1,400) | ₹1,658 | Earlier short-form file `POLYMED_PolyMedicure_2026-07-08.md` merged here on 2026-10-09 (full text in git history) |
+
+*Consolidated retroactively on 2026-10-09 under the one-report-per-company rule. The 30 Jul report covers every section of the 8 Jul version. No item-level validation was done at the time; the next re-run must validate this report against fresh data.*
+
 **Ticker verification:** NSE `POLYMED`, BSE `531768`, ISIN INE205C01021, Face value ₹5. Current price **₹1,678** (Screener.in close 29-Jul-2026; intraday July 2026 range ~₹1,635–1,747 per Business Standard/NSE). Market cap **₹17,013 Cr**. ([Screener.in](https://www.screener.in/company/POLYMED/consolidated/), [Business Standard](https://www.business-standard.com/markets/poly-medicure-ltd-share-price-13973.html))
 
 ---

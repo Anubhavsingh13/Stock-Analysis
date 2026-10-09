@@ -4,7 +4,27 @@
 **Investment Horizon:** 2–3 Years
 **Recommendation:** AVOID at current price → WATCHLIST (buy-below ₹1,350–1,450)
 **Conviction Score:** 4 / 10
-**Supersedes:** [BALAMINES_BalajiAmines_2026-06-11.md](BALAMINES_BalajiAmines_2026-06-11.md) (Wait for Confirmation, 5/10)
+
+## Revision Log
+| Version | Date | Recommendation | Conviction | Price | Key change |
+|---|---|---|---|---|---|
+| Current | 2026-10-09 | Avoid at CMP → Watchlist (buy ₹1,350–1,450) | 4/10 | ₹2,086 | Recovery confirmed but price-led (volume −22%, realisation +62%); valuation at 80th-pct P/E; U/D hard stop |
+| Previous | 2026-06-11 | Wait for Confirmation | 5/10 | ₹2,068 | Earlier file `BALAMINES_BalajiAmines_2026-06-11.md` merged into this report (full text in git history) |
+
+**Validation of previous report:**
+| Item | Previous (Jun 2026) | Now | Status |
+|---|---|---|---|
+| FY26 revenue / PAT / EPS | ₹1,425 Cr / ₹169 Cr / ₹51.60 | ₹1,419 Cr (Screener restated) / ₹169 Cr / ₹51.60 | ✅ Validated (revenue restated −₹6 Cr) |
+| Q4 FY26 revenue / EBITDA margin | ₹403 Cr / 25.3% | ₹395 Cr / 23.9% (consolidated restated) | 🔄 Updated |
+| Promoter pledge | "~18% of total share capital" | 17.66% of *promoter* holding ≈ 9.6% of equity | ❌ Corrected |
+| BSCL Unit-I / Unit-II timing | H1 FY27 / Q4 FY27 | Unit-I guided Sep 2026 (not confirmed); Unit-II end-FY27 | 🔄 Updated |
+| DME plant | Q1 FY27 commissioning | Commissioned 20 May 2026 | 🔄 Updated (delivered) |
+| FY27 guidance | Not captured | Volume +10–15%, EBITDA 22–23%, FY28 revenue ₹3,000 Cr | 🔄 Updated |
+| DCF base value | ~₹1,119 | ₹821–1,277 (normalised 21% margin, sensitivity table) | 🔄 Updated |
+| Analyst consensus ₹1,674 / AlphaSpread DCF ₹1,130 | As stated | Not re-sourced | ⚠️ Unverifiable, dropped |
+| Peer table (Alkyl Amines P/E ~30×, ROCE ~15%) | As stated | Alkyl 41.5× P/E, 16.6% ROCE (standalone) | 🔄 Updated |
+| Fisher 10/15, Five Forces, TAM | As stated | Unchanged inputs | ✅ Validated (carried forward) |
+| WTT score | 0.60 | 0.57 (7-item ledger) | 🔄 Updated |
 
 ---
 

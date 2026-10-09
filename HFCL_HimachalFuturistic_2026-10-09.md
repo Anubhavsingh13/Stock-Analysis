@@ -4,7 +4,28 @@
 **Investment Horizon:** 2–3 Years
 **Recommendation:** AVOID at current price → WATCHLIST (buy-below ~₹90–110)
 **Conviction Score:** 3.5 / 10
-**Supersedes:** [HFCL_HimachalFuturistic_2026-06-11.md](HFCL_HimachalFuturistic_2026-06-11.md) (Quality at Wrong Price, 4.4/10, CMP ₹169)
+
+## Revision Log
+| Version | Date | Recommendation | Conviction | Price | Key change |
+|---|---|---|---|---|---|
+| Current | 2026-10-09 | Avoid at CMP → Watchlist (buy ₹90–110) | 3.5/10 | ₹258 | Record Q1 FY27, but valuation at 97–99th pct; CFO/PAT 0.42; 47% of order book is framework value |
+| Previous | 2026-06-11 | Quality at Wrong Price | 4.4/10 | ₹169 | Earlier file `HFCL_HimachalFuturistic_2026-06-11.md` merged into this report (full text in git history) |
+
+**Validation of previous report:**
+| Item | Previous (Jun 2026) | Now | Status |
+|---|---|---|---|
+| FY26 revenue / PAT | ₹4,949 Cr / ₹329 Cr | ₹4,949 Cr / ₹329 Cr | ✅ Validated |
+| FY26 order book | ₹21,206 Cr, treated as firm backlog | ₹21,206 Cr, of which ₹10,159 Cr is a 5-yr framework agreement at "potential" value | ❌ Corrected (firm cover ~2.8×, not 4.3–4.4×) |
+| OCF vs PAT | "Estimated below 1.0" | FY26 CFO −₹378 Cr; 11-yr cumulative CFO/PAT 0.42 | ❌ Corrected (far worse than estimated) |
+| Net D/E | "~1.5–2.0× (estimated)" | Debt ₹1,896 Cr / equity ₹4,891 Cr ≈ 0.39× | ❌ Corrected |
+| Promoter holding | "Not confirmed" | 28.29% (Jun 2026), down from 37.84% (Sep 2023) | 🔄 Updated (gap closed) |
+| Promoter pledge | "Increased 1.41%" | Current level not re-sourced | ⚠️ Unverifiable |
+| Debtor days | 163 | 163 (FY26); CCC 218 days | ✅ Validated |
+| Export share | 41% (FY26) | 56% (Q1 FY27) | 🔄 Updated |
+| Defence FY27 target | ₹500–600 Cr | Guided ₹400 Cr | 🔄 Updated (cut) |
+| 10-yr ROCE trend | Data gap | 24% → 8% → 11% (FY16–26) | 🔄 Updated (gap closed) |
+| Nifty stage | Stage 2 advancing | Cautious; Nifty −6% since June | 🔄 Updated |
+| Valuation | 83× FY26 P/E | 68.5× TTM (97th pct), P/B 8.1× (99th pct) | 🔄 Updated |
 
 ---
 
