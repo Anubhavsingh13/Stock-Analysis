@@ -58,6 +58,7 @@ xychart-beta
 ```
 🟦 Revenue (CAGR 8.3%) · 🟧 Gross Block (12.4%) · 🟩 EBITDA (7.6%) · 🟪 PAT (11.3%)
 **Read:** Fixed assets have grown every year (322) while revenue fell from its FY22–23 spike back to 222. Since FY24 🟧 sits *above* 🟦, so each rupee of plant now earns less than in any year of the decade. The FY21–23 profit spike (🟪 721) was a price event, not a capacity event: gross block barely moved while revenue and PAT tripled. The same mechanism is now restarting.
+
 **Business inference:** Balaji's earnings follow amine prices, not its investment in capacity, and it has built plant ahead of demand that sits underused at normal prices. That makes it a high-operating-leverage price play: earnings can double when spreads widen, but the bigger asset base makes each downturn hit returns harder than the last.
 
 ---
@@ -116,6 +117,7 @@ xychart-beta
 ```
 🟦 Gross margin · ⬜ Median 45% · 🟥 +1SD 47.4% · 🟩 −1SD 42.6%
 **Read:** The percentage spread is remarkably stable (0th percentile at 44% but within 1SD). Balaji passes input costs through, so **the cycle lives in the absolute ₹ per tonne, not the percentage**. When product and feedstock prices rise together, gross profit per tonne rises, fixed costs are absorbed, and EBITDA margin jumps. That is exactly what happened in Q1 FY27 (gross margin flat at 45%, EBITDA margin 15% → 25%), and it reverses just as fast when prices deflate. This is a cyclical tailwind and should not be capitalised.
+
 **Business inference:** Balaji can pass costs through but has no pricing power: it earns a steady percentage on whatever price China sets. Profitability therefore depends on absolute price levels and plant utilisation, neither of which management controls, so today's margin should be valued as cyclical, not structural.
 
 **Sector cycle verdict: TAILWIND (cyclical, price-led; 12–24 months).** The primary driver is a realisation upswing plus EDA anti-dumping. Risk: Chinese price cuts or ADD non-notification. Module 8 must value on a **normalised margin (21%)**, not 25%.
@@ -148,6 +150,7 @@ xychart-beta
 ```
 🟦 Revenue YoY % · 🟩 EBITDA YoY % · ⬜ zero line
 **Read:** Revenue growth has **accelerated for five straight quarters** (−18% → +27%), and EBITDA growth is about 4× revenue growth, which is textbook operating leverage at a cycle turn. Base effects flatter it: Q1 FY26 was a trough quarter. The trajectory is the strongest buy-side signal in the report, *but* see the volume table below.
+
 **Business inference:** The recovery is real at the profit line, but it comes from price and fixed-cost absorption, not from customers buying more. A lasting re-rating needs volume growth. Without it, earnings are as exposed to a price reversal as they were in FY23–25.
 
 ### Volume vs realisation (the decisive check)
@@ -194,6 +197,7 @@ xychart-beta
 ```
 🟦 EBITDA margin · ⬜ Median 21% · 🟥 +1SD 24.6% · 🟩 −1SD 17.4%
 **Read:** FY26 (19%) was mid-band. **Q1 FY27 at 25.4% is already above +1SD**, a peak-type margin that has only been sustained in the FY21–23 supercycle. Management itself guides 22–23% for FY27. Value on ~21–22%.
+
 **Business inference:** Today's profitability reflects a favourable price environment, not a better business, and management's 22–23% guidance concedes it cannot be sustained. Valuing the company on Q1 FY27 margins would capitalise cyclical rent.
 
 **Stock cycle classification: EARLY-TO-MID UPCYCLE (price-led), with margins already at a peak-type level.** Annual ROCE is at its 10-year low (11%, 0th percentile), which reads "trough". The quarterly margin reads "peak". The truth is in between: earnings are recovering off a trough, but the current quarter's profitability already prices in a strong spread.
@@ -236,6 +240,7 @@ xychart-beta
 ```
 🟦 Gross margin · 🟩 EBITDA margin · 🟪 PAT margin
 **Read:** The flat 🟦 line and swinging 🟩/🟪 lines show that **operating leverage, not spread percentage, drives the cycle**. PAT margin doubled from FY20 to FY21 on an unchanged gross margin.
+
 **Business inference:** This is a high-fixed-cost commodity plant: small moves in realisation swing profit sharply. The earnings stream is inherently volatile, which argues for valuing on mid-cycle margins and applying a cyclical discount.
 
 **Fisher 15-point:** 10/15 (unchanged; Point 15 integrity: Pass). **Market share:** stable ~50% of the domestic duopoly.
@@ -298,6 +303,7 @@ xychart-beta
 ```
 🟪 Cumulative PAT · 🟩 Cumulative CFO
 **Read:** Over 11 years, CFO/PAT = **0.95**, which is healthy. The gap opened in the FY21–22 boom (working capital absorbed cash as prices rose) and closed in the FY23–25 downcycle. **Expect it to open again in FY27**: debtor days are already 89 (from 72), the normal pattern of a price upswing.
+
 **Business inference:** Balaji's reported profits are genuinely backed by cash, a quality marker that sets it apart from many capex-heavy chemical peers. The receivable build expected in FY27 is normal for an upswing and does not threaten the thesis, though it will delay the FCF inflection.
 
 **Forensic verdict: CLEAN (minor: rising receivables).** Red-flag count 1/15.
@@ -326,6 +332,7 @@ xychart-beta
 ```
 🟩 ROCE · ⬜ 10-yr median 24% · 🟥 WACC 12.5%
 **Read:** ROCE fell **below WACC in FY25–26 for the first time in a decade** (0th percentile, below −1SD of 12.8%). Over the full cycle, median ROCE of 24% is about double WACC, so the business creates value *through* the cycle. The asset base is now 3× FY16, so getting back to median ROCE needs ~₹2,300+ Cr of revenue at a 21% margin. That is the right yardstick for the FY28 target.
+
 **Business inference:** The franchise creates value over a full cycle, but recent capex has diluted returns, so growth no longer creates value automatically. Shareholders are funding capacity whose payoff depends on the next upcycle arriving and lasting.
 
 ### C6 — Asset Turnover (Revenue / Gross Block)
@@ -345,6 +352,7 @@ xychart-beta
 ```
 🟧 Asset turnover · ⬜ 10-yr average 1.55×
 **Read:** AT has fallen **four years running to a decade low of 0.94×**, with another ₹512 Cr of CWIP still to be capitalised. TTM revenue of ₹1,523 Cr gives ~1.0×. **Base-case forward AT: 1.2–1.3× (below the 1.55× average)**, because new capacity (DME, BSCL) ramps slowly and earns lower turns.
+
 **Business inference:** Capital has gone in faster than the market can absorb the output, which structurally lowers returns per rupee. This is the main drag on ROCE. Idle capacity is an option on future demand, not a guaranteed earnings engine, so the base case assumes only a slow recovery.
 
 ### DuPont (5-factor, approx.)
@@ -386,6 +394,7 @@ xychart-beta
     bar [11.0, 16.6, 19.8, 11.4, 6.9, 12.0]
 ```
 **Read:** Balaji earns the **second-lowest ROCE in the group yet trades at a P/E in line with or above Vinati and Deepak**. The market is paying for the recovery, not current returns. Against its direct peer Alkyl Amines (41.5× P/E, 16.6% ROCE), Balaji is ~20% cheaper on P/E but lags on returns. That relative gap is fair, not a mispricing.
+
 **Business inference:** The market is valuing Balaji on recovery earnings rather than current returns, paying a quality-company multiple for a business earning trough-cycle returns. Until ROCE is above 15%, the multiple is borrowing from the upcycle.
 
 **Sector KPIs:** EBITDA margin 21% TTM (sector band 18–28%, in-line) · ROCE 11% (band 15–20%, below) · export share ~10–12% (leaders 20–30%, below) · working-capital days 69 (OK). **Peer positioning:** in line to slight premium versus quality; not justified on returns until ROCE > 15%.
@@ -450,6 +459,7 @@ xychart-beta
 ```
 🟦 P/E · ⬜ Median 23.5× · 🟥 +1SD 32.9× · 🟩 −1SD 14.1×
 **Read:** P/E is at the **+1SD line (80th percentile)**. The cyclical rule cuts both ways here. In FY22 (peak EPS) the P/E was a "reasonable" 28× and the stock then halved. In FY20 (trough EPS) it was 8× and the stock rose 7×. Today's 33× is a *high* multiple on *recovering* earnings, which is fair only if FY27–28 EPS really doubles. It is not the cheap-at-trough setup of FY20.
+
 **Business inference:** The price assumes a sustained earnings recovery, which is a bet on both spreads and volumes holding, not a margin-of-safety entry. The time to own a cyclical like this is a high P/E on trough earnings, as in FY20 or early FY26, not now.
 
 ### CY2 — P/B Band (with ROE)
@@ -474,6 +484,7 @@ xychart-beta
 ```
 🟦 P/B · ⬜ Median 3.9× · 🟥 +1SD 6.8× · 🟩 −1SD 1.0×
 **Read:** On book value the stock is **below its median (38th percentile)**, which is the bull's best argument. But P/B is only cheap relative to the ROE it earns. Justified P/B = (ROE − g)/(Ke − g). At through-cycle ROE ~18–22% (10-yr median ROE 22.9%) (Ke 12.5%, g 7%) that gives **2.0×**. At today's ~11% it gives <1×. 3.4× already prices ROE of ~26%, i.e. a return to the FY21–23 peak.
+
 **Business inference:** Book value looks cheap only if Balaji gets back to peak-cycle returns. On through-cycle profitability the business is worth about 2× book, so the P/B confirms the market is pricing the best years of the upcycle, not the average.
 
 ### CY4 — Price vs EPS Index (FY16 = 100)
@@ -494,6 +505,7 @@ xychart-beta
 ```
 🟦 Price index (10.5-yr CAGR 26.5%) · 🟪 EPS index (12.8%)
 **Read:** Price has compounded at **twice the rate of EPS**. Since FY16 the stock has re-rated ~3.3×, and the April–October 2026 move (601 → 1,176) nearly doubled the price on a 22% EPS gain. **Past returns were mostly multiple expansion**, which leaves future returns dependent on EPS catching up, not on further re-rating.
+
 **Business inference:** Most past shareholder returns came from re-rating. The business itself compounded at a respectable but unexceptional rate. Future returns have to come from earnings delivery, which leaves little room for disappointment.
 
 ### C13 — Scenario Target Prices vs CMP (2-year, FY28E EPS × multiple)
@@ -516,6 +528,7 @@ xychart-beta
 ```
 🟦 Scenario price · 🟥 CMP ₹2,086
 **Read:** Expected value is **+11% over 2 years** (≈ 5%/yr, below cost of equity). Base-case upside is +15% against bear-case downside of −60% → **U/D = 0.25:1**, which triggers the hard stop. The return comes almost entirely from the 20%-probability bull case.
+
 **Business inference:** The market has already priced in most of the recovery, so the payoff is skewed to the downside if the price cycle turns. The business may do fine, but at this price the investor is not being paid for the cyclical risk.
 
 ### Cycle Position Dashboard
@@ -590,6 +603,7 @@ xychart-beta
 ```
 🟦 Revenue · 🟧 Tangible gross block
 **Read:** Even the base case keeps AT near **1.0×** through FY29, far below the 1.55× decade average, because ~₹850 Cr of new assets (CWIP + BSCL) arrive at greenfield ramp rates. **Incremental ROIC** on ~₹840 Cr of growth capex: ΔRevenue ~₹1,100 Cr × 13% EBIT margin × 0.745 / 840 ≈ **12.7%, roughly equal to WACC 12.5%. Value-neutral growth.** Capex-implied FY26–29 revenue CAGR ~21%, close to the PIE (~17–18%), so the market prices the full capex plan on time at peak-type margins.
+
 **Business inference:** Balaji is investing heavily for growth that only earns its cost of capital, so expansion makes the company bigger without adding value per share, unless BSCL's new chemistries (protected by the anti-dumping duty) earn better than modelled. Capital allocation at BSCL is the swing factor for the long-term thesis.
 
 ### Capex-to-earnings model (base)

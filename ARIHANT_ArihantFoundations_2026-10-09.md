@@ -8,6 +8,14 @@
 
 ---
 
+## Revision Log
+| Date | Change | Recommendation / conviction | Price |
+|---|---|---|---|
+| 2026-10-09 (rev. 2, same day) | Applied the skill's new **Business inference** rule: a 1–2 sentence business interpretation under every chart. Applied the updated chart rules (no bar series with negative values or on axes that don't start at 0; zero reference line added). Numbers, valuation and verdict unchanged (✅ validated, same data as rev. 1). Order Book Tracker: not applicable (not an order-driven business; no order-book disclosures). | Unchanged | Unchanged |
+| 2026-10-09 | Initial report | — | — |
+
+---
+
 ## Executive Summary
 Arihant is a 40-year-old Chennai developer that runs ~95% of its projects as joint developments with landowners. After a lost decade (FY14–FY22 losses; ROE 10-yr avg ~4%), it has turned around sharply: revenue went from ₹64 cr to ₹420 cr in three years, FY26 pre-sales hit a record ₹514 cr, and it formed a JV with Prestige Estates (Padi, ₹5,000 cr GDV). The turnaround is real, but it has been re-priced from 0.2× book to 2.5× book (a 25× price move in 3 years). It is now debt-funded (net debt ₹288 cr, 3.5× higher YoY) and carries governance overhangs: 37% promoter holding, a web of 15 related LLPs/companies, a tiny auditor, a new profit-commission for promoters, and an unexplained Q4FY26 profit collapse. At ~1.1× our base NAV and with U/D below 1:1, the margin of safety is absent.
 
@@ -25,6 +33,8 @@ xychart-beta
 🟦 Revenue (CAGR 87%) · 🟧 Borrowings (40%) · 🟩 EBITDA (96%) · 🟪 PAT (81%)
 *Base FY23 is the first year with positive PAT and EBITDA. Gross block is immaterial for a JD developer (₹21 cr), so it is replaced by Borrowings as the capital series.*
 **Read:** Operating leverage is strong (EBITDA above revenue above PAT), but **borrowings nearly tripled in FY26 alone** (index 85 → 273) to fund the Padi land JV. The growth phase has moved from self-funded to debt-funded.
+
+**Business inference:** The turnaround comes from a long-delayed launch pipeline now being recognised under percentage-of-completion, plus higher-realisation luxury projects. To keep growing, Arihant has moved from a land-light JDA model to buying land (Padi) with debt. Its risk profile has changed, not just its scale.
 
 ---
 
@@ -64,16 +74,19 @@ Nifty 22,232 (8-Oct-26): −13.5% YoY, at its 52-wk low, below a declining 30-wk
 | Q1FY27 | 134 | +61% | 36 | +64% | 27% |
 
 ```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #16a34a"}}}}%%
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #16a34a, #6b7280"}}}}%%
 xychart-beta
     title "Quarterly YoY Growth (%)"
     x-axis [Q3FY25, Q4FY25, Q1FY26, Q2FY26, Q3FY26, Q4FY26, Q1FY27]
     y-axis "YoY %" -50 --> 350
-    bar [62, 49, 113, 83, 96, 121, 61]
+    line [62, 49, 113, 83, 96, 121, 61]
     line [38, 325, 57, 50, 50, -35, 64]
+    line [0, 0, 0, 0, 0, 0, 0]
 ```
-🟦 Revenue YoY % · 🟩 EBITDA YoY %. Q2FY25 (+433% on a ₹9 cr base) is excluded so the scale stays readable.
+🟦 Revenue YoY % · 🟩 EBITDA YoY % · ⬜ zero line (lines, not bars, because the axis starts below zero). Q2FY25 (+433% on a ₹9 cr base) is excluded so the scale stays readable.
 **Read:** Revenue growth is **strong but decelerating** (+121% → +61%). EBITDA is lumpy: the Q4FY26 collapse (OPM 8%, PAT ₹4 cr, tax 50%) had **no explanation in any filing or summary we found**.
+
+**Business inference:** Revenue follows construction progress and handovers, so margins swing with which projects (and what JDA share) are recognised in a quarter. But an 8% quarter with an unexplained 50% tax rate points to cost overruns, write-offs or provisions that management has not disclosed. Quarterly earnings are a poor guide to earning power (→ forensic flag).
 
 **Pre-sales / collections**
 | Period | Pre-sales ₹cr | Area sold (sqft) | Collections ₹cr | Collections / pre-sales |
@@ -129,6 +142,8 @@ xychart-beta
 ```
 🟦 Promoter holding % (pledge 0%)
 **Read:** Promoters were diluted by 5.6pp in Dec-24 through a preferential issue to outside investors (DIIs 0 → 1.84%). Promoters added only ~5,000 shares (Kamal Lunawath, FY26). **Low skin in the game** (37%) for a company with this many related-party SPVs.
+
+**Business inference:** Growth capital came from outside investors rather than promoters. The family now has low economic ownership (37%) but full control of 15 related SPVs, so the incentive to extract value from minorities is structurally higher than at a 60–75% promoter company.
 
 **Share count:** 0.86 cr (to FY24) → 0.997 cr (FY25–26) → **1.086 cr** (May-26 warrant conversion of 8.97 lakh shares at ₹480; ₹32.3 cr balance received) → **+26% dilution in 2 years.**
 **FCF vs EPS:** 11-yr cumulative CFO ₹9 cr vs cumulative PAT ₹79 cr. EPS has gone from negative to ₹59, but FCF per share is ~0 over the cycle.
@@ -209,6 +224,8 @@ xychart-beta
 🟩 EBITDA margin · 🟪 PAT margin
 **Read:** It was a regime change in FY23: seven years of losses followed by four years of 20–31% EBITDA margins. FY26 (23%) is already **below** FY25's peak (31%) and below the KPI-reference healthy band of 30–45%. Over the 4-year profitable regime, the margin sits at the 50th percentile.
 
+**Business inference:** Arihant earns healthy margins only in an upcycle with its own launches; it has no structural cost edge, and it lost money through FY16–22. Current margins should be treated as cyclical, not normalised, in valuation.
+
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#16a34a, #dc2626, #6b7280"}}}}%%
 xychart-beta
@@ -222,6 +239,8 @@ xychart-beta
 🟩 ROCE (pre-tax) · 🟥 WACC 14% · ⬜ 11-yr average 7.6% (SD 5.8)
 **Read:** ROCE cleared WACC in only **2 of 11 years** (FY25–26). Current 16.3% is **+1.5SD above its decade average**, i.e. **late-cycle / peak-like on its own history**, and already falling from FY25.
 
+**Business inference:** For most of the decade capital was trapped in slow projects and debt. Today's returns reflect a cyclical tailwind plus catch-up. Holding ROCE above 14% needs faster collections and capital turns, and the debt-funded Padi land purchase works against that in FY27–29.
+
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#9333ea, #16a34a"}}}}%%
 xychart-beta
@@ -233,6 +252,8 @@ xychart-beta
 ```
 🟪 Cumulative PAT · 🟩 Cumulative CFO
 **Read:** The 11-yr cumulative CFO/PAT is **0.11**, dragged down by FY20 (−₹220 cr). Over the profitable FY23–26 regime, CFO (₹187 cr) did exceed PAT (₹126 cr), but **all of that surplus is FY23 alone (₹147 cr)**. In FY25–26, CFO was ₹10 cr against ₹102 cr of PAT. The recent profit surge is not yet cash-backed.
+
+**Business inference:** Percentage-of-completion accounting books profit ahead of cash, and FY25–26 cash went into JDA deposits, WIP and the Padi land. Until collections catch up, earnings quality is low and debt is funding the gap. The multiple should reflect that.
 
 **DuPont (5-factor, consolidated; EBIT includes other income)**
 | Year | EBIT margin | Asset turnover | Equity multiplier | Interest burden | Tax burden | ROE |
@@ -338,6 +359,8 @@ xychart-beta
 🟦 P/B · ⬜ Median 0.24× · 🟥 +1SD 1.1× (the −1SD value is below zero and not shown)
 **Read:** P/B of 2.5× is at the **~90th percentile** of the decade and **10× its median**. The entire re-rating happened in FY24–FY25. The decade median reflects a loss-making era, so some re-rating is earned, but the band shows how far sentiment has moved.
 
+**Business inference:** The market has moved from pricing Arihant as a distressed, loss-making developer to pricing it as a credible growth developer. Most of the turnaround value is already captured, so further upside needs sustained execution, not discovery.
+
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#16a34a"}}}}%%
 xychart-beta
@@ -348,6 +371,8 @@ xychart-beta
 ```
 🟩 ROE
 **Read:** ROE of 15.9% is the decade high. **Justified P/B = (15.9% − 8%) / (16% − 8%) ≈ 1.0×** vs 2.5× actual. The market is paying for ROE to rise well above today's level.
+
+**Business inference:** The current P/B already implies ROE heading toward ~25%. With leverage rising and margins off their FY25 peak, ROE is more likely to plateau than climb, which is a direct risk to the multiple.
 
 **P/E (EPS positive only from FY23; 4 annual points + TTM)**
 | | FY23 | FY24 | FY25 | FY26 | Oct-26 TTM |
@@ -366,6 +391,8 @@ xychart-beta
 🟦 P/E · ⬜ Median of FY23–26 12.1×. ±1SD is not meaningful on 4 points.
 **Read:** 15× sits at the upper end of its short profitable history. It is not extreme, but no longer cheap for a lumpy, leveraged developer.
 
+**Business inference:** A mid-teens P/E is reasonable for a steady, well-governed developer. It is generous for a lumpy, leveraged, governance-flagged small-cap in its first profitable cycle.
+
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #9333ea"}}}}%%
 xychart-beta
@@ -378,6 +405,8 @@ xychart-beta
 🟦 Price index · 🟪 Book value/share index (EPS ≤ 0 in the base year, so BVPS is used)
 **Read:** Price is up 25× while BVPS is up 2.2×. Most of the return has been re-rating, which leaves little cushion if growth or governance disappoints.
 
+**Business inference:** Shareholders are paying for the future pipeline (Padi, Park Street, Here & Now) rather than accumulated value. If launches slip or collections disappoint, book value of ~₹370 offers little support below the price.
+
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #dc2626"}}}}%%
 xychart-beta
@@ -389,6 +418,8 @@ xychart-beta
 ```
 🟦 Scenario price (blended NAV + P/E, 2-yr) · 🟥 CMP ₹940
 **Read:** Bear is −45% and bull +38%, so **U/D is 0.84:1**. Expected value is ₹884 (−6%). The asymmetry is unfavourable.
+
+**Business inference:** The price sits above our base case and assumes smooth Padi execution with sustained margins. The asymmetry favours waiting, for either a better price or proof that the profits are turning into cash.
 
 ### Cycle Position Dashboard
 | Dimension | Current | 10-yr median | Percentile | Signal |

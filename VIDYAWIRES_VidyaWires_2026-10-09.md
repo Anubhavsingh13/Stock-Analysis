@@ -8,6 +8,14 @@
 
 ---
 
+## Revision Log
+| Date | Change | Recommendation / conviction | Price |
+|---|---|---|---|
+| 2026-10-09 (rev. 2, same day) | Applied the skill's new **Business inference** rule: a 1–2 sentence business interpretation under every chart. Applied the updated chart rules (no bar series with negative values or on axes that don't start at 0; zero reference line added). Numbers, valuation and verdict unchanged (✅ validated, same data as rev. 1). Order Book Tracker: not applicable (not an order-driven business; no order-book disclosures). | Unchanged | Unchanged |
+| 2026-10-09 | Initial report | — | — |
+
+---
+
 ## Executive Summary
 Vidya Wires is India's 4th-largest maker of copper and aluminium winding wires and conductors (5.7% of industry capacity). It listed in December 2025 at ₹52 and is now nearly doubling capacity (19,680 → 37,680 MT) through its ALCU subsidiary. The business is clean, lightly levered and executing well, and its end-markets have a real T&D/transformer tailwind. But the price already discounts ~41% revenue CAGR for 5 years, which the doubled capacity cannot physically deliver. On top of that, five-year cumulative operating cash flow is roughly zero against ₹167 cr of cumulative profit, because working capital absorbs all earnings. Wait for a better price (below ~₹60–65, ideally near the ₹52 IPO level) or for proof that ALCU can lift EBITDA/kg and convert profit into cash.
 
@@ -25,6 +33,8 @@ xychart-beta
 🟦 Revenue (CAGR 19.2%) · 🟧 Net Fixed Assets* (22.1%) · 🟩 EBITDA (29.0%) · 🟪 PAT (30.5%)
 *Net block from Screener (consolidated). The tangible gross-block PPE note was not extracted; FY21 is missing from Screener, so the chart starts at FY22.
 **Read:** PAT above EBITDA above revenue shows operating leverage working. The FY26 jump in fixed assets (ALCU) has not yet shown up in revenue, which is the capex-then-ramp pattern. Note that revenue growth is inflated by copper prices (FY26 volume grew only ~4–6.5% against revenue +24%).
+
+**Business inference:** Profit is compounding faster than revenue because EBITDA/kg rose (richer mix of strips, PICC and busbars, plus fixed-cost absorption on a near-full plant), not because of pricing power. The ALCU jump in fixed assets makes growth more capital-hungry from here: FY27–28 ROCE holds only if the extra 18,000 MT is sold at ≥ ₹45/kg (→ Module 11 base case).
 
 ---
 
@@ -82,6 +92,8 @@ xychart-beta
 🟦 Revenue YoY % (bars) · 🟩 EBITDA YoY % (line, Screener operating profit). Only 4 YoY quarters exist, because pre-listing quarterly data on Screener starts in Sep-24.
 **Read:** Growth accelerated into Q4FY26 on copper prices plus the start of ALCU. Q1FY27 EBITDA growth (+16–26%) **lagged** revenue (+33%), with margin down to 4.0–4.6% from 4.85%. ALCU ramp costs are absorbing the operating leverage, so this is **stable-to-decelerating at the EBITDA line**.
 
+**Business inference:** The top line is being flattered by copper prices and new capacity, while ramp-up costs (new lines, trial lots, customer qualification audits) sit in EBITDA. Expect 2–3 quarters of margin dilution before ALCU earns the blended spread. An earnings-upgrade phase is not yet visible (Module 1c: early ramp).
+
 **Volume / price / mix (FY23–FY26)**
 | Driver | Evidence | Durability |
 |---|---|---|
@@ -109,6 +121,8 @@ xychart-beta
 ```
 🟧 Installed capacity (year-end) · 🟩 Volume sold (FY27E–FY29E = base-case estimates)
 **Read:** The **capacity ceiling arrives in FY29–FY30** (~85–90% of 37,680 MT ≈ 32–34k MT). Beyond that, growth needs EBITDA/kg gains or a new phase. Management says land is available, but no new phase has been announced.
+
+**Business inference:** Volume growth is now gated by customer qualification and how fast the market absorbs supply, not by plant capacity. The question shifts from "can they make it?" to "can they sell ~13,000 extra MT without cutting conversion charges while peers also expand?". A phase-3 decision is needed by FY29 to keep compounding, which is exactly the gap between PIE and physical capacity.
 
 **Operating leverage:** Contribution is hard to isolate. With metal ~85% of cost, fixed cost is small and DOL is modest (~1.5–2×). DFL = EBIT 86 / (86 − 13) = 1.18× (FY26). After the IPO debt repayment, Q1FY27 interest is ₹1 cr, so DFL is ~1.05×. **ICR is comfortable** (> 6×) in every forecast year.
 
@@ -227,6 +241,8 @@ xychart-beta
 🟩 EBITDA margin · 🟪 PAT margin. Gross margin is not meaningful (metal pass-through).
 **Read:** Margins rose four years in a row, even with rising copper (which mechanically depresses OPM %). This is real EBITDA/kg improvement (₹37 → ₹47.6 per kg). The **FY26 OPM of 4.7% is +0.7pp above the 5-yr average of 4.0%, roughly +1SD**: a peak-ish level going into the ramp. Q1FY27 has already dipped to 4.0–4.6%.
 
+**Business inference:** The spread gains come from mix and scale on a fully loaded plant, not from pricing power (the Buffett test fails). Entering a capacity ramp at upper-range margins, with peers also expanding, means ₹47.6/kg should not be capitalised. Module 11 uses ₹45–46/kg.
+
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#16a34a, #dc2626, #6b7280"}}}}%%
 xychart-beta
@@ -240,6 +256,8 @@ xychart-beta
 🟩 ROCE · 🟥 WACC 13% · ⬜ 5-yr average 20.2%
 **Read:** ROCE has beaten WACC every year (spread +4 to +11pp). FY26 sits exactly at its 5-yr average, so it is **mid cycle** on returns. The dip from FY25 is IPO cash and CWIP not yet earning.
 
+**Business inference:** Vidya earns a real but modest excess return from asset-light conversion and tight inventory control. That is a spread, not a moat. The FY26 dip is mechanical (IPO cash plus CWIP not yet earning) and reverses only if ALCU fills, so the ROCE recovery is the key thing to monitor rather than a given.
+
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#9333ea, #16a34a"}}}}%%
 xychart-beta
@@ -251,6 +269,8 @@ xychart-beta
 ```
 🟪 Cumulative PAT · 🟩 Cumulative CFO
 **Read:** Cumulative CFO/PAT is **≈ 0.0×** (healthy ≥ 0.9, red flag < 0.7). Every rupee of profit since FY22 has gone into receivables and inventory. Standalone CFO is slightly better (₹16 cr cumulative). This is the visual O'Glove flag #1 and the single biggest earnings-quality issue.
+
+**Business inference:** Profits are real but structurally trapped in working capital. Suppliers are paid in 2–5 days while OEM customers take 35–40, so every copper rally or volume step-up inflates receivables and inventory. Until the cycle falls toward ~50 days, the business cannot self-fund its growth, which justifies a discount to peer multiples (Module 5's #1 diligence item).
 
 **DuPont (5-factor, consolidated, average-balance basis)**
 | Year | EBIT margin | Asset turnover | Equity multiplier | Interest burden | Tax burden | ROE |
@@ -301,6 +321,8 @@ xychart-beta
     bar [19.7, 24.5, 17.5, 33.6]
 ```
 **Read:** Vidya's returns are in line with its pure-play peers (between Precision and Ram Ratna), and Apar's diversified mix earns more. Vidya has *faster growth*, not superior returns. A **P/E of 33.6× (TTM) is now in the peer range of 40–49×** (Dec-25 data), so the IPO discount has fully closed.
+
+**Business inference:** There is no sign of structurally better economics than Precision or Ram Ratna. Vidya's case rests on growth (capacity doubling), not on superior returns, so it does not deserve a premium to peer multiples. Apar's higher ROCE comes from a different mix (oils, cables, conductors) and is not a like-for-like benchmark.
 **Peer positioning:** In-line to slight discount. Justified? Yes. It is smaller, younger and has weaker cash conversion.
 
 ---
@@ -357,6 +379,8 @@ xychart-beta
 ```
 🟦 Scenario price (2-yr) · 🟥 CMP ₹98
 **Read:** Measured against market multiples, the expected value of ₹118 is +20% over ~2 years (~10%/yr, below the cost of equity). Bear is −45% and bull +84%, so **U/D is 1.9:1**: the reward does not compensate for the risk of multiple compression from 26× to 18×.
+
+**Business inference:** The price already sits near the base case: investors are paying today for a successful ALCU ramp. Because success is consensus while the failure modes (EBITDA/kg slippage, working-capital bloat, multiple compression) are not priced, the payoff is symmetric to negative. The thesis needs better-than-expected execution, not merely good execution.
 
 *CY1 (P/E band), CY2 (P/B band) and CY4 (price vs EPS index): not possible. The stock listed on 10-Dec-2025, so there are fewer than 4 year-end observations. This is noted rather than charted.*
 
@@ -422,6 +446,8 @@ xychart-beta
 ```
 🟦 Fixed-asset turnover · ⬜ 5-yr average 29.3×
 **Read:** FY25's 36× was a peak-utilisation outlier. New ALCU assets (higher-spec VAP lines) will run at lower turnover, so **the model uses volume × EBITDA/kg (KPI-native) rather than AT**, and treats AT only as a cross-check (FY29E ≈ 3,250 / ~200 = 16×).
+
+**Business inference:** The new plant structurally lowers capital efficiency: higher-spec value-added lines, under-utilised in year 1. The historic 30×+ turnover is therefore not the forward anchor. Future returns will depend more on spread and working capital than on sweating assets, which is why Module 11 is built on volume × EBITDA/kg.
 
 **Incremental ROIC (ALCU):** ΔEBITDA ≈ 13,000 MT × ₹46/kg = ₹60 cr → NOPAT ~₹41 cr ÷ (capex ₹140 cr + working capital ~₹205 cr at 15% of Δrevenue) = **~12% vs WACC 13% → VALUE-NEUTRAL**. Including the GST subsidy (~₹6–7 cr/yr) it is ~14%, marginally value-creating. On fixed capital alone it is 29%, but **working capital is the real investment** in this business.
 **Capex-model implied revenue CAGR (FY26–29E):** 20.9% (volume-led) **vs PIE 41%** → the market is pricing an **unannounced expansion**.
