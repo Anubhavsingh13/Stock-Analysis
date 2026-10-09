@@ -12,6 +12,8 @@
 
 HFCL (optical fibre, OFC cables, telecom/defence electronics, telecom EPC) is in the strongest operating phase of its history. Q1 FY27 revenue **doubled to ₹1,915 Cr (+120% YoY)**, EBITDA margin reached **23%**, PAT was ₹246 Cr, exports were **56% of revenue** (AI-data-centre fibre demand), the order book hit **₹26,665 Cr (4.4× TTM revenue)**, and FY27 growth guidance was raised from 20% to 40%. The stock has gone **₹169 → ₹258 since June**, and FII holding doubled to 15.7%. **The charts point the other way.** P/E (68.5×) and P/B (8.1×) are at the **97th and 99th percentiles** of their 10-year ranges. The whole optical-fibre group is re-rating at once (STL ₹85 → ₹1,012 in a year at 220× P/E). Over 11 years HFCL has turned only **₹0.42 of every ₹1 of profit into operating cash**, and FY26 CFO was **−₹378 Cr**. Promoter holding has fallen from 37.8% to 28.3% in three years. This is a genuine demand upcycle, priced as if it were permanent, financed by working capital and debt. The 2-year expected value is **₹174 (−33%)**.
 
+**Order-book reality check (new tracker, 27 BSE filings):** 47% of the ₹26,665 Cr order book is two long-term supply agreements valued at *potential* prices (₹10,159 Cr 5-yr + ₹2,329 Cr 3-yr). Firm cover is ~2.8× TTM revenue, not 4.4×. Since Apr 2025, 78% of announced orders by value have been exports, i.e. the AI-fibre cycle.
+
 **What changed since June:** Q4 FY26 and Q1 FY27 delivered the turnaround (+) · Order book ₹21,206 → ₹26,665 Cr (+) · Export share 24% → 56% (+) · Guidance raised to +40% (+) · FY26 CFO −₹378 Cr and FCF −₹723 Cr (−) · CCC 218 days (−) · Valuation from 83× FY26 P/E to 68.5× TTM, but now 97th percentile (−) · Data gaps from June filled (10-yr ROCE, CFO, debt, promoter trend).
 
 ### C1 — Growth Index: Revenue vs Fixed Assets vs Profit (FY16 = 100)
@@ -312,45 +314,177 @@ FY22 → FY26: EBIT margin 12.1% → 12.3% (flat); asset turnover (Rev/TA) 0.91 
 
 | KPI (Telecom Equipment OEM block) | HFCL | Healthy | Red flag | Status |
 |---|---|---|---|---|
-| Order book / TTM revenue | 4.4× | > 1.5× | < 0.7× | ✅ Excellent |
+| Order book / TTM revenue | 4.4× headline / ~2.8× firm (ex-framework) | > 1.5× | < 0.7× | ✅ Strong, but 47% framework |
 | Book-to-bill (FY26) | ~3.2× (inflow ~₹16,000 Cr / ₹4,949 Cr) | > 1.0× | < 0.7× | ✅ |
 | Cash conversion cycle | 218 days | < 120 | > 200 | ❌ Red flag |
 | Export share | 56% (Q1 FY27) | — | — | ✅ diversifying |
 | Customer concentration | Not disclosed (BharatNet/BSNL + hyperscalers) | < 30% | > 50% | ⚠️ Data gap |
 
-### C3a — Order Book vs Revenue Index (FY22 = 100)
+### Order Book Tracker (27 BSE Reg 30 filings since Apr 2024; ledger and snapshots in sections 5–6 below)
+*Generated 2026-10-09 by scripts/order_book_tracker.py from 27 order announcements (1 follow-ups excluded) and 12 period snapshots. Ledger coverage starts 2024-04-01; earlier periods show '—' for announced inflow (unknown, not zero). (est.) = tracked estimate: previous disclosed order book + announced orders − order-linked revenue.*
 
-| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | Q1 FY27 |
-|---|---|---|---|---|---|---|
-| Order book | 5,300 | 7,010 | 7,685 | 9,967 | 21,206 | 26,665 |
-| Revenue (FY / TTM) | 4,727 | 4,743 | 4,465 | 4,065 | 4,949 | 5,993 |
+#### 1. Disclosed vs tracked order book (reconciliation)
 
-*Sources: FY22 [CARE Ratings Jul 2022](https://www.careratings.com/upload/CompanyFiles/PR/06072022070116_HFCL_Limited.pdf); FY23–24 company disclosures via [DSIJ](https://insights.dsij.in/dsijarticledetail/rs-7678-crore-order-book-this-multibagger-telecom-infrastructure-company-bags-new-orders-worth-rs-6493-crore-37599) and [The Machine Maker](https://themachinemaker.com/news/hfcl-aims-for-%e2%82%b910000-crore-revenue-with-global-expansion-and-defence-growth/); FY25–26 June report / company releases; Q1 FY27 [Business Standard](https://www.business-standard.com/companies/quarterly-results/hfcl-q1-results-consolidated-profit-at-245-64-crore-revenue-doubles-126072200846_1.html).*
+| Period | Revenue (₹ Cr) | Order book (₹ Cr) | Announced inflow | of which Framework | Implied inflow | Announced coverage | OB cover (× TTM rev) | Source |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 4,727 | 5,300 | — | — | — | — | 1.1 | CARE Ratings Jul-2022 |
+| FY23 | 4,743 | 7,010 | — | — | 6,453 | — | 1.5 | Company disclosure (The Machine Maker) |
+| FY24 | 4,465 | 7,685 | — | — | 5,140 | — | 1.7 | Company disclosure (DSIJ) |
+| Q1FY25 | 1,158 | 6,592 (est.) | 65 | — | — | — | 1.4 | Screener revenue |
+| Q2FY25 | 1,094 | 5,498 (est.) | 0 | — | — | — | 1.2 | Screener revenue |
+| Q3FY25 | 1,012 | 10,410 | 0 | — | 5,924 | 0% | 2.3 | Q3FY25 results (Muthoot Securities) |
+| Q4FY25 | 801 | 9,967 | 4,713 | — | 358 | 1,317% | 2.5 | FY25 results (prior report) |
+| Q1FY26 | 871 | 9,503 (est.) | 407 | — | — | — | 2.5 | Screener revenue |
+| Q2FY26 | 1,043 | 9,981 | 460 | — | 1,521 | 30% | 2.7 | Q2FY26 results (Muthoot Securities) |
+| Q3FY26 | 1,211 | 11,125 | 1,241 | — | 2,355 | 53% | 2.8 | Q3FY26 results (Muthoot Securities) |
+| Q4FY26 | 1,824 | 21,206 | 10,262 | 10,159 | 11,905 | 86% | 4.3 | Q4FY26 results |
+| Q1FY27 | 1,915 | 26,665 | 4,542 | — | 7,374 | 62% | 4.4 | Q1FY27 results (Business Standard) |
+
+*Implied inflow = OB(t) − OB(t−1) + order-linked revenue(t). Announced coverage = announced ÷ implied: < 50% means most orders are below the disclosure threshold (or the OB is restated); > 120% means cancellations, de-scoping or slow-burn framework value not yet in the reported book.*
+
+#### 2. Announced orders aggregated by quarter
+
+| Quarter | # orders | Total (₹ Cr) | Firm | Framework | Largest single | Export | Govt/PSU/Defence | Private domestic |
+|---|---|---|---|---|---|---|---|---|
+| Q1FY25 | 1 | 65 | 65 | 0 | 65 | 0 | 0 | 65 |
+| Q4FY25 | 3 | 4,713 | 4,713 | 0 | 2,501 | 0 | 4,713 | 0 |
+| Q1FY26 | 4 | 407 | 407 | 0 | 174 | 59 | 174 | 174 |
+| Q2FY26 | 2 | 460 | 460 | 0 | 358 | 358 | 102 | 0 |
+| Q3FY26 | 3 | 1,241 | 1,241 | 0 | 656 | 1,241 | 0 | 0 |
+| Q4FY26 | 3 | 10,262 | 103 | 10,159 | 10,159 | 10,201 | 0 | 61 |
+| Q1FY27 | 6 | 4,542 | 4,542 | 0 | 2,666 | 290 | 2,801 | 1,450 |
+| Q2FY27 | 4 | 3,789 | 1,460 | 2,329 | 2,329 | 3,789 | 0 | 0 |
+
+#### 3. Macro picture
+
+| Metric | Value |
+|---|---|
+| Latest disclosed order book | ₹26,665 Cr (Q1FY27) |
+| Orders announced since that disclosure | ₹3,789 Cr (4 orders) |
+| Tracked order book today (before execution since Q1FY27) | ₹30,454 Cr |
+| Order book cover (latest) | 4.4 × TTM revenue |
+| Framework / 'potential value' agreements in ledger | ₹12,488 Cr (47% of latest disclosed OB) |
+| Orders announced, last 12 months | ₹20,294 Cr (18 orders; avg ₹1,127 Cr) |
+| Top-3 orders (last 12 m) as % of disclosed OB | 57% |
+
+**Geography mix, last 12 months:** Export 78% · Domestic 15% · Unspecified 7%
+**Customer type mix, last 12 months:** Export 78% · PSU 14% · Unspecified 7% · Private 1% · Defence 1%
+**Segment mix, last 12 months:** OFC (high fibre count) 62% · OFC 22% · EPC/Network 13% · Data-centre connectivity 2% · Services/AMC 1% · Defence 1%
+**Firmness mix, last 12 months:** Framework 62% · Firm 38%
+
+#### 4. Charts
+
+**OB-1 — Order book vs revenue (TTM), index = 100 at FY22**
 
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b"}}}}%%
 xychart-beta
     title "Order Book vs Revenue Index (FY22 = 100)"
-    x-axis [FY22, FY23, FY24, FY25, FY26, Q1FY27]
-    y-axis "Index" 0 --> 550
-    line [100, 100, 94, 86, 105, 127]
-    line [100, 132, 145, 188, 400, 503]
+    x-axis [FY22, FY23, FY24, Q3FY25, Q4FY25, Q2FY26, Q3FY26, Q4FY26, Q1FY27]
+    y-axis "Index" 0 --> 560
+    line [100, 100, 94, 97, 86, 79, 83, 105, 127]
+    line [100, 132, 145, 196, 188, 188, 210, 400, 503]
 ```
-🟦 Revenue (FY CAGR 1.2%) · 🟧 Order book (FY CAGR 41%)
-**Read:** The order book is **5× its FY22 level while revenue is only 1.3×**. Either a large revenue wave is coming (bull case) or the backlog contains long-tenor, slow-executing government/network orders (BharatNet runs over many years). The gap is the thesis: it must start converting at ₹1,700–2,000 Cr/quarter.
+🟦 Revenue (TTM) · 🟧 Order book (disclosed points only; x-axis mixes FY and quarter-ends where history is annual)
+**Read:** Since FY22 the disclosed order book is up **5.0×** while TTM revenue is up only **1.27×**. The gap opened in two steps: BharatNet III EPC awards (Q3–Q4 FY25, ~₹4,700 Cr, 10-year O&M tails) and the ₹10,159 Cr five-year export supply agreement (Q4 FY26). Both are **slow-burn** by design. The book is outrunning revenue because of tenor, not only demand.
 
-### C3b — Order Book Cover (× revenue)
+**OB-2 — Order book cover (years of TTM revenue)**
 
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#f59e0b"}}}}%%
 xychart-beta
-    title "Order Book Cover (Order Book / Revenue, x)"
-    x-axis [FY22, FY23, FY24, FY25, FY26, Q1FY27]
-    y-axis "Years of revenue" 0 --> 5
-    line [1.1, 1.5, 1.7, 2.5, 4.3, 4.4]
+    title "Order Book Cover (x TTM revenue)"
+    x-axis [FY22, FY23, FY24, Q3FY25, Q4FY25, Q2FY26, Q3FY26, Q4FY26, Q1FY27]
+    y-axis "x" 0 --> 5
+    line [1.1, 1.5, 1.7, 2.3, 2.5, 2.7, 2.8, 4.3, 4.4]
 ```
-🟧 Order book cover
-**Read:** Visibility has quadrupled to 4.4 years, a genuine strength. But **execution, cash collection and working capital are now the binding constraint**, not demand (see C7/C8).
+🟧 Order book / TTM revenue
+**Read:** Cover went from 1.1× to 4.4×. But **firm cover (excluding the ₹10,159 Cr framework agreement in the Q1 FY27 book) is ~2.8×** (₹16,506 Cr ÷ ₹5,993 Cr), similar to the Q2–Q3 FY26 level. The jump to 4.3–4.4× is almost entirely one 'potential value' contract.
+
+**OB-3 — Aggregated announced orders vs revenue, by quarter (₹ Cr)**
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#16a34a, #f59e0b, #2563eb"}}}}%%
+xychart-beta
+    title "Announced Orders vs Revenue by Quarter (Rs Cr)"
+    x-axis [Q1FY25, Q2FY25, Q3FY25, Q4FY25, Q1FY26, Q2FY26, Q3FY26, Q4FY26, Q1FY27]
+    y-axis "Rs Cr" 0 --> 12000
+    bar [65, 0, 0, 4713, 407, 460, 1241, 10262, 4542]
+    line [65, 0, 0, 4713, 407, 460, 1241, 103, 4542]
+    line [1158, 1094, 1012, 801, 871, 1043, 1211, 1824, 1915]
+```
+🟩 All announced orders (bars) · 🟧 Firm orders only (excl. framework / potential-value agreements) · 🟦 Revenue
+**Read:** Announced *firm* orders (🟧) have run at roughly **0.3–2.4× quarterly revenue**, lumpy and dominated by a few large awards (BharatNet ₹2,501 / ₹2,168 / ₹2,666 Cr). The Q4 FY26 bar (₹10,262 Cr) is 99% framework value: firm announcements that quarter were only ₹103 Cr. Since Apr 2025 the ledger has been 78% export, the AI/data-centre fibre wave.
+
+**OB-4 — Implied order inflow (from disclosed order book) vs revenue (₹ Cr)**
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#16a34a, #2563eb"}}}}%%
+xychart-beta
+    title "Implied Order Inflow vs Revenue (Rs Cr)"
+    x-axis [Q2FY26, Q3FY26, Q4FY26, Q1FY27]
+    y-axis "Rs Cr" 0 --> 14000
+    bar [1521, 2355, 11905, 7374]
+    line [1043, 1211, 1824, 1915]
+```
+🟩 Implied inflow = ΔOB + order-linked revenue · 🟦 Revenue
+**Read:** Implied quarterly inflow (all orders, including undisclosed small ones) has exceeded revenue in every quarter since Q2 FY26 (book-to-bill 1.5–6.5×). Announced coverage of 30–86% shows that many smaller orders never reach a Reg 30 filing. The book is genuinely growing, but its headline growth is framework-led.
+
+#### 5. Order Ledger — every announced order (source of truth; the next run appends here)
+
+| order_id | date | customer | customer_type | segment | geography | value_cr | currency | value_fc | firmness | tenor_months | linked_to | source | notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HF-2404-01 | 2024-04-12 | Leading private telecom operator | Private | OFC | Domestic | 64.93 | INR |  | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/8955b3d2-b649-496e-980f-8e99ab2b6637.pdf) | HFCL + HTL POs |
+| HF-2501-01 | 2025-01-16 | BSNL (BharatNet III Punjab) | Govt | EPC/Network | Domestic | 2501.30 | INR |  | AWO | 120 |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/fe85112b-28d2-4a23-aa0a-3b67845a2961.pdf) | Advance Work Order; middle-mile design-build-operate |
+| HF-2501-02 | 2025-01-23 | RVNL (BharatNet III UP East & West) | PSU | EPC/Network | Domestic | 2167.65 | INR |  | AWO | 120 |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/ddcdaf3c-3a7f-4951-8dce-db8f381d4ebb.pdf) | APOs: OFC + equipment + 10-yr O&M |
+| HF-2502-01 | 2025-02-19 | BSNL (BharatNet III Punjab) | Govt | EPC/Network | Domestic | 2501.30 | INR |  | Firm | 120 | HF-2501-01 | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/1622e88f-4b68-4170-ba40-d53115c70f3c.pdf) | Agreement signed for AWO of 16-Jan-2025 (follow-up; not new inflow) |
+| HF-2503-01 | 2025-03-07 | Indian Army | Defence | Defence | Domestic | 44.36 | INR |  | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/348f6ea0-51a4-4105-9dff-508a9004ae31.pdf) | HTL; tactical OFC assemblies |
+| HF-2505-01 | 2025-05-12 | Tera Software (ITI consortium; BharatNet WB) | PSU | OFC | Domestic | 157.00 | INR |  | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/490cebee-5463-445f-b221-07dc99479fe3.pdf) |  |
+| HF-2505-02 | 2025-05-18 | Overseas telecom company | Export | OFC | Export | 59.19 | USD | 6.91 | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/732ebf6e-521b-404d-a2f8-c28aec5ff74a.pdf) |  |
+| HF-2505-03 | 2025-05-18 | ITI Limited | PSU | OFC | Domestic | 17.02 | INR |  | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/732ebf6e-521b-404d-a2f8-c28aec5ff74a.pdf) |  |
+| HF-2505-04 | 2025-05-19 | Leading domestic telco (5G) | Private | Telecom equipment | Domestic | 173.72 | INR |  | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/1bb179de-09f5-4b8a-9798-95d555e9bc9c.pdf) |  |
+| HF-2508-01 | 2025-08-27 | Indian Army | Defence | Defence | Domestic | 101.82 | INR |  | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/33a642b9-1445-4917-a4d2-c4cb38cf5802.pdf) | HTL; tactical OFC |
+| HF-2509-01 | 2025-09-07 | International customers | Export | OFC | Export | 358.38 | USD | 40.65 | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/7c7a043c-1895-40fa-8a05-61142d769268.pdf) | via overseas WOS |
+| HF-2510-01 | 2025-10-08 | International customer | Export | OFC | Export | 303.35 | USD | 34.19 | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/28b74f04-50d4-4491-9e20-ee475e39ff04.pdf) | via overseas WOS |
+| HF-2510-02 | 2025-10-17 | International customer | Export | OFC | Export | 281.20 | USD | 32.02 | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/f8438e57-4973-4acc-a20d-30ee836d050f.pdf) | via overseas WOS |
+| HF-2512-01 | 2025-12-06 | International customer | Export | OFC | Export | 656.10 | USD | 72.96 | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/26de2dbb-b0ac-404a-b3df-78e5460f314d.pdf) | via overseas WOS |
+| HF-2602-01 | 2026-02-15 | International customer | Export | OFC | Export | 42.34 | USD | 4.67 | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/4eb5afb4-afaa-4a2b-b317-b4590ceb555f.pdf) |  |
+| HF-2602-02 | 2026-02-16 | Leading private telecom operator | Private | OFC | Domestic | 60.95 | INR |  | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/6fccd502-bebc-4526-a6b7-e180b18550ef.pdf) | HFCL + HTL |
+| HF-2603-01 | 2026-03-13 | Overseas customer (5-yr supply agreement) | Export | OFC (high fibre count) | Export | 10159.00 | USD | 1100 | Framework | 60 |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/bb5ea9df-a555-4a76-b881-d90281d03ee1.pdf) | Potential value at prevailing prices; first multi-year LTA |
+| HF-2604-01 | 2026-04-08 | Tier-1 customer | Unspecified | OFC | Unspecified | 1366.00 | INR |  | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/b0d19019-de62-46b9-862a-10b836eabf0d.pdf) | HTL; customer geography not disclosed |
+| HF-2605-01 | 2026-05-04 | Leading private telecom operator | Private | OFC | Domestic | 84.23 | INR |  | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/4eaa2a27-59f6-4504-9a9f-0489442b6f90.pdf) | HFCL + HTL |
+| HF-2605-02 | 2026-05-11 | International customers | Export | OFC | Export | 183.95 | USD | 19.32 | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/6a68c1b6-cbf0-4a05-a253-1008bc05f3f0.pdf) |  |
+| HF-2605-03 | 2026-05-16 | International customer | Export | OFC | Export | 106.19 | USD | 11.07 | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/64cedede-fca3-4b30-9fa6-b0c0fcc675c3.pdf) | via overseas WOS |
+| HF-2605-04 | 2026-05-27 | RailTel (defence data-centre network AMC) | PSU | Services/AMC | Domestic | 135.09 | INR |  | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/e9159735-2f47-4b17-b39d-9f86e4750782.pdf) |  |
+| HF-2606-01 | 2026-06-17 | RVNL (BharatNet III UP West) | PSU | EPC/Network | Domestic | 2666.09 | INR |  | Firm | 120 |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/f34b1e18-f4b4-4489-81c1-67788b734131.pdf) | Stated as in addition to Jan-2025 RVNL ₹2,167.65 Cr; incl. 10-yr O&M |
+| HF-2607-01 | 2026-07-10 | International customer (DC connectivity) | Export | Data-centre connectivity | Export | 495.80 | USD | 51.98 | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/8d217589-04c2-4237-ab71-f435b687f54b.pdf) | via overseas WOS |
+| HF-2607-02 | 2026-07-30 | International customer | Export | OFC | Export | 441.53 | USD | 46.13 | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/47768e2b-ff17-4452-819a-02e86be2ca3b.pdf) | via overseas WOS |
+| HF-2608-01 | 2026-08-02 | International customers | Export | OFC | Export | 522.73 | USD | 54.81 | Firm |  |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/91868cf9-d269-4e4f-bd12-37b0b8ed8c8a.pdf) |  |
+| HF-2609-01 | 2026-09-01 | Overseas customer (3-yr supply agreement) | Export | OFC (high fibre count) | Export | 2329.00 | USD | 244 | Framework | 36 |  | [BSE](https://www.bseindia.com/xml-data/corpfiling/AttachHis/3d3249f1-1d6c-491b-8a40-200e0c3c441d.pdf) | Estimated contract value over tenure |
+
+#### 6. Order Book Snapshots — revenue and disclosed order book per period
+
+| period | revenue_cr | revenue_ttm_cr | order_book_cr | order_linked_share | as_of_date | source |
+|---|---|---|---|---|---|---|
+| FY22 | 4727 | 4727 | 5300 | 1 |  | CARE Ratings Jul-2022 |
+| FY23 | 4743 | 4743 | 7010 | 1 |  | Company disclosure (The Machine Maker) |
+| FY24 | 4465 | 4465 | 7685 | 1 |  | Company disclosure (DSIJ) |
+| Q1FY25 | 1158 | 4628 |  | 1 |  | Screener revenue |
+| Q2FY25 | 1094 | 4611 |  | 1 |  | Screener revenue |
+| Q3FY25 | 1012 | 4591 | 10410 | 1 |  | Q3FY25 results (Muthoot Securities) |
+| Q4FY25 | 801 | 4065 | 9967 | 1 |  | FY25 results (prior report) |
+| Q1FY26 | 871 | 3778 |  | 1 |  | Screener revenue |
+| Q2FY26 | 1043 | 3727 | 9981 | 1 |  | Q2FY26 results (Muthoot Securities) |
+| Q3FY26 | 1211 | 3926 | 11125 | 1 |  | Q3FY26 results (Muthoot Securities) |
+| Q4FY26 | 1824 | 4949 | 21206 | 1 |  | Q4FY26 results |
+| Q1FY27 | 1915 | 5993 | 26665 | 1 |  | Q1FY27 results (Business Standard) |
+
+*Every number above traces to the ledger / snapshot rows (source column).*
+
+**Reconciliation anomaly (Q4 FY25):** ₹4,713 Cr of BharatNet awards announced in Jan–Feb 2025, yet the order book moved 10,410 → 9,967. The most likely cause is that the Q3 FY25 order book (₹10,410 Cr) was quoted *as on the results date* (late Jan 2025) and already included these awards. Set `as_of_date` once confirmed from the Q3 FY25 presentation.
+
+**Order-book verdict:** Headline cover 4.4× · **firm cover (ex-framework) ~2.8×** · framework / potential-value agreements **₹12,488 Cr = 47% of the disclosed book** (₹10,159 Cr 5-yr LTA in book + ₹2,329 Cr 3-yr LTA announced Sep 2026, after Q1) · top-3 orders 57% of book · implied book-to-bill > 1.5× every quarter since Q2 FY26 · **tracked order book today ~₹30,450 Cr** before Q2 execution · mix 78% export, 14% PSU (BharatNet), 1% defence over the last 12 months.
+**Forward link (Module 11):** FY27 revenue ≈ firm opening OB ₹11,047 Cr (FY26 ₹21,206 Cr less ₹10,159 Cr framework) × ~45% execution + in-year inflow × ~25% burn + ~₹2,000 Cr/yr framework run-rate. That gives ≈ ₹6,700–7,200 Cr, consistent with the +40% guidance (₹6,900 Cr). **The guidance is order-backed. The bull case needs the framework agreements to deliver at "prevailing prices" for 3–5 years, which is a direct bet on fibre prices staying high.**
 
 ### Peer comparison
 
