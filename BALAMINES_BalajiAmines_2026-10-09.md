@@ -115,15 +115,16 @@ xychart-beta
 *Source: Screener quarterly (consolidated; Q4 FY26 restated to ₹395 Cr).*
 
 ```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #16a34a"}}}}%%
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #16a34a, #6b7280"}}}}%%
 xychart-beta
     title "Quarterly YoY Growth (%)"
     x-axis [Q2FY25, Q3FY25, Q4FY25, Q1FY26, Q2FY26, Q3FY26, Q4FY26, Q1FY27]
     y-axis "YoY %" -50 --> 120
-    bar [-8.9, -18.4, -14.8, -6.9, -1.8, 5.9, 11.9, 27.2]
+    line [-8.9, -18.4, -14.8, -6.9, -1.8, 5.9, 11.9, 27.2]
     line [13, -38, -39, -17, -2, 24, 57, 111]
+    line [0, 0, 0, 0, 0, 0, 0, 0]
 ```
-🟦 Revenue YoY % (bars) · 🟩 EBITDA YoY % (line)
+🟦 Revenue YoY % · 🟩 EBITDA YoY % · ⬜ zero line
 **Read:** Revenue growth has **accelerated for five straight quarters** (−18% → +27%), and EBITDA growth is about 4× revenue growth, which is textbook operating leverage at a cycle turn. Base effects flatter it: Q1 FY26 was a trough quarter. The trajectory is the strongest buy-side signal in the report, *but* see the volume table below.
 
 ### Volume vs realisation (the decisive check)
@@ -320,7 +321,7 @@ xychart-beta
 
 ### DuPont (5-factor, approx.)
 
-| Year | EBIT margin | AT (Rev/TA) | Equity mult. | Int. burden | Tax burden | ROE |
+| Year | EBIT margin | AT (Rev/TA) | Equity mult. | Int. burden | Tax burden | ROE (year-end equity) |
 |---|---|---|---|---|---|---|
 | FY22 | 25.1% | 1.33 | 1.39 | 0.97 | 0.72 | 33.6% |
 | FY23 | 24.0% | 1.20 | 1.26 | 0.98 | 0.72 | 26.3% |
@@ -426,7 +427,7 @@ xychart-beta
 | | FY16 | FY17 | FY18 | FY19 | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 | Oct-26 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | P/B (×) | 2.5 | 4.4 | 5.0 | 3.4 | 1.4 | 8.8 | 10.8 | 5.0 | 4.1 | 2.2 | 1.9 | 3.4 |
-| ROE (%) | ~23 | ~24 | ~26 | ~21 | ~15 | ~29 | ~34 | ~26 | ~13 | ~9 | ~9 | ~11 TTM |
+| ROE (%) | 22.9 | 25.5 | 27.3 | 22.5 | 15.7 | 31.3 | 39.0 | 29.0 | 14.2 | 8.9 | 8.8 | ~11 TTM |
 
 P/B: **median 3.9×, SD 2.9 → band 1.0–6.8×; current 3.4× = 38th percentile.** ROE derived from Screener PAT / average equity.
 
@@ -442,7 +443,7 @@ xychart-beta
     line [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
 ```
 🟦 P/B · ⬜ Median 3.9× · 🟥 +1SD 6.8× · 🟩 −1SD 1.0×
-**Read:** On book value the stock is **below its median (38th percentile)**, which is the bull's best argument. But P/B is only cheap relative to the ROE it earns. Justified P/B = (ROE − g)/(Ke − g). At through-cycle ROE ~18% (Ke 12.5%, g 7%) that gives **2.0×**. At today's ~11% it gives <1×. 3.4× already prices ROE of ~26%, i.e. a return to the FY21–23 peak.
+**Read:** On book value the stock is **below its median (38th percentile)**, which is the bull's best argument. But P/B is only cheap relative to the ROE it earns. Justified P/B = (ROE − g)/(Ke − g). At through-cycle ROE ~18–22% (10-yr median ROE 22.9%) (Ke 12.5%, g 7%) that gives **2.0×**. At today's ~11% it gives <1×. 3.4× already prices ROE of ~26%, i.e. a return to the FY21–23 peak.
 
 ### CY4 — Price vs EPS Index (FY16 = 100)
 
@@ -479,7 +480,7 @@ xychart-beta
     x-axis [Bear, Base, Bull, ExpValue]
     y-axis "Rs per share" 0 --> 4800
     bar [830, 2400, 4350, 2319]
-    line [2086, 2086, 2086, 2086, 2086, 2086]
+    line [2086, 2086, 2086, 2086]
 ```
 🟦 Scenario price · 🟥 CMP ₹2,086
 **Read:** Expected value is **+11% over 2 years** (≈ 5%/yr, below cost of equity). Base-case upside is +15% against bear-case downside of −60% → **U/D = 0.25:1**, which triggers the hard stop. The return comes almost entirely from the 20%-probability bull case.
