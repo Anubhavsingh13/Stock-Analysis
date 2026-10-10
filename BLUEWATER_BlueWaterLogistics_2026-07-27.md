@@ -5,7 +5,7 @@
 **Recommendation:** AVOID (high-risk; peak-cycle, cash-negative)
 **Conviction Score:** 3 / 10
 
----
+----
 
 ## Executive Summary
 Blue Water Logistics is a Hyderabad-based, asset-light **ocean freight forwarder** (SME, listed NSE Emerge Jun-2025) whose revenue quadrupled from ₹98 Cr (FY23) to ₹386 Cr (FY26) — a rise that maps almost exactly onto the Red Sea freight-rate super-spike, i.e. it is largely **cyclical rate inflation, not durable volume growth**. The fatal flaw is cash: operating cash flow has been **negative in three of the last four years** (FY26 OCF −₹53 Cr against ₹25 Cr PAT), receivables have ballooned to ~134 days (~₹142 Cr, 60% of the balance sheet), and debt has tripled to ₹108 Cr to fund the gap. At ₹445 (P/E ~19x on *peak* earnings, ~40x+ on normalised, P/B 6x) with the ocean-freight cycle now turning down on carrier over-capacity, the market is pricing the peak as permanent. **Avoid** as a 2–3 year investment.
