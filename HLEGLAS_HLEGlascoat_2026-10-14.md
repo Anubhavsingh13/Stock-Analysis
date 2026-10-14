@@ -12,6 +12,7 @@
 
 | Version | Date | Recommendation | Conviction | Price | Key change |
 |---|---|---|---|---|---|
+| Addendum 2 | 2026-10-14 | AVOID (unchanged) | 4/10 (unchanged) | ₹411.7 | **Capacity-trend addendum** (Module 1c, Physical Capacity Model): site register with capacity events, utilisation history FY19–FY26 by segment, revenue capacity by segment, decade machinery-vs-shell proxy, forward capacity vs bear/base/bull/PIE demand and ceiling year. Five new charts: utilisation by segment, capacity by segment (stacked), revenue per ₹ machinery vs land+bldg (FY17–26), capacity proxy vs revenue index, forward capacity vs demand. Valuation unchanged. |
 | Addendum | 2026-10-14 | AVOID (unchanged) | 4/10 (unchanged) | ₹411.7 | **10-year fixed-asset addendum** (Module 11, "Long-Term Fixed Assets"): gross/net block, age and reinvestment, organic-India vs acquired split, land/hidden value, installed base. Charts: asset turnover extended to FY17–26 (gross and net AT plus a 10-yr average); headline growth index now uses tangible gross block; new charts for gross vs accumulated depreciation vs net block, asset age, capex vs D&A, capex÷D&A, India vs consolidated AT, and land & buildings at book. Targets, ratio, buy-below and verdict unchanged. |
 | Current | 2026-10-14 | AVOID (re-entry watchlist ₹300) | 4/10 | ₹411.7 | Q1FY27 collapse: EBITDA margin 7.5%, PAT ₹2.1 Cr. WACC corrected up to ~12.9%, so ROCE has now been below WACC for 3 years. Margin guidance missed again. Upside/downside is 1.8:1, below the 2:1 minimum. Offset: the €20.6 m Fehmarnbelt order (~₹228 Cr) for Omeras/HST, and the CFO slot is filled. |
 | Previous | 2026-08-07 | WATCHLIST (Quality at Wrong Price) | 5/10 | ₹466 | Margin-trough thesis; buy-below ₹350–380 (full text in git history) |
@@ -31,6 +32,18 @@
 | Aftermarket share | Not disclosed (gap) | Spares & service 15.4% of revenue (FY25 AR) vs ~6–7% (FY26 AR). Consolidated "sale of services" ₹80.7 / 78.7 Cr (7.9% / 5.8%) | ⚠️ Partly closed; disclosures inconsistent |
 | Customer concentration | F&D top-10 = 69% of segment | Also one customer > 10% of consolidated revenue: ₹160.9 Cr (11.9%) FY26, ₹120.4 Cr FY25 (AR geographic note) | 🔄 New risk |
 | Targets / ratio / buy-below / verdict | ₹225 / 440 / 745; 1.8:1; ₹300; AVOID 4/10 | Unchanged after re-test | ✅ Validated |
+
+**Addendum 2 validation (2026-10-14, capacity trend):**
+
+| Item | Before | Now | Status |
+|---|---|---|---|
+| Current utilisation "GLE India ~75%, HT 70–75%" | Stated | Confirmed (Q4FY26 call). Adds F&D ~80–85%, Thaletec ~60%, Omeras ~50% | ✅ Validated |
+| Utilisation history | Not built | FY19 ~90% → FY23 >85% → FY24 GLE 55–60% / F&D 75% → FY26 GLE ~75% / F&D ~85% (eight call/AR data points) | 🔄 New |
+| Physical ceiling | "~₹1,750–1,900 Cr revenue" (Module 1c) | Revenue capacity ~₹2,065 Cr FY26 → ~₹2,145 Cr FY28; 90% practical ceiling ~₹1,930 Cr (~₹1,780 Cr on management's narrower basis) | 🔄 Updated |
+| Ceiling year | Not stated | Base: none to FY29 (80%). Bull: FY29 (93%). PIE path: FY28. F&D segment: ~FY27 | 🔄 New |
+| "Maharashtra filtration plant" | Implied in brief | No such plant; Maharashtra = Kinam heat exchangers (Ambernath); F&D is made in Gujarat/DNH | ❌ Clarified |
+| Thaletec €12 m | ⚠️ Unverified | Verified (FY22 AR) | ✅ |
+| Targets / ratio / buy-below / verdict | ₹225/440/745; 1.8:1; ₹300; AVOID 4/10 | Unchanged. Bull requires ~93% utilisation (at the practical maximum), so its 20% probability is kept | ✅ |
 
 **Validation of previous report (2026-08-07):**
 
@@ -64,7 +77,7 @@
 | Weinstein stage | "Stage 1→2, MA likely flattening" (not computed) | Computed: price ₹412 > rising 30-wk MA ₹368; failed at ₹470–483; Nifty in Stage 4 | 🔄 Updated; old gap closed |
 | 52-week range | ₹250–662 | ₹250–662 (Screener intraday); weekly closes 264–583 | ✅ Validated |
 | "Independent analyst target ~₹440" | cited | Could not re-source | ⚠️ Unverifiable, dropped |
-| Thaletec acquisition €12 m (2021) | stated | Not re-verified this run | ⚠️ Unverifiable (kept, marked) |
+| Thaletec acquisition €12 m (2021) | stated | €12 m in cash, completed Dec-2021 (FY22 AR; Dec-2021 call) | ✅ Validated (capacity addendum) |
 | Segment KPI block | "Pending approval / coordinator to append" | Now in `references/05-industry-kpis-india.md` (line 1985) | 🔄 Updated |
 
 ---
@@ -160,7 +173,174 @@ xychart-beta
 **Business inference:** This is decelerating growth with negative operating leverage. Acquired revenue (Omeras, Kinam) is coming in at low or negative margins while the profitable India businesses slowed. Module 1c classification: margin trough, not early upcycle. Wait for EBITDA growth to turn positive before treating the cycle as turned.
 
 - **Volume / price / mix:** India GLE volumes are up 30–40% since FY22 but value per equipment is down, so price is negative (concall). Mix is shifting toward lower-margin acquired lines (Omeras panels/tanks, oil & gas heat exchangers). Thaletec-range products are ~20% of India GLE, a positive mix lever. Net: growth is volume- and acquisition-led, price is a drag.
-- **Capacity:** GLE India ~75% utilisation; heat transfer ~70–75%; Omeras sub-scale (EBITDA breakeven at ₹200–225 Cr/yr vs ₹89 Cr part-year FY26). CWIP is only ₹3.7 Cr (Mar-26), plus the ₹35 Cr Silvassa brownfield. The physical ceiling without new capex is roughly ₹1,750–1,900 Cr of revenue (90% utilisation, Omeras ramp, Fehmarnbelt execution of ~₹65 Cr/yr).
+- **Capacity:** FY26 utilisation is ~80–85% in F&D, ~75% in GLE India, 70–75% in heat transfer, ~60% at Thaletec and ~50% at Omeras. Full plant-by-plant history and forward ceiling are in the Physical Capacity Model below. CWIP is only ₹3.7 Cr (Mar-26), plus the ₹35 Cr Silvassa brownfield.
+
+#### Physical Capacity Model — Plant-by-Plant, FY17–FY26 and Forward *(addendum 2026-10-14; cross-referenced from Modules 9 and 11)*
+
+**Capacity basis.** HLE does not disclose installed capacity in physical units by year. Management says that "in discrete manufacturing units such as ours, it is very difficult to put a number on capacities" (Q2FY23 call, Nov-2022), and that revenue capacity depends on equipment size and alloy, since "value difference could be 4x" (Q4FY25 call, May-2025). Three bases are used, each labelled:
+- **(a) Disclosed physical markers.** "2,000+ glass-lined equipment per annum" and "600+ Filters per annum" (FY23 AR, segment page). Kinam "~3,000 units per annum in a single shift" (FY24 AR; Q4FY26 deck). Floor areas per site.
+- **(b) Revenue capacity (₹ Cr at ~100% utilisation).** Management's own peak-revenue statements: "all the plants at peak revenue… closer to about ₹1,500 Cr" excluding Omeras (Q4FY24 call, Jun-2024). Thaletec ₹450 Cr and Kinam ₹300 Cr peaks (Q4FY24 call, repeated in the Q2FY26 call). Omeras: ₹200 Cr is "roughly at about 50% of the capacity" (Q1FY26 call, Aug-2025). These are cross-checked against segment revenue ÷ disclosed utilisation.
+- **(c) Decade proxy.** Plant & machinery gross block (AR PPE notes), used because it covers FY17–FY26 on one basis.
+
+**Site register and capacity events:**
+
+| Site | Location | Product line | Opened / acquired | Capacity events (source) | Physical markers |
+|---|---|---|---|---|---|
+| Anand Works | H-106 GIDC, Vitthal Udyognagar, Anand (Gujarat); regd. office | Glass-lined equipment, India | Swiss Glascoat legacy plant (company inc. 1991) | Q4FY19: installed capacity "increased by almost 40%", new line commissioned (FY19 AR). FY21: new assembly bay (Nov-2020 call). Q3FY22: new glass-lining furnace, "about 25% more capacity" (Nov-2021 call; "roughly 20%" in the May-2022 call). FY25: Centre of Excellence (Q4FY25 release) | 20,000 m² floor, 33 EOT cranes (FY23 AR / Q4FY26 deck); "2,000+ GLE p.a." |
+| Anand new land | "~1.30 lakh m² near Anand" | Future GLE plant | Bought FY23 (₹37.8 Cr land additions) | "Phased implementation… preparations underway" (FY23 AR). No construction reported in FY24–FY26 ARs; ICRA (Apr-2025): "no new capex program in foreseeable future" | Undeveloped (future-capacity option) |
+| Maroli Works | A-6 Maroli Udyognagar, Navsari (Gujarat) | Filtration & drying (ANF/ANFD), other equipment | HLE Engineers plant, merged 2019 | FY21–22: ~₹15 Cr new sheds, floor area +~40%, commissioned Mar-2022 (FY22 AR) | 15,000 m² built-up (13,000 m² covered, 40 EOT cranes); "600+ filters p.a." (F&D total) |
+| Silvassa Works | Naroli, Silvassa (DNH) | Standardised ANFDs, SS reactors; from Q4FY27 Omeras-technology GFS tanks | Greenfield, commercial production Q1FY23 | 20,300 m² land, 8,591 m² built-up (FY22 AR). Utilisation 65–70% after ramp (FY23 AR). ₹35 Cr brownfield for Omeras India tanks, COD Q4FY27 (ICRA 19-Aug-2026) | 8,600 m² floor, 18 EOT cranes |
+| Thaletec GmbH | Thale, Sachsen-Anhalt, Germany | Premium glass-lined equipment, relining, spares | Acquired Dec-2021, €12 m (FY22 AR) | No expansion; "ample room… without making any dramatic investment" (May-2023 call) | ~37,000 m² production area, >40,000 m² land, 150+ staff (FY22 AR) |
+| Kinam Engineering (70%) | Ambernath, Maharashtra (ICRA Feb-2024 listed Bhiwandi) | Shell-&-tube / corrugated heat exchangers | Acquired Sep-2023 | "Large capacity… created about a year before we did the acquisition" (Jun-2024 call). New capacity "next year onwards based on how current year goes" (Q4FY26 call) | ~3,000 units p.a. single shift; 1,10,000 sq ft (~10,200 m²) |
+| HST / Omeras | Germany | Enamelled architectural panels, glass-fused-to-steel tanks & silos | Asset deal Aug-2025 (~₹27–30 Cr) | ~50% utilised at ~₹200 Cr revenue run-rate (Aug-2025 call). Fehmarnbelt €20.56 m order runs to Apr-2030 | Plant area not disclosed |
+
+*There is no separate "Maharashtra filtration plant". The Maharashtra site is Kinam (heat exchangers); filtration/drying is made at Maroli and Silvassa (Gujarat/DNH).*
+
+**Utilisation history (management statements; ✓ disclosed, ≈ estimate):**
+
+| Period (source) | F&D (Maroli + Silvassa) | GLE India (Anand) | Heat transfer (Kinam) | Thaletec | Omeras | Group weighted |
+|---|---|---|---|---|---|---|
+| FY19 (Q2FY26 call, retrospective) | ~90% ✓ | ~90% ✓ | — | — | — | ~90% |
+| FY22 (Q4FY22 call) | "high" ✓ | "high" ✓; GLE volume +2–3% only | — | n/a | — | high |
+| H1FY23 (Nov-2022 call) | 70–75% ✓ (Silvassa ramping) | >80% ✓ | — | — | — | — |
+| FY23 (May-2023 call; FY23 AR) | >85% ✓ (Silvassa 65–70%) | >85% ✓ | — | "ample room" | — | ~85% ≈ |
+| FY24 (Jun-2024 call) | ~75% ✓ | 55–60% ✓ | 60–65% ✓ | 70–75% ✓ | — | ~67% ≈ |
+| FY25 (May-2025 call) | — | — | — | — | — | ~75% ✓ ("weighted average") |
+| H1FY26 (Nov-2025 call) | ~80% ✓ (guided 85–90% Q4) | 60–65% ✓ (guided 80% Q4) | 65–70% guided exit ✓ | ~60% ✓ | ~50% ✓ (Aug-25) | — |
+| FY26 exit (May-2026 call) | ~85% ≈ (guidance; not re-stated) | ~75% ✓ | 70–75% ✓ | ~60% ≈ | <50% ≈ (₹89 Cr part-year) | ~72% ≈ |
+
+*The FY24 and FY26 group weighted figures are revenue-weighted estimates from the segment numbers. Utilisation is quoted in units/shop-floor terms, not rupees.*
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b, #6b7280"}}}}%%
+xychart-beta
+    title "Utilisation by Segment (%)"
+    x-axis [FY19, FY23, FY24, H1FY26, FY26]
+    y-axis "%" 0 --> 100
+    line [90, 85, 75, 80, 85]
+    line [90, 85, 57.5, 62.5, 75]
+    line [78.5, 78.5, 78.5, 78.5, 78.5]
+```
+🟦 F&D (FY26 ≈ guided exit) · 🟧 GLE India (range midpoints) · ⬜ average of all disclosed points 78.5%. The x-axis is unevenly spaced; FY20–FY22 numbers were not disclosed ("high" in FY22).
+
+**Read:** GLE India utilisation fell from ~90% (FY19) and >85% (FY23) to 55–60% (FY24), then recovered to ~75% (FY26). F&D stayed in a 75–90% band and is back near ~85%, above the 78.5% average of disclosed points.
+
+**Business inference:** Two different capacity stories. F&D, the best-margin franchise, is close to full again, so its growth will soon need capex or price. GLE India still has ~15pp of headroom, but filling it is the low-realisation business (Module 1c price/mix). The margin recovery management promises ("80–90% utilisation → completely different margin zone", Nov-2025 call) depends on GLE India and Thaletec volumes, not F&D.
+
+**Revenue capacity by segment (₹ Cr at ~100% utilisation; basis (b)):**
+
+| Segment | FY23 | FY24 | FY25 | FY26 | Basis |
+|---|---|---|---|---|---|
+| F&D (Maroli + Silvassa) | ~500 | ~500 | ~500 | ~560 | FY24: ₹374 Cr ÷ 75%. FY26: ₹474 Cr ÷ ~85%. The FY26 rise reflects higher value per unit, not capex |
+| GLE India (Anand) | ~355 | ~355 | ~355 | ~355 | FY24: ~₹207 Cr (GLE ₹497 Cr − Thaletec ~₹290 Cr, Jun-2024 call; fiscal year ambiguous) ÷ 57.5%. FY26: ~₹249 Cr ÷ ~70% |
+| Thaletec | 450 | 450 | 450 | 450 | Management peak (₹345 Cr FY26 at ~60% implies up to ~₹550 Cr) |
+| Kinam | — | 300 | 300 | 300 | Management peak (₹200 Cr at 70–75% implies ~₹275 Cr) |
+| Omeras | — | — | — | 400 | ₹200 Cr ≈ 50% utilisation |
+| **Total** | **~1,305** | **~1,605** | **~1,605** | **~2,065** | Cross-check: management's "~₹1,500 Cr all plants" (Jun-2024, ex-Omeras) vs ₹1,605 Cr here (within 7%) |
+| Consolidated revenue | 932 | 968 | 1,028 | 1,353 | Screener |
+| Revenue ÷ revenue capacity | 71% | 60% | 64% | 66% | Below unit utilisation, because FY24 Kinam was part-year and FY26 Omeras part-year |
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b, #16a34a, #9333ea, #6b7280, #dc2626"}}}}%%
+xychart-beta
+    title "Revenue Capacity by Segment, Stacked (Rs Cr)"
+    x-axis [FY23, FY24, FY25, FY26]
+    y-axis "Rs Cr" 0 --> 2200
+    line [500, 500, 500, 560]
+    line [855, 855, 855, 915]
+    line [1305, 1305, 1305, 1365]
+    line [1305, 1605, 1605, 1665]
+    line [1305, 1605, 1605, 2065]
+    line [932, 968, 1028, 1353]
+```
+🟦 F&D · 🟧 + GLE India · 🟩 + Thaletec · 🟪 + Kinam · ⬜ + Omeras (cumulative lines: the gap between lines is each segment's capacity; Mermaid cannot stack bars) · 🟥 Consolidated revenue
+
+**Read:** Revenue capacity rose from ~₹1,305 Cr to ~₹2,065 Cr over FY23–FY26, all of it acquired (Kinam +₹300 Cr in FY24, Omeras +₹400 Cr in FY26). Organic India capacity (F&D + GLE India) stayed flat at ~₹855–915 Cr, while revenue reached ₹1,353 Cr (66% of capacity).
+
+**Business inference:** Since FY23 the company has bought capacity faster than demand has filled it, which explains the margin and AT drag. The organic India plants (the high-return core) have not been expanded since Silvassa, and F&D within them is nearly full. The next leg of growth either fills the acquired, lower-margin German/Kinam capacity or needs new India capex: the Anand land, HT expansion, Silvassa tanks.
+
+**Decade proxy, FY17–FY26 (basis c; AR PPE notes):**
+
+| Year | Plant & equipment gross (₹ Cr) | Land + buildings gross (₹ Cr) | Revenue (₹ Cr) | Revenue ÷ P&E (×) | Revenue ÷ land + bldg (×) |
+|---|---|---|---|---|---|
+| FY17 (SGEL) | 12.3 | 5.2 | 81 | 6.6 | 15.5 |
+| FY18 (SGEL) | 13.1 | 5.3 | 97 | 7.4 | 18.5 |
+| FY19 | 47.3 | 28.7 | 359 | 7.6 | 12.5 |
+| FY20 | 56.4 | 30.8 | 426 | 7.6 | 13.8 |
+| FY21 | 53.1 | 53.2 | 484 | 9.1 | 9.1 |
+| FY22 | 94.2 | 138.7 | 652 | 6.9 | 4.7 |
+| FY23 | 108.9 | 202.2 | 932 | 8.6 | 4.6 |
+| FY24 | 126.3 | 213.6 | 968 | 7.7 | 4.5 |
+| FY25 | 150.8 | 246.6 | 1,028 | 6.8 | 4.2 |
+| FY26 | 180.1 | 264.1 | 1,353 | 7.5 | 5.1 |
+
+*FY17–18 SGEL: deemed cost (buildings ₹4.8 Cr plus leasehold land ₹0.45 Cr; FY17/FY18 ARs). FY19–FY26: Module 11, "Long-Term Fixed Assets".*
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b"}}}}%%
+xychart-beta
+    title "Revenue per Rs of Machinery vs Land+Bldg (x)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "x" 0 --> 20
+    line [6.6, 7.4, 7.6, 7.6, 9.1, 6.9, 8.6, 7.7, 6.8, 7.5]
+    line [15.5, 18.5, 12.5, 13.8, 9.1, 4.7, 4.6, 4.5, 4.2, 5.1]
+```
+🟦 Revenue ÷ plant & equipment gross block · 🟧 Revenue ÷ land + buildings gross block
+
+**Read:** Revenue per rupee of machinery stayed in a tight 6.6–9.1× band for the whole decade (FY26 7.5×, decade average 7.6×). Revenue per rupee of land and buildings collapsed from 12.5–18.5× to 4.2–5.1× from FY22.
+
+**Business inference:** Machine capacity has been added roughly in line with output. The fall in asset turnover (Module 11) comes from bricks and land: Thaletec's German buildings, the Maroli sheds, the Silvassa greenfield and the idle Anand plot. This "shell capacity" can absorb more output with only balancing machinery, which is good for future capex needs. But today it is unearning capital that keeps ROCE below WACC until the floor space fills.
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b, #6b7280"}}}}%%
+xychart-beta
+    title "Capacity Proxy vs Revenue Index (FY19 = 100)"
+    x-axis [FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "Index" 0 --> 1000
+    line [100, 119, 135, 182, 260, 270, 286, 377]
+    line [100, 119, 112, 199, 230, 267, 319, 381]
+    line [100, 107, 185, 483, 705, 744, 859, 920]
+```
+🟦 Revenue · 🟧 Plant & equipment gross block (machine-capacity proxy) · ⬜ Land + buildings gross block (shell-capacity proxy)
+
+**Read:** Since FY19 the machinery index (381) has tracked revenue (377) almost exactly, while land and buildings rose 9.2× (index 920).
+
+**Business inference:** On the machine-capacity proxy the business is about as full as it was in FY19, consistent with F&D at ~85%. The spare capacity management cites is mostly floor space and furnaces in GLE India, Thaletec and Omeras. Any growth beyond ~₹2,000 Cr will need machinery capex on top of that floor space.
+
+**Forward capacity view to FY29 (basis (b), ₹ Cr):**
+
+| | FY26 | FY27E | FY28E | FY29E | Notes |
+|---|---|---|---|---|---|
+| Revenue capacity (announced only) | 2,065 | 2,085 | 2,145 | 2,145 | + Silvassa GFS tanks (₹35 Cr capex, COD Q4FY27). Capacity ≈ ₹80 Cr at India's ~2.3× AT (estimate), ¼ in FY27 |
+| Practical ceiling (90%) | 1,860 | 1,875 | 1,930 | 1,930 | Not counted: unannounced HT expansion (FY28?) and an Anand GLE greenfield |
+| Base demand (Module 11) | 1,353 | 1,450 | 1,590 | 1,720 | Utilisation 66% → 70% → 74% → **80%** |
+| Bull demand | 1,353 | 1,520 | 1,760 | 2,000 | → 73% → 82% → **93%** (above the 90% ceiling in FY29) |
+| Bear demand | 1,353 | 1,400 | 1,500 | 1,590 | → 67% → 70% → 74% |
+| Price-implied (PIE ~24% CAGR) | 1,353 | 1,680 | 2,080 | 2,580 | → 81% → 97% → **120%** (physically impossible without new capacity) |
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#f59e0b, #dc2626, #2563eb, #16a34a, #9333ea, #6b7280"}}}}%%
+xychart-beta
+    title "Capacity vs Demand Scenarios FY26-FY29E (Rs Cr)"
+    x-axis [FY26, FY27E, FY28E, FY29E]
+    y-axis "Rs Cr" 1000 --> 2800
+    line [2065, 2085, 2145, 2145]
+    line [1860, 1875, 1930, 1930]
+    line [1353, 1450, 1590, 1720]
+    line [1353, 1520, 1760, 2000]
+    line [1353, 1400, 1500, 1590]
+    line [1353, 1680, 2080, 2580]
+```
+🟧 Revenue capacity (announced) · 🟥 90% practical ceiling · 🟦 Base · 🟩 Bull · 🟪 Bear · ⬜ Price-implied (PIE)
+
+**Read:**
+- Base demand reaches 80% of capacity by FY29; no ceiling inside the horizon.
+- Bull crosses the 90% ceiling in **FY29**.
+- The PIE path crosses it in **FY28** and needs ~120% of announced capacity by FY29.
+- On management's narrower basis (₹1,500 Cr + Omeras ₹400 Cr + Silvassa ~₹80 Cr ≈ ₹1,980 Cr), the 90% ceiling is ~₹1,780 Cr. Base FY29 (₹1,720 Cr) then sits at 87%, and bull reaches the ceiling in FY28 (89%).
+- **Segment ceiling:** F&D (capacity ~₹560 Cr, ~85% used) hits 90% at ~₹505 Cr. That is likely in **FY27**, even in the base case, at its historical ~8–10% growth.
+
+**Business inference:** Capacity does not constrain the base or bear case. It does constrain the high-margin F&D line within 12–18 months, and it caps the bull case at roughly the ₹2,000 Cr management target. That target is a capacity number as much as a demand number: growth beyond it, and the price-implied path, require new plant (HT expansion, an Anand GLE greenfield) that is not announced and is likely debt-funded. Given ~2% incremental returns on recent India capex (Module 11), that is a risk rather than an upside (Module 9, physical plausibility).
 - **Operating leverage:** Contribution proxied by gross margin 53.2% ÷ EBIT margin 8.0% gives DOL ~6.6× (upper bound, since labour is semi-fixed). DFL = 112/(112−34) = 1.44×. DTL ~9×. Q1FY27 bears this out: revenue +6%, EBITDA −44%, PAT −88%. **Forward ICR:** Q1FY27 interest cover was 2.5× (ICRA). The base FY27E is 2.8× and the bear FY27E is 1.9×, below 2.5×, which adds 5pp to MoS.
 - **Guidance accuracy:** WTT 0.50 (Module 4), so haircut guidance by 20–30%.
 - **FCF inflection:** Reached in FY24 (FCF ₹40 → 68 → 106 Cr), but FY26's ₹161 Cr CFO was flattered by a ₹73 Cr payables stretch and a ₹46 Cr inventory release, partly offset by +₹130 Cr receivables (AR cash-flow statement). FY27 will likely give some of that back: Q1 saw a finished-goods build of ₹14 Cr.
@@ -529,7 +709,7 @@ xychart-beta
 
 **Interpretation: OPTIMISTIC GAP**, larger than in August because the WACC is higher and earnings have fallen.
 **Expectations treadmill:** To merely earn its cost of capital from ₹412, HLE must reach the ₹2,000 Cr+ revenue target and a 15%+ margin within about three years, and keep growing ~15% after that.
-**Physical plausibility:** The ~₹2,600 Cr FY29 implied by the price exceeds the ~₹1,750–1,900 Cr ceiling of installed capacity plus Silvassa plus Fehmarnbelt. **The market is pricing an unannounced expansion or acquisition.** Given the negative incremental ROIC on the last three deals, that is a risk, not an upside.
+**Physical plausibility (re-checked against the Module 1c Physical Capacity Model):** The ~₹2,580 Cr FY29 implied by the price is ~120% of announced revenue capacity (~₹2,145 Cr incl. Silvassa tanks) and crosses the 90% practical ceiling (~₹1,930 Cr) in FY28. F&D, the highest-margin line, is near full already. **The market is pricing an unannounced expansion or acquisition.** Given the negative incremental ROIC on the last three deals, that is a risk, not an upside.
 **Expectation triggers:**
 - Positive: two quarters of ≥13% EBITDA; Omeras EBITDA-positive with a growing book; India GLE realisations stabilising.
 - Negative: a Q2FY27 margin < 10%; an ICRA outlook change (debt/OPBDITA > 2.0× already); further Heat Transfer deferrals.
@@ -867,7 +1047,7 @@ xychart-beta
 **Installed-base verdict:** The aftermarket is real but small (~6–8% of revenue on the consistent "services" line) and flat in rupees while equipment revenue rose 32%. It does not justify a longer-duration DCF or a higher terminal value. Terminal growth (7%) and RONIC = WACC stay unchanged. If HLE disclosed a stable 10%+ aftermarket share at above-average margins, a 0.5–1pp lower discount rate on that stream would be defensible (bull-case sensitivity only).
 
 **Incremental ROIC (FY23 → FY26):** ΔEBIT −₹12 Cr on ~₹380 Cr of added capital = **negative → Value-destroying** (flagged in Module 4). Organic India FY21→FY26: ~2% pre-tax on +₹223 Cr gross block (above). Forward (base FY26 → FY29): ΔEBIT (173.6 − 112.1) × 0.75 = ₹46 Cr on ~₹160 Cr capex + ~₹76 Cr NWC = **~19%**, above WACC, but it depends entirely on margin recovery.
-**Capex-model implied revenue CAGR:** **8.4%** (₹1,353 → ₹1,720 Cr FY29) vs PIE-implied ~23–25%. **The market is pricing unannounced expansion.**
+**Capex-model implied revenue CAGR:** **8.4%** (₹1,353 → ₹1,720 Cr FY29) vs PIE-implied ~23–25%. **The market is pricing unannounced expansion.** Capacity cross-check (Module 1c, Physical Capacity Model): the base case uses ~80% of FY29 revenue capacity and the bull case ~93%, above the 90% practical ceiling. Machinery capacity (P&E gross block) has tracked revenue 1:1 since FY19, so the spare capacity is mainly floor space, furnaces and acquired German plants. The AT assumptions (base 2.55×, bull 2.95×) are consistent with this.
 
 ### Capex-to-Earnings Model (Base)
 | Metric | FY27E | FY28E | FY29E |
@@ -930,7 +1110,7 @@ xychart-beta
 - **Section F (Valuation):** 10/10.
 - **Section G (Technical):** 8/8. Sector index proxied by Midcap 100.
 - **Section H (Forward View):** 30/31. A 10-yr gross block and an India-vs-subsidiary split are now built (addendum); segment-level capex attribution is still not disclosed.
-- **Section I (Charts):** 5/5. C1 (tangible gross block, FY19 base), C6 FY17–26 (gross + net AT, 10-yr avg), India-vs-consolidated AT, gross/acc-dep/net block, asset age, capex vs D&A, capex÷D&A, land & buildings at book, C2, C4/CY7, C5/CY7, C6, C7, C8, C12, C13, CY1, CY2 + ROE, CY4, OB-1, OB-2, OB-4. OB-3 omitted with reason.
+- **Section I (Charts):** 5/5. C10 capacity set (utilisation by segment, stacked revenue capacity, machinery vs land+bldg turns FY17–26, capacity-proxy index, forward capacity vs demand), C1 (tangible gross block, FY19 base), C6 FY17–26 (gross + net AT, 10-yr avg), India-vs-consolidated AT, gross/acc-dep/net block, asset age, capex vs D&A, capex÷D&A, land & buildings at book, C2, C4/CY7, C5/CY7, C6, C7, C8, C12, C13, CY1, CY2 + ROE, CY4, OB-1, OB-2, OB-4. OB-3 omitted with reason.
 - **Order Book Tracker:** Run (first ledger; carried forward from here).
 - **Hard Stops Triggered:** **None.** Integrity pass; earnings quality clean; forensic flags 2; M −2.47; pledge 0%; no ICD; auditor unchanged; stock not in Stage 4; ROIC < WACC 3 yrs (< 5); U/D 1.8:1 (≥ 1.5).
 
@@ -980,6 +1160,7 @@ xychart-beta
 ### Data Gaps (this run)
 - Q1FY27 earnings-call transcript not found on BSE/NSE (no call filed after 1-Jun-2026). Q2FY27 results not yet announced (due ~Nov-2026).
 - Sep-2026 shareholding pattern not yet published. SAST Reg 10(6)/29 PDFs for Aalap N. Patel are scanned images; quantities unverified.
+- No year-by-year installed capacity in physical units (only FY23 markers: 2,000+ GLE / 600+ filters p.a.; Kinam ~3,000 units). Utilisation history comes from concall statements and is not disclosed for FY20–FY22 or FY25 by segment. Revenue capacity is derived and labelled.
 - Aftermarket share disclosed inconsistently (15.4% FY25 vs ~6–7% FY26 product split); aftermarket margin not disclosed.
 - No independent India GLE/F&D TAM or 5-yr market-share data.
 - Gross block FY17–18 covers Swiss Glascoat only (pre-merger), and the Ind AS deemed-cost reset (2016) understates legacy asset age. No market valuation for land or buildings except the FY25 investment property; Anand land value is estimated from the GIDC V.U. Nagar allotment rate. No Thaletec Germany property fair value.

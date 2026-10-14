@@ -8,6 +8,7 @@
 ## Revision Log
 | Version | Date | Recommendation | Conviction | Price | Key change |
 |---|---|---|---|---|---|
+| Addendum (c) | 2026-10-14 | Unchanged: AVOID; buy-below ₹550–610 | 4.5/10 (unchanged) | ₹1,321 | User request: **capacity trend analysis**. Added the plant-by-plant site register (21 sites, 19 operating), capacity proxies, utilisation trend (India ~90%, international ~75% est.), capacity-events timeline, forward capacity vs demand (ceiling: base FY29, bull FY28, PIE path FY28) and charts CAP-1…CAP-4 in Module 1c. The PIE now also fails physical plausibility beyond FY28. Valuation unchanged. |
 | Addendum (b) | 2026-10-14 | Unchanged: AVOID (U/D hard stop); buy-below ₹550–610 | 4.5/10 (unchanged) | ₹1,321 | User feedback: long-life (10+ yr) fixed assets were not analysed. Added the full-decade **Long-Life Fixed-Asset Analysis** (Module 11) with 5 new or reworked charts. Corrected the AT basis (it included ROU leases), FCF (lease cash omitted) and a "revaluation" wording error. Verdict, targets and buy-below unchanged. See addendum validation table below. |
 | Current | 2026-10-14 | AVOID (U/D hard stop); watchlist, buy-below ₹550–610 | 4.5/10 | ₹1,321 | Stock +35% since August on a volume-backed Stage 2 breakout. Fundamentals barely moved (Q1FY27 EBITDA −7% YoY, margin 10.1%). At this price the reverse DCF needs 14–18% revenue CAGR. FY26 growth was mostly FX translation. Pension debt, a second CFO exit and the hard-stop asymmetry all argue for patience. |
 | Previous | 2026-08-07 | WATCHLIST ("Quality at Wrong Price") | 5/10 | ₹975 | (Full text in git history.) Its own asymmetry was 0.4:1, below the 1.5:1 hard stop, so under the skill rules it should already have been AVOID. |
@@ -55,6 +56,18 @@
 | HLE order book ₹681.6 Cr | ✅ | Not re-sourced this run (HLE Q1FY27 OB not found) | ⚠️ Unverifiable |
 | Segment KPI block "not in reference" | Pending | Now in `references/05-industry-kpis-india.md` line 1985 | 🔄 Updated |
 | Verdict logic | WATCHLIST with U/D 0.4:1 | U/D < 1.5:1 is a hard stop → AVOID under the framework | ❌ Corrected (process) |
+
+**Addendum (c), 2026-10-14: capacity trend. Validation**
+| Item | Earlier today | Now (source) | Status |
+|---|---|---|---|
+| "India Karamsad can do ₹700–800 Cr with small capex (Q4FY26 call)" | Karamsad | The ₹700–800 Cr refers to the **Vatva (Ahmedabad) HET plant** (Q4FY26 call); Q3FY26: ₹600–700 Cr from Vatva at current site, >₹1,000 Cr needs a new facility | ❌ Corrected |
+| Physical plausibility (Module 9): "capacity not binding" | Not binding | Base case fits (93% FY29); **PIE path exceeds estimated capacity from FY28** → needs unannounced expansion | ❌ Corrected |
+| Installed capacity in physical units | Not discussed | **Not disclosed** by GMM (data gap); proxies used: P&M gross block (decade) and revenue capacity (FY22+) | 🔄 Added |
+| Utilisation | "India 80–90%" only | India ~95% (FY22) → ~65% (FY25) → ~90% (FY26), anchored to AR FY26 ("~50–60% to full capacity") and calls; international ~69–85%, ~75% FY26 (est.) | 🔄 Added |
+| Site count | "20 plants" (Q1FY27 release) | AR FY26: 19 manufacturing facilities operating (site map shows 20 incl. Leven, closed Q2FY26); decade series 3 → 19 | ✅ Validated / 🔄 |
+| Services revenue | ~₹1,020 Cr (29% × revenue, est.) | **₹1,021 Cr revenue, ₹1,048 Cr order intake FY26** (AR FY26) | ✅ Validated |
+| Charts | — | **New:** CAP-1 (capacity proxy vs revenue FY17–26), CAP-2 (utilisation India vs international with FY22–26 averages), CAP-3 (sites by region; lines over total bar because Mermaid cannot stack), CAP-4 (forward capacity vs base/bull/bear/PIE to FY29E) | 🔄 Added |
+| Scenarios / targets / U/D / SVAR / buy-below / verdict / conviction | — | Unchanged; bull FY29 flagged as needing ~₹50–100 Cr extra capex (< 2% EPS impact) | ✅ Validated |
 
 **Addendum (b), 2026-10-14: long-life fixed-asset review. Validation of this report's own earlier asset figures**
 | Item | Earlier today | Now (source) | Status |
@@ -160,12 +173,180 @@ xychart-beta
 **Business inference:** This is negative operating leverage. Rupee translation and acquisitions lift the top line while pricing pressure, mix (lower-margin HET) and new global-organisation costs absorb it. An upgrade cycle needs EBITDA growth above revenue growth, and that is not yet visible.
 
 - **Revenue decomposition:** Volume roughly flat organically; price weak ("continued pricing pressure", Q1FY27 CFO); mix shifting toward systems and heavy engineering (lower margin in India). FX is the largest single driver of reported growth.
-- **Capacity:** not binding. CWIP only ₹20 Cr; Poland low-cost hub scaling; India Karamsad can do ₹700–800 Cr with small capex (Q4FY26 call). The constraint is margin, not capacity.
+- **Capacity:** see the Physical Capacity Model below. In short: India is at ~90% (GLE "full"); international is at ~75% (est.); the capacity ceiling is FY29 in the base case and FY28 in the bull case. *(Correction, addendum c: the ₹700–800 Cr "with small investment" figure refers to the **Vatva (Ahmedabad) heavy-engineering** plant, not Karamsad, per the Q4FY26 call.)*
 - **Order-book revenue model:** see Order Book Tracker (Module 6). FY27E revenue anchor: opening backlog ₹2,194 Cr × ~1.78 annual burn ≈ **₹3,900 Cr (+11%)**. Historical revenue / opening backlog was 1.89× (FY25) and 2.15× (FY26); haircut because part of the backlog is multi-year.
 - **Operating leverage:** Contribution margin ≈ gross margin less variable conversion, about 45% *(est.)* → DOL ≈ 45% / EBIT margin 8.1% (ex-exceptional) ≈ **5.5×**. DFL = EBIT 284 / (284 − 112 underlying interest) = **1.65×**. **DTL ≈ 9×**: a 5% revenue miss means roughly a 45% EPS miss. **ICR ex-exceptional/FX ≈ 2.5×** (reported 1.8×), right at the skill's red line → +5pp MoS.
 - **Guidance accuracy:** see WTT (0.70, MODERATE); margin guidance is the one-way miss.
 - **FCF inflection:** already reached. FCF positive every year since FY21; FY26 FCF ₹311 Cr (CFO 389 − capex 78). FY26 CFO was helped by ₹357 Cr of payables/advances inflow (AR cash-flow statement), which will not repeat.
 - **Stock-cycle classification: Trough / early recovery** in fundamentals (EBITDA margin and ROCE at the 20th percentile of their 10-yr ranges, CY7). **But the price already reflects mid-cycle earnings** (see Module 8).
+
+
+### Physical Capacity Model — plant-by-plant, FY17–FY26 and forward *(addendum c, 2026-10-14)*
+*Cross-referenced from Module 9 (physical plausibility) and Module 11 (capex model, §11-FA). **Disclosure reality:** GMM does **not** disclose installed capacity in physical units (reactors/year, tonnes) or by site. Utilisation is disclosed only qualitatively and for India. All capacity figures below are **proxies**, labelled with their basis. Sources: AR FY26 (site map p.8–9, "19 global manufacturing facilities", reporting-unit table, India plant locations, FY26 business highlights); Q1FY27 deck acquisition timeline; BSE filings (Hyderabad closure 13-Dec-2024 and sale 16-Dec-2025 / 27-Feb-2026; Poland JV 20-Dec-2024 / completion 10-Jun-2025; SEMCO 4-Jul / 11-Aug-2025); earnings calls Q4FY25–Q1FY27.*
+
+**1. Site register (manufacturing sites; 19 at FY26 per AR)**
+| # | Site | Country / region | Product line (division) | Status / event (FY) | Source |
+|---|---|---|---|---|---|
+| 1 | Karamsad (Anand, Gujarat) | India | Glass-lined reactors, filtration-drying, mixing (CRT/PPT) — flagship GLE furnaces | Operating since 1962; absorbed Hyderabad load FY25; GLE "full capacity" FY26; ~₹10 Cr non-GLE capex planned | AR FY26 plant locations; Q4FY25, Q1FY26 calls |
+| 2 | Vatva, GIDC Ahmedabad | India | Heavy engineering: pressure vessels, heat exchangers, duplex (HET) | Operating; revenue capacity ₹600–700 Cr at enhanced mix; ₹700–800 Cr "with small investment"; beyond that needs a new facility; NABL lab FY26 | Q3FY26, Q4FY26 calls; AR FY26 |
+| 3 | Hyderabad (ex-De Dietrich India) | India | Glass-lined equipment | Acquired FY20; closure announced 13-Dec-2024 (FY25); sold for ₹58.93 Cr Feb-2026 (FY26) | BSE; AR Note 6 |
+| 4 | Neunkirch (Mavag AG) | Switzerland | Mixing / filtration-drying (PPT) | Owned since 2008 (pre-decade) | AR site map |
+| 5 | Waghäusel (Pfaudler GmbH) | Germany | Glass-lined reactors (CRT), largest European GLE plant | Acquired FY21; workforce reduction FY26 (₹52.6 Cr severance), Phase-I 14 FTE + ~30 more (capacity consolidation) | AR Note 47; Q3FY26 call |
+| 6 | Ilmenau (Pfaudler Normag Systems) | Germany | Lab glass / process systems, acid recovery (PST) | Acquired FY21; won EUR 33.2 m defence acid-recovery order FY26 | BSE 19-Jun-2025 |
+| 7 | Hofheim-Wallau | Germany | Sealing (Interseal, PPT) *(entity–site mapping est.)* | Acquired FY21 | AR site map |
+| 8 | Leven (Pfaudler Ltd) | UK | Glass-lined manufacturing | Acquired FY21; closure decided FY25 (₹29.5 Cr impairment), completed by Q2FY26 | AR Notes 9/47; Q4FY25 deck |
+| 9 | Bolton (Pfaudler Ltd) | UK | Fluoropolymer/lined products & service (CRT) | Acquired FY21; operating | AR reporting-unit table |
+| 10 | Torre di Mosto (Pfaudler S.r.l.) | Italy | Glass-lined / alloy equipment (CRT/PST) | Acquired FY21 | AR site map |
+| 11 | Merlino (Hydro Air Research Italia) | Italy | Acid recovery / process systems (PST) | Acquired FY22 | Q1FY27 deck timeline |
+| 12 | Dardilly (Mixel France) | France | Agitators / mixing (PPT) | Acquired FY23 | Q1FY27 deck timeline |
+| 13 | Czarna (GMM Inox, 51% JV) | Poland | Stainless-steel vessels; low-cost hub for European plants | Agreement Dec-2024; 51% closed 10-Jun-2025 (FY26); "completely full, need two more sheds"; to triple in size; revenue toward ~USD 10 m in 2–3 yrs | BSE; Q4FY25, Q1FY26, Q4FY26 calls |
+| 14 | Rochester NY (GMM Pfaudler US) | USA | Glass-lined reactors (CRT) — US market leader | Acquired FY21; large US pharma onshoring orders FY27 | Q1FY27 call |
+| 15 | Avondale PA (Edlon) | USA | Fluoropolymer-lined equipment (CRT) | Acquired FY21 | AR reporting units |
+| 16 | Americus GA (GMM Pfaudler JDS) | USA | Process systems / heavy equipment (PST/HET) | Acquired FY24 | Q1FY27 deck timeline |
+| 17 | Brampton (Professional Mixing Equipment / MixPro) | Canada | Mixing (PPT) | Acquired FY24 | Q1FY27 deck timeline |
+| 18 | Taubaté (Pfaudler Ltda) | Brazil | Glass-lined / mixing (CRT/PPT) | Acquired FY21 | AR site map |
+| 19 | Itatiba (SEMCO) | Brazil | Mixing / process (PPT) | Acquired 11-Aug-2025 (FY26), ₹162 Cr | BSE; AR Note 45 |
+| 20 | Liyang / Changzhou (Pfaudler Chang Zhou) | China | Glass-lined reactors (CRT); new Interseal service & assembly centre FY26 | Acquired FY21; loss-making unit under turnaround | AR FY26; Q3FY26 call |
+| 21 | Tianjin (Mixel Agitator) | China | Agitators (PPT) | Acquired FY23 | AR site map |
+*21 rows = 19 operating at FY26 + Hyderabad (sold) + Leven (closed). Sales & service-only offices (France, Benelux, Mexico, Suzhou, Neu-Isenburg, Luxembourg) are excluded.*
+
+**Site count by region (manufacturing, year-end; derived from the register)**
+| FY | FY17 | FY18 | FY19 | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| India | 2 | 2 | 2 | 3 | 3 | 3 | 3 | 3 | 2 | 2 |
+| Europe | 1 | 1 | 1 | 1 | 7 | 8 | 9 | 9 | 9 | 9 |
+| Americas | 0 | 0 | 0 | 0 | 3 | 3 | 3 | 5 | 5 | 6 |
+| China | 0 | 0 | 0 | 0 | 1 | 1 | 2 | 2 | 2 | 2 |
+| **Total** | **3** | **3** | **3** | **4** | **14** | **15** | **17** | **19** | **18** | **19** |
+*FY25 India −1 = Hyderabad closed; FY26 Europe = −Leven +Poland; FY26 Americas +SEMCO. FY26 total reconciles to the AR's "19 global manufacturing facilities".*
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#f59e0b, #2563eb, #16a34a, #9333ea, #6b7280"}}}}%%
+xychart-beta
+    title "Manufacturing Sites by Region FY17-FY26 (count)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "Sites" 0 --> 22
+    bar [3, 3, 3, 4, 14, 15, 17, 19, 18, 19]
+    line [2, 2, 2, 3, 3, 3, 3, 3, 2, 2]
+    line [1, 1, 1, 1, 7, 8, 9, 9, 9, 9]
+    line [0, 0, 0, 0, 3, 3, 3, 5, 5, 6]
+    line [0, 0, 0, 0, 1, 1, 2, 2, 2, 2]
+```
+**CAP-3.** 🟧 Total sites (bars) · 🟦 India · 🟩 Europe · 🟪 Americas · ⬜ China. Mermaid cannot stack bars (they overlay), so the regional split is drawn as lines over the total.
+
+**Read:** Site count went from 3 (FY17–19) to 19 (FY26), with 11 sites added in one step (FY21 Pfaudler). Europe has been flat at 9 since FY23 (closures offset by Poland). Americas rose 3 → 6 through bolt-ons. India fell 3 → 2.
+
+**Business inference:** Capacity is spread across 19 mostly sub-scale sites, 9 of them in high-cost Europe, which is why conversion costs and employee cost (28.6% of sales) are structurally high. Management's footprint logic is right (close Leven and Hyderabad, shrink Waghäusel, load Poland and India), but it is slow. Each closure costs exceptionals and each bolt-on adds a site, so the net count has not fallen.
+
+**2. Installed capacity — basis and decade trend**
+- **Physical units:** not disclosed (data gap).
+- **Proxy A (decade):** plant & machinery gross block (owned + ROU, Screener P&M line, ₹ Cr) = installed productive asset base.
+- **Proxy B (FY22+, utilisation):** revenue capacity = revenue the existing footprint can produce at full load. India uses management statements (Vatva ₹600–800 Cr; GLE "full"); international uses prior-peak constant-currency revenue (FY24 €270 m) grossed up for disclosed slack *(est.)*.
+
+| FY | FY17 | FY18 | FY19 | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| P&M gross block, consolidated (₹ Cr; proxy A) | 25 | 37 | 40 | 64 | 200 | 238 | 294 | 295 | 290 | 349 |
+| Revenue (₹ Cr) | 353 | 406 | 503 | 591 | 1,001 | 2,541 | 3,178 | 3,446 | 3,199 | 3,524 |
+| Revenue ÷ P&M gross (×) | 14.1 | 11.0 | 12.6 | 9.2 | 5.0* | 10.7 | 10.8 | 11.7 | 11.0 | 10.1 |
+| Index P&M (FY17=100) | 100 | 148 | 160 | 256 | 800 | 952 | 1,176 | 1,180 | 1,160 | 1,396 |
+| Index revenue (FY17=100) | 100 | 115 | 142 | 167 | 284 | 720 | 900 | 976 | 906 | 998 |
+*FY21 = part-year Pfaudler revenue. FY26 P&M includes +₹31 Cr FX translation and SEMCO/Inox assets (AR Note 6). FY17 P&M is at 2016 deemed cost (understated).*
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b"}}}}%%
+xychart-beta
+    title "Capacity Proxy (P&M Gross) vs Revenue Index FY17=100"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "Index" 0 --> 1500
+    line [100, 115, 142, 167, 284, 720, 900, 976, 906, 998]
+    line [100, 148, 160, 256, 800, 952, 1176, 1180, 1160, 1396]
+```
+**CAP-1.** 🟦 Revenue · 🟧 Installed-capacity proxy: plant & machinery gross block (owned + ROU). Source: table above.
+
+**Read:** The productive asset base grew 14× against revenue 10× over the decade. Since FY23, P&M rose a further 19% (₹294 → ₹349 Cr, much of it FX and FY26 acquisitions) while revenue rose 11%. Revenue per ₹ of P&M is 10.1× vs 11.7× at the FY24 peak.
+
+**Business inference:** The footprint has more capacity than demand uses. The group added plant (mostly by acquisition) faster than it filled it, so the binding constraint is order intake and pricing, not machines. Operating leverage is the upside (each extra rupee of volume carries high incremental margin) but also the risk (fixed costs in a downturn).
+
+**3. Utilisation trend (estimated; anchored to management disclosures)**
+| FY | India (blended GLE + non-GLE + HET) | Basis / anchor | International (est.) | Basis |
+|---|---|---|---|---|
+| FY22 | ~95% | Post-COVID boom: "all the factories were fulfilled to capacity" (Q3FY26 call) | ~69% | €202 m revenue ÷ €294 m capacity |
+| FY23 | ~98% | Same; standalone revenue peak ₹1,075 Cr | ~81% | €249 m ÷ €306 m |
+| FY24 | ~72% | GLE plants "50, 60, 70 odd percent at best" before consolidation (Q2FY26 call) | ~85% (anchor) | €270 m peak ÷ €318 m (peak assumed 85% loaded: management said "capacity available", "too much glass-lined capacity") |
+| FY25 | ~65% | "India GLE facilities moved from ~50–60% utilisation…" (AR FY26) | ~81% | €250 m ÷ €310 m (Leven withdrawn) |
+| FY26 | ~90% | "…to full capacity" (AR FY26); Q1FY26 call: GLE ~80%, non-GLE ~90%, HET ~80%, Karamsad + Vatva "80–90% if not more" | ~75% | €240 m ÷ €318 m (Waghäusel cut, +SEMCO/Inox) |
+| Q1FY27 | ~90%+ | Furnaces "used up to capacity"; Poland "completely full" | ~75–80% | Revenue +22% YoY in INR (~+11% constant currency, est.) |
+| **FY22–26 avg** | **84%** | | **78%** | |
+*International revenue = consolidated − standalone (incl. eliminations) ÷ FY-average EUR/INR (85.5 / 84.3 / 89.6 / 91.2 / 103.6; Yahoo monthly). Capacity = FY24 peak €270 m ÷ 0.85, less later bolt-ons for earlier years (Mixel, MixPro, JDS ~€24 m), less Leven (~€8 m) and Waghäusel (~€6 m) withdrawals, plus SEMCO/Inox (~€14 m). All international figures are estimates. A 10-yr average is not possible because the international footprint did not exist before FY21; the FY22–26 average is used instead.*
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #16a34a, #6b7280, #f59e0b"}}}}%%
+xychart-beta
+    title "Estimated Utilisation India vs International (%)"
+    x-axis [FY22, FY23, FY24, FY25, FY26]
+    y-axis "%" 50 --> 105
+    line [95, 98, 72, 65, 90]
+    line [69, 81, 85, 81, 75]
+    line [84, 84, 84, 84, 84]
+    line [78, 78, 78, 78, 78]
+```
+**CAP-2.** 🟦 India (anchored to disclosures) · 🟩 International (est., prior-peak method) · ⬜ India FY22–26 avg 84% · 🟧 International FY22–26 avg 78%.
+
+**Read:** India swung from boom-time ~95–98% (FY22–23) to a ~65% trough (FY25) and back to ~90% (FY26) as Hyderabad's load moved to Gujarat and pharma orders returned. International peaked at ~85% (FY24) and slipped to ~75% (FY26) despite the plant closures.
+
+**Business inference:** The two halves are at opposite ends of the cycle. India is near full, so further India growth needs capex (Karamsad non-GLE, Vatva) and should carry over-absorption margins (visible in FY26: India EBITDA +22%). International has ~25% slack in high-cost European plants, so it has real operating leverage, but it needs orders, not restructuring alone. This is the physical reason international margins lag India's.
+
+**4. Capacity events timeline (additions + / withdrawals −)**
+| FY | Event | Capex / consideration | Ramp / effect |
+|---|---|---|---|
+| FY20 | + Hyderabad (De Dietrich India) | Acquisition (standalone gross block +₹82 Cr, incl. first-time Ind AS 116 ROU) | GLE capacity added just before the downturn |
+| FY21 | + Global Pfaudler (11 sites) | Debt-funded; 54% in 2020, 100% by 2022–23 | Revenue 3.5×; capital turns halved |
+| FY22 | + Hydro Air Research Italia | Small bolt-on | Acid-recovery systems |
+| FY23 | + Mixel France + Mixel China | ₹86 Cr acquisitions (cash flow) | Mixing platform |
+| FY24 | + MixPro (Canada), + JDS (USA) | Small | Americas mixing/systems |
+| FY25 | − Hyderabad closed (load to Karamsad); − Leven decided (₹29.5 Cr impairment); India EBITDA programme (₹19.6 Cr one-off) | Exceptional costs | India GLE utilisation 50–60% → full |
+| FY26 | − Leven closed (Q2FY26); − Waghäusel downsizing (₹52.6 Cr severance); + Poland 51% (Czarna); + SEMCO Brazil (₹162 Cr); Hyderabad sold ₹58.93 Cr | Capex ₹78 Cr; acquisitions ₹108 Cr | Cost shifts from Germany/UK to Poland/India |
+| FY27–FY28 (announced) | + Poland triples (two more sheds); + Karamsad non-GLE (~₹10 Cr); + Vatva "small investment" toward ₹700–800 Cr; − further Waghäusel reduction (~30 FTE); China Interseal service centre | Within ₹35 Cr/yr growth capex (Module 11) | Low-cost capacity up, European capacity down |
+
+**5. Forward view: revenue capacity vs demand to FY29 (₹ Cr; EUR/INR held at 106.6)**
+| | FY26 | FY27E | FY28E | FY29E |
+|---|---|---|---|---|
+| India revenue capacity (current mix; Vatva toward ₹600 Cr at enhanced mix by FY29) | 1,155 | 1,250 | 1,400 | 1,500 |
+| International revenue capacity (€318 m → €323 m Poland → €322 m net of Waghäusel) | 3,295 (at FY26 avg FX) | 3,443 | 3,433 | 3,433 |
+| **Total revenue capacity (est.)** | **4,450** | **4,693** | **4,833** | **4,933** |
+| Base revenue (Module 11) / utilisation | 3,524 / 79% | 3,900 / 83% | 4,250 / 88% | 4,600 / **93%** |
+| Bull revenue / utilisation | 3,524 / 79% | 4,100 / 87% | 4,550 / **94%** | 5,000 / **101%** |
+| Bear revenue / utilisation | 3,524 / 79% | 3,700 / 79% | 3,850 / 80% | 4,000 / 81% |
+| PIE path at 14.8% CAGR / utilisation | 3,524 | 4,046 / 86% | 4,645 / **96%** | 5,332 / **108%** |
+| PIE path at 19.3% CAGR / utilisation | 3,524 | 4,204 / 90% | 5,015 / **104%** | 5,983 / **121%** |
+**Capacity-ceiling year (≥ ~92–95% practical utilisation):** **base FY29** · **bull FY28** · bear none before FY29 · **PIE path FY28** (14.8%) or FY27–28 (19.3%). *(INR capacity moves with EUR/INR: a 10% rupee depreciation lifts INR capacity ~7%, so the ceiling is soft in rupees but hard in volume.)*
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#f59e0b, #2563eb, #16a34a, #6b7280, #dc2626"}}}}%%
+xychart-beta
+    title "Revenue Capacity vs Demand Scenarios (Rs Cr)"
+    x-axis [FY26, FY27E, FY28E, FY29E]
+    y-axis "Rs Cr" 3000 --> 6200
+    line [4450, 4693, 4833, 4933]
+    line [3524, 3900, 4250, 4600]
+    line [3524, 4100, 4550, 5000]
+    line [3524, 3700, 3850, 4000]
+    line [3524, 4046, 4645, 5332]
+```
+**CAP-4.** 🟧 Estimated revenue capacity (existing + announced) · 🟦 Base demand · 🟩 Bull · ⬜ Bear · 🟥 PIE-implied path (14.8% CAGR at a 15% margin).
+
+**Read:** Base demand reaches 93% of estimated capacity in FY29. The bull case crosses the ceiling in FY29 (101%, after 94% in FY28). The price-implied path hits 96% in FY28 and 108% in FY29.
+
+**Business inference:** Announced capacity can carry the base case, and also the bull case to about FY28, with the ₹35 Cr/yr growth capex already modelled. The market's 14.8–19.3% CAGR cannot be delivered from existing plus announced capacity beyond FY28 without an **unannounced expansion** (a new HET facility above ₹800 Cr, Poland beyond tripling, or reactivating European slack). That is a fourth hurdle on top of margin, tax and FX, and it makes the PIE less plausible, not more.
+
+**6. Re-test (capacity addendum)**
+| Item | Before | After | Changed? |
+|---|---|---|---|
+| Physical plausibility of PIE (Module 9) | "Capacity not binding" | PIE path exceeds estimated capacity from FY28 → requires unannounced expansion | **Yes (❌ corrected statement)** |
+| Base FY29 revenue ₹4,600 Cr | Assumed feasible | 93% utilisation; feasible with announced capex | No |
+| Bull FY29 revenue ₹5,000 Cr | Assumed feasible | 101% of capacity; needs ~₹50–100 Cr extra growth capex (est.) in FY28–29; EPS impact < 2% | No (flagged) |
+| Bear | — | 81% utilisation (under-absorption keeps margin at 10.5%) | No |
+| FY29 targets / U/D / SVAR / buy-below / verdict / conviction | ₹495 / ₹1,364 / ₹2,448; 1.36–1.47:1; 62%; ₹550–610; AVOID; 4.5 | Unchanged | No |
 
 ---
 
@@ -542,7 +723,7 @@ xychart-beta
 **Positive triggers:** (1) Q2FY27 (4-Nov) EBITDA margin ≥ 13% with Germany savings visible; (2) refinancing and intercompany-loan unwind cutting finance cost below ₹70 Cr; (3) Investor Day with divisional margins and ROCE targets.
 **Negative triggers:** (1) another sub-11% quarter; (2) INR appreciation reversing the FX tailwind (EUR/INR already off 4% from Mar-2026 peak to 106.6); (3) goodwill impairment in Germany/China CGUs or more "exceptional" restructuring.
 **SVAR:** Bear value ₹495 (FY29 EPS ₹22.5 × 22) → **SVAR 62%**, above 40% → unfavourable.
-**Physical plausibility:** Capacity is not binding (Poland/India headroom), so the gap is a **margin and demand** disagreement, not unannounced capacity.
+**Physical plausibility (re-tested, addendum c — see Module 1c Physical Capacity Model):** Estimated revenue capacity (existing + announced) is ₹4,450 Cr (FY26) → ₹4,933 Cr (FY29E). The PIE path (14.8–19.3% CAGR) reaches **96–104% of capacity in FY28** and 108–121% in FY29, so it needs **unannounced expansion** (new HET facility above ₹800 Cr, Poland beyond tripling, or reactivating European slack) on top of margin and tax repair. The base case (93% in FY29) fits announced capacity. *(Correction: the earlier 'capacity not binding' is true only for the base case.)*
 
 ### 9B. Own model
 | Method | Bear | Base | Bull |
@@ -816,7 +997,7 @@ xychart-beta
 | Consolidated | 29% | 29% | 31% | 28% |
 | India standalone | 8% | 9% | 8% | 9% |
 | International | 37% | 37% | 40% | 37% |
-- **Size:** about ₹1,020 Cr of FY26 revenue (29% × ₹3,524 Cr) is service, spares and re-glassing on a 10–30-year installed base. CRISIL notes 70% of top customers have been served for 20+ years. Acquired customer relationships are amortised over **20 years** (AR policy), the auditor-accepted life of that asset.
+- **Size:** **₹1,021 Cr of FY26 revenue, with services order intake of ₹1,048 Cr** (AR FY26 business highlights; matches 29% × ₹3,524 Cr) is service, spares and re-glassing on a 10–30-year installed base. CRISIL notes 70% of top customers have been served for 20+ years. Acquired customer relationships are amortised over **20 years** (AR policy), the auditor-accepted life of that asset.
 - **Margin:** **not disclosed** (data gap). Management calls services a growth area whose rising share lifts margin (Q3FY26 call), but admits to **losing service share in Europe** (Q1FY27 call). The share has been flat at about 29% for two years. There are fewer than 4 data points, so no chart.
 - **Valuation implication:** long-lived, recurring service revenue justifies a longer explicit DCF horizon. A 12-year explicit period lifts the base DCF to ₹746; 12 years with 7% terminal growth gives ₹869 (Module 9). Even that most generous installed-base case is **34% below CMP**: it narrows the gap but does not change the verdict.
 
@@ -834,6 +1015,7 @@ xychart-beta
 | Verdict / conviction | AVOID / 4.5 | AVOID / 4.5 | No |
 
 **Incremental ROIC:** FY22→FY26 ≈ 9% post-tax vs WACC 12% → **value-neutral to slightly destroying** (flagged in Module 4). Forward incremental ROIC on growth capex (₹35 Cr/yr) is high. The question is the return on the existing ₹927 Cr of overseas capital.
+**Capacity cross-check (Module 1c Physical Capacity Model):** base FY29 revenue ₹4,600 Cr = 93% of estimated capacity (ceiling year FY29); bull ₹5,000 Cr = 101% (needs ~₹50–100 Cr extra growth capex, est.); India is already ~90% utilised, international ~75%.
 **Capex-model implied revenue CAGR (FY26→FY29):** GB ~₹1,180 Cr × AT 3.4× ≈ ₹4,000 Cr plus pricing/FX → base **₹4,600 Cr = 9.3% CAGR** (vs PIE 14–18%) → **market is too optimistic**. It prices unannounced margin expansion more than capacity.
 
 ### Capex-to-earnings model (Base)
@@ -897,7 +1079,7 @@ xychart-beta
 - Section 8 Valuation: 24/26. Owner-earnings cross-check only partial; no full 3-stage DCF (2-stage used).
 - Section 9 Technical: complete.
 - Order Book Tracker: **Run** (first ledger; 1 order; 10 snapshots).
-- Charts (Section I): C1 (rebased FY17, full decade), C2, C4, C5/CY7, FA-1, FA-2 (replaces C6, FY17–26), FA-3, FA-4, FA-5, C7, C8, C12, C13, CY1, CY2, CY4, OB-1, OB-2, OB-4. Land-at-market and service-share charts omitted (< 4 data points). Pre-save check passed: every series traces to a table, x-axis counts match, palettes and keys present, no illustrative numbers.
+- Charts (Section I): C1 (rebased FY17, full decade), C2, C4, C5/CY7, FA-1, FA-2 (replaces C6, FY17–26), FA-3, FA-4, FA-5, C7, C8, C12, C13, CY1, CY2, CY4, OB-1, OB-2, OB-4. Land-at-market and service-share charts omitted (< 4 data points). Capacity addendum (c): CAP-1, CAP-2, CAP-3, CAP-4. Pre-save check passed: every series traces to a table, x-axis counts match, palettes and keys present, no illustrative numbers.
 
 **Checklist B (pre-buy-final-check.md):**
 1. **Falsifiability:** Downgrade further if Q2/Q3 FY27 EBITDA margin < 11%, any goodwill impairment, or tax rate stays > 40% through FY27. Upgrade if two quarters ≥ 13% margin *and* finance cost < ₹20 Cr/quarter.
