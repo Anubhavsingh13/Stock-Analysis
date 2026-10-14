@@ -8,6 +8,7 @@
 ## Revision Log
 | Version | Date | Recommendation | Conviction | Price | Key change |
 |---|---|---|---|---|---|
+| Addendum (b) | 2026-10-14 | Unchanged: AVOID (U/D hard stop); buy-below ₹550–610 | 4.5/10 (unchanged) | ₹1,321 | User feedback: long-life (10+ yr) fixed assets were not analysed. Added the full-decade **Long-Life Fixed-Asset Analysis** (Module 11) with 5 new or reworked charts. Corrected the AT basis (it included ROU leases), FCF (lease cash omitted) and a "revaluation" wording error. Verdict, targets and buy-below unchanged. See addendum validation table below. |
 | Current | 2026-10-14 | AVOID (U/D hard stop); watchlist, buy-below ₹550–610 | 4.5/10 | ₹1,321 | Stock +35% since August on a volume-backed Stage 2 breakout. Fundamentals barely moved (Q1FY27 EBITDA −7% YoY, margin 10.1%). At this price the reverse DCF needs 14–18% revenue CAGR. FY26 growth was mostly FX translation. Pension debt, a second CFO exit and the hard-stop asymmetry all argue for patience. |
 | Previous | 2026-08-07 | WATCHLIST ("Quality at Wrong Price") | 5/10 | ₹975 | (Full text in git history.) Its own asymmetry was 0.4:1, below the 1.5:1 hard stop, so under the skill rules it should already have been AVOID. |
 
@@ -55,6 +56,20 @@
 | Segment KPI block "not in reference" | Pending | Now in `references/05-industry-kpis-india.md` line 1985 | 🔄 Updated |
 | Verdict logic | WATCHLIST with U/D 0.4:1 | U/D < 1.5:1 is a hard stop → AVOID under the framework | ❌ Corrected (process) |
 
+**Addendum (b), 2026-10-14: long-life fixed-asset review. Validation of this report's own earlier asset figures**
+| Item | Earlier today | Now (source) | Status |
+|---|---|---|---|
+| Asset-turnover window | FY22–FY26 only | FY17–FY26, gross and net block, consolidated vs India standalone (Module 11 §11-FA) | 🔄 Updated |
+| "Tangible PPE gross block" (₹1,081 Cr FY26) | Described as owned tangible PPE excl. ROU | Screener's land/building/plant lines **include Ind AS 116 ROU assets**: FY26 = owned PPE ₹648.86 Cr + ROU ₹432.54 Cr (AR Notes 6, 7). Series kept (consistent 10-yr basis) but relabelled "PPE + ROU" | ❌ Corrected (label/basis) |
+| "AT decline partly FX revaluation of land/buildings" | Revaluation | GMM uses the **cost model** (deemed cost on Ind AS transition; AR accounting policies). The rise is **FX translation** of foreign subsidiaries' assets (FY26 PPE translation +₹51.9 Cr; ROU +₹43.1 Cr) plus acquisitions, not revaluation | ❌ Corrected |
+| FCF FY27E–FY29E (₹171 / ₹217 / ₹263 Cr) | Ignored lease payments | Less lease cash ~₹55 Cr/yr (FY26 ₹55.14 Cr, AR cash flow) → **₹116 / ₹162 / ₹208 Cr** | ❌ Corrected |
+| DCF base ₹744 | Lease liability deducted; reinvestment net of 75% D&A | Lease cash modelled explicitly (1.6% of revenue), full D&A add-back, capex 3% → **₹713** (8-yr) / ₹746 (12-yr) / ₹869 (12-yr, g 7%, installed-base case) | 🔄 Updated (immaterial) |
+| PIE implied CAGR | 14.0% @15% margin / 18.2% @13% | 14.8% / 19.3% | 🔄 Updated |
+| Hidden asset value | Not assessed | Owned freehold land only ₹25 Cr gross; most sites leased (ROU land & buildings ₹380 Cr gross). Surplus ≈ ₹43–159 Cr = **₹10–35/share**. No floor under the ₹495 bear case | 🔄 Added |
+| Maintenance capex ₹65–75 Cr | Assumed ≈ PPE depreciation | Validated vs PPE-only depreciation (FY26 ₹62.83 Cr); India P&M 62% depreciated → +₹10 Cr/yr India catch-up folded into the ₹35 Cr growth bucket; total capex unchanged | ✅ Validated |
+| Charts | C1 (FY22 base), C6 (FY22–26) | C1 rebased FY17 = 100 (full decade); C6 → FA-2 FY17–26 gross/net/standalone AT with 10-yr avg; **new** FA-1 (gross vs accumulated depreciation vs net), FA-3 (asset age), FA-4 (capex vs D&A), FA-5 (capex/D&A). Land-at-market and service-share charts not drawn (< 4 data points) | 🔄 Updated |
+| Verdict / conviction / FY29 targets / U/D / SVAR / buy-below | AVOID; 4.5; ₹495/₹1,364/₹2,448; 1.36–1.47:1; 62%; ₹550–610 | Unchanged (EPS-based targets unaffected; DCF moves −₹31 to +₹125 depending on horizon) | ✅ Validated |
+
 **Old data gaps retried:** (1) Investor-presentation parsing: **closed** (all decks Q2FY25–Q1FY27 parsed). (2) Beneish M-Score: **closed** (approx. −2.50). (3) Tangible-PPE asset turnover: **closed** (Screener fixed-asset schedule). (4) India vs international economics: **closed** via AR FY26 Note 41. (5) Weekly 30-week MA / RS: **closed** (Yahoo weekly data).
 
 ---
@@ -75,19 +90,19 @@ GMM Pfaudler is the global leader in glass-lined equipment, with an excellent In
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b, #16a34a, #9333ea"}}}}%%
 xychart-beta
-    title "Growth Index post-acquisition (FY22 = 100)"
-    x-axis [FY22, FY23, FY24, FY25, FY26]
-    y-axis "Index" 0 --> 320
-    line [100, 125, 136, 126, 139]
-    line [100, 118, 129, 130, 154]
-    line [100, 152, 168, 127, 142]
-    line [100, 285, 228, 65, 69]
+    title "Growth Index full decade (FY17 = 100)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "Index" 0 --> 2100
+    line [100, 115, 142, 167, 284, 720, 900, 976, 906, 998]
+    line [100, 133, 152, 270, 1087, 1298, 1535, 1672, 1685, 2002]
+    line [100, 129, 160, 233, 290, 592, 898, 992, 752, 840]
+    line [100, 139, 165, 229, 206, 242, 690, 552, 158, 168]
 ```
-🟦 Revenue (CAGR 8.6%) · 🟧 Tangible PPE gross block (11.4%) · 🟩 EBITDA (9.2%) · 🟪 PAT (−8.9%). Base FY22 = first full year after the Pfaudler acquisition. Source: Screener consolidated P&L and fixed-asset schedule (table in Module 5).
+🟦 Revenue (FY17–26 CAGR 29.1%) · 🟧 Fixed-asset gross block: PPE + ROU, Screener tangible lines (39.5%) · 🟩 EBITDA (26.7%) · 🟪 PAT (5.9%). FY17–FY20 = India-only GMM (pre-acquisition); the FY21 step = Pfaudler consolidated from Jan-2021; ROU leases enter from FY20 (Ind AS 116). Source: Screener consolidated P&L and fixed-asset schedule (tables in Modules 6 and 11).
 
-**Read:** Since FY22, gross block (+54%) has outgrown revenue (+39%) and EBITDA (+42%), and PAT is 31% *below* FY22 after peaking in FY23.
+**Read:** Over the decade, gross block multiplied 20× against revenue 10×, EBITDA 8.4× and PAT 1.7×. Before the acquisition (FY17–FY20) revenue and gross block grew roughly in step. Since FY22, gross block (+54%) has outgrown revenue (+39%), and PAT is below FY22.
 
-**Business inference:** Capital and costs (employee cost 28.6% of sales vs about 15% before the acquisition) have grown faster than the business. Gross block is also inflated by FX translation and the SEMCO/Inox purchase price allocations. Profits leak between EBITDA and PAT through interest, a 49% tax rate and exceptionals. The investment case is about fixing conversion, not growing volume.
+**Business inference:** The Pfaudler deal swapped a capital-light India business (gross-block AT ~6×) for a global one turning its fixed assets only ~3.3×, and profits did not follow the capital. Part of the post-FY22 gross-block growth is FX translation, the SEMCO/Inox purchase price allocations and leased sites (ROU), not productive capacity (see §11-FA). The investment case is about converting existing long-life assets into profit, not adding capacity.
 
 **Order book:** ₹2,289 Cr (Q1FY27) = **0.63× TTM revenue** (about 7.5 months), essentially all firm (no framework value). Book-to-bill TTM (reported order intake) **1.02×**; implied TTM 1.10×. Tracked order book today ₹2,289 Cr (no Reg 30 orders since).
 
@@ -171,6 +186,7 @@ xychart-beta
 **Greenwald source:** (1) **local economies of scale** in India (50% share, duopoly) and in large vessels globally (near monopoly, CRISIL); (2) **customer captivity** through qualification cycles and an installed base needing re-glassing and spares (service ~29% of revenue).
 **Buffett 10% price test:** Pass in India; **Fail** internationally (Q1FY27: "continued pricing pressure").
 **Market-share stability:** India stable at ~50% (CRISIL). Global GLE leader but **losing service share in Europe** (management, Q1FY27).
+**Long-life asset angle (see §11-FA):** The moat sits in a 10–30-year installed base. Services and aftermarket are about 29% of consolidated revenue (37% of international). Acquired customer-relationship, technology and trademark intangibles are amortised over 20 years (AR accounting policy), and 70% of top customers have been served for 20+ years (CRISIL). The *owned* physical asset base is small and heavily depreciated in India (P&M 62% depreciated). Most global sites are leased (ROU land and buildings ₹380 Cr gross). The moat is know-how and installed base, not property.
 **Pricing power through inflation:** gross margin held at 59.7–60.7% across FY22–FY26 (Screener material cost %). The value-add is defended at gross level; erosion happens in **conversion costs** (employee cost 14–15% of sales pre-acquisition → 28.6% FY26).
 
 **Fisher 15-point (1–3 each):** Market potential 3 · New products 3 (diversification, 4 divisions) · R&D effectiveness 2 · Sales org 2 · Profit margin 1 · Margin improvement 1 (repeated misses) · Labour relations 2 (Germany/UK severances) · Executive relations 1 (2 CFO exits in 21 months, CEO-International retired, 2 SMP cessations May-2026) · Management depth 2 · Cost/accounting controls 2 (DGFT ₹15 lakh export-control penalty for FY21–23, self-reported, BSE 18-Feb-2026) · Industry advantages 3 · Long-range orientation 2 · Dilution 3 (none since 2022) · Candour in adversity 2 (better disclosure, but declines to guide margins) · **Integrity 2 (no veto)** → **31 / 45**.
@@ -249,7 +265,7 @@ xychart-beta
 | FY24 | 3,446 | 476 | 13.8 | 171 | 39.03 | 284 | 64 | 220 | 19 | 964 | 906 | 903 |
 | FY25 | 3,199 | 361 | 11.3 | 49 | 11.78 | 378 | 63 | 315 | 13 | 1,023 | 850 | 910 |
 | FY26 | 3,524 | 403 | 11.4 | 52 | 12.86 | 389 | 78 | 311 | 14 | 1,205 | 1,041 | 1,081 |
-*Borrowings include lease liabilities (FY26: LT ₹545 + ST ₹290 + leases ₹206 Cr). Excludes unfunded pension (~₹396 Cr). FCF = CFO − PPE capex (Screener "free cash flow" nets asset sales: FY26 ₹367 Cr). EPS FY17–22 bonus-adjusted (2:1, July-2022). Tangible PPE GB = land + buildings + plant + equipment + furniture + vehicles (excludes intangibles and "other fixed assets"/ROU). FY17 gross block reset on Ind AS transition.
+*Borrowings include lease liabilities (FY26: LT ₹545 + ST ₹290 + leases ₹206 Cr). Excludes unfunded pension (~₹396 Cr). FCF = CFO − PPE capex (Screener "free cash flow" nets asset sales: FY26 ₹367 Cr), before lease payments (FY26 ₹55 Cr). EPS FY17–22 bonus-adjusted (2:1, July-2022). "Tangible PPE GB" = Screener land + buildings + plant + equipment + furniture + vehicles. **Corrected (addendum b): this includes Ind AS 116 ROU assets from FY20** (FY26: owned PPE ₹648.86 Cr + ROU ₹432.54 Cr, AR Notes 6–7). FY17 gross block reset on Ind AS transition (deemed cost). Full-decade gross / accumulated depreciation / net block, asset age and capex/depreciation are in **§11-FA**.
 
 **10-year summary:** The decade shows a 15–19% margin, 29–31% ROCE India niche (FY18–FY20) turned into a 3.5× larger global platform earning 11–14% margins and 13–22% ROCE, with PAT in FY26 *below* FY22. **Cash generation (cumulative CFO ₹1,773 Cr vs PAT ₹821 Cr) is the redeeming feature.**
 
@@ -277,6 +293,8 @@ xychart-beta
 | India | 976 (FY25 854) | 113.2 (77.9) | 11.6% (9.1%) | 306 (246) | **37%** (32%) |
 | Overseas | 2,548 (FY25 2,345) | 111.6 (121.6) | 4.4% (5.2%); ~6.4% ex-Waghäusel | 927 (783) | **12%** (16%); ~18% ex-exceptional |
 | Total | 3,524 | 224.8 | 6.4% | 1,233 | 18% |
+
+*Long-life asset caveat (§11-FA): India's owned PPE is 54% depreciated at 2016 deemed cost (P&M ~62%). On an estimated replacement-cost basis India's return is ~27–31%, not 37%: still far above WACC. Overseas assets carry 2021 fair values plus goodwill, so the overseas 12% is not flattered.*
 
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#16a34a, #dc2626, #6b7280"}}}}%%
@@ -322,7 +340,7 @@ xychart-beta
 **Operating contribution (EBIT margin × AT):** Declining (10.9% → 5.6%).
 **Financing contribution:** Equity multiplier flat; interest burden much worse (0.73 → 0.45) as finance cost rose to ₹123 Cr while EBIT fell.
 **DuPont verdict:** The ROE collapse is **operational plus below-the-line leakage** (interest burden and a 49% tax). It is not masked by leverage. Even with EBIT margin back at FY24's 10%, a 0.45 interest burden and 0.51 tax burden would cap ROE at about 7%. **EBIT-to-PAT conversion (refinancing, entity simplification, tax) matters as much as operating margin.**
-**AT trend → Module 10A:** tangible-PPE AT 3.62× (FY22) → 3.26× (FY26), declining (partly FX revaluation of land and buildings). Base AT 3.3–3.4×.
+**AT trend → Module 11:** PPE+ROU gross-block AT 3.62× (FY22) → 3.26× (FY26), declining (partly FX *translation* of overseas assets and the SEMCO/Inox purchase price allocations; GMM uses the cost model, no revaluation). Pre-acquisition FY17–FY19 was 5.6–6.5× (full decade in §11-FA). Base AT 3.3–3.4×.
 
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b, #16a34a"}}}}%%
@@ -512,13 +530,13 @@ xychart-beta
 **Inputs (13-Oct-2026):** CMP ₹1,321 · shares 4.4955 Cr · MCap ₹5,939 Cr · net debt ₹147 Cr · leases ₹206 Cr · unfunded pension ₹396 Cr · NCI ₹28 Cr → **EV ₹6,716 Cr** · TTM EBITDA ₹395 Cr → **EV/EBITDA 17.0×** (15.9× ex-pension; ~19× on pre-Ind AS 116 EBITDA ~₹340 Cr) · TTM EPS reported ₹16.06 (**P/E 82×**); TTM adj EPS ₹26.18 (**50.5×**) · BVPS ₹268 (**P/B 4.9×**).
 **WACC:** Ke = 7% + 1.1 × 6% = 13.6%; post-tax Kd ~4.9% (6–7% × 0.7, Q1FY27 CFO); D/V ~15% → **WACC ≈ 12%**.
 
-### 9A. Price-Implied Expectations (two-stage reverse FCFF DCF: 8 yrs, terminal g 6%, tax 30%, capex 3% of revenue, NWC 3% of incremental revenue)
+### 9A. Price-Implied Expectations (two-stage reverse FCFF DCF: 8 yrs, terminal g 6%, tax 30%, capex 3% of revenue, lease cash 1.6% of revenue, NWC 3% of incremental revenue; re-run in addendum b)
 | PIE value driver | Market-implied | My base | Gap |
 |---|---|---|---|
-| Revenue CAGR (5-yr) at a 15% EBITDA margin | **14.0%** | 9% | −5pp |
-| Revenue CAGR at a 13% margin | **18.2%** | 9% | −9pp |
+| Revenue CAGR (5-yr) at a 15% EBITDA margin | **14.8%** | 9% | −6pp |
+| Revenue CAGR at a 13% margin | **19.3%** | 9% | −10pp |
 | Steady-state EBITDA margin | 15% (management "minimum") | 12.5% | −2.5pp |
-| Investment rate | ~0 net (capex ≈ D&A) | same | — |
+| Investment rate | capex 3% + leases 1.6% of revenue vs D&A 4.5% (≈ 0 net) | same | — |
 **Gap: OPTIMISTIC.** The price assumes management's 15% margin target *and* mid-teens growth. Constant-currency growth has been about 0% for three years, and the 15% target has never been met as a global group (peak 13.8%, FY24).
 **Expectations treadmill:** To outperform from ₹1,321, GMM must deliver EBITDA margin ≥ 15% by FY29 *and* ~14% revenue CAGR *and* bring tax below 30%. Hitting 13% margin with 9% growth (still a big improvement) is worth only about ₹750–1,000.
 **Positive triggers:** (1) Q2FY27 (4-Nov) EBITDA margin ≥ 13% with Germany savings visible; (2) refinancing and intercompany-loan unwind cutting finance cost below ₹70 Cr; (3) Investor Day with divisional margins and ROCE targets.
@@ -529,10 +547,13 @@ xychart-beta
 ### 9B. Own model
 | Method | Bear | Base | Bull |
 |---|---|---|---|
-| DCF (FCFF, WACC 12%, g 6%) | ₹398 (4.3% CAGR, 10.5% margin) | ₹744 (9%, 12.5%) | ₹1,147 (12.4%, 14.5%) |
+| DCF (FCFF, WACC 12%, g 6%, 8-yr explicit) | ₹384 (4.3% CAGR, 10.5% margin) | ₹713 (9%, 12.5%) | ₹1,103 (12.4%, 14.5%) |
+| DCF, 12-yr explicit (long-life installed base) | ₹373 | ₹746 | ₹1,212 |
+| DCF, 12-yr explicit, terminal g 7% (installed-base durability case) | ₹436 | ₹869 | ₹1,411 |
 | Earnings: FY29E EPS × P/E, discounted 2.5 yrs at 13.6% | ₹360 (₹495 FY29) | ₹992 (₹1,364 FY29) | ₹1,780 (₹2,448 FY29) |
-| **Consensus intrinsic (today)** | **~₹380** | **~₹870** | **~₹1,460** |
-DCF sensitivity (base): WACC 11% / 12% / 13% → ₹933 / ₹744 / ₹609; terminal g 5% / 6% / 7% → ₹643 / ₹744 / ₹884.
+| **Consensus intrinsic (today)** | **~₹380** | **~₹860–870** | **~₹1,460** |
+DCF sensitivity (base, pre-addendum basis): WACC 11% / 12% / 13% → ₹933 / ₹744 / ₹609; terminal g 5% / 6% / 7% → ₹643 / ₹744 / ₹884. Maintenance capex at 3.5% of revenue (vs 3%) → base ₹633.
+**Long-life asset cross-check (§11-FA):** A longer explicit period reflecting 10–30-yr equipment lives and the 20-yr customer-relationship amortisation lifts base DCF by at most ~₹150 (to ₹869), still 34% below CMP. Hidden asset value (owned land and buildings surplus ₹10–35/share; tangible book ₹78/share) gives **no floor** near the ₹495 bear case.
 **Graham:** fails P/E (≫ 20×), P/B (4.9× > 3×), EPS growth (FY26 EPS 12.86 vs FY19 11.52); passes positive EPS 7 years, current ratio 1.6× (fails 2×). **Graham Number** (5-yr avg EPS ₹23.6 × BVPS ₹268) = √(22.5 × 23.6 × 268) = **₹377**.
 **Margin of safety (base ₹870):** **−34%** (inadequate). **Upside/downside (FY29 targets, see 10D): bull vs bear 1.36:1; probability-weighted 1.47:1 → below 1.5:1, HARD STOP.**
 **Misprice reason:** Not mispriced cheap. A sector-wide recovery narrative, FX-flattered top line, Q1FY27 PAT +118%, and a technical breakout pulled the multiple forward.
@@ -641,37 +662,176 @@ xychart-beta
 | Capex type (₹ Cr) | FY27E | FY28E | FY29E | In AT model? |
 |---|---|---|---|---|
 | Tangible growth capex (Poland expansion, India HET/power) | 35 | 35 | 35 | ✅ |
-| Maintenance (≈ PPE depreciation FY26 ₹63 Cr) | 65 | 70 | 75 | ❌ sustains |
+| Maintenance (≈ owned-PPE depreciation FY26 ₹62.83 Cr; incl. ~₹10 Cr/yr India P&M renewal, see §11-FA) | 65 | 70 | 75 | ❌ sustains |
 | Intangibles / acquisitions | 0 (management: "acquisition phase largely behind us") | 0 | 0 | ❌ |
 | CWIP (FY26 ₹19.86 Cr) | transfers ~20 | — | — | ❌ until capitalised |
-| ROU (leases ₹206 Cr) | ~50/yr renewals | ~50 | ~50 | ⚠️ excluded |
+| ROU (leases ₹206 Cr; cash lease payments ~₹55 Cr/yr, now deducted in FCF) | ~50/yr renewals | ~50 | ~50 | ⚠️ excluded |
 | **Total cash capex** | **~100** | **~105** | **~110** | |
 **Current CWIP:** ₹19.86 Cr. No project-wise CWIP disclosed (data gap); all small.
 
-| Year | Tangible PPE GB (₹ Cr) | Revenue (₹ Cr) | AT (×) |
-|---|---|---|---|
-| FY22 | 701 | 2,541 | 3.62 |
-| FY23 | 829 | 3,178 | 3.83 |
-| FY24 | 903 | 3,446 | 3.82 |
-| FY25 | 910 | 3,199 | 3.52 |
-| FY26 | 1,081 | 3,524 | 3.26 |
-| **5-yr avg** | | | **3.61** |
-| **Trend** | | | Declining (FX revaluation of land/buildings + Inox/SEMCO PPA) |
+### §11-FA — Long-Life Fixed-Asset Analysis: full decade, FY17–FY26 *(addendum b, 2026-10-14)*
+*Cross-referenced from Module 3 (moat / installed base), Module 6 (ROCE, AT basis) and Module 9 (DCF horizon, asset floor). Sources: Screener consolidated and standalone fixed-asset schedules (accessed 13-Oct-2026); AR FY26 Notes 6 (PPE), 7 (ROU), 8 (CWIP/intangibles), 41 (segments), accounting policies; BSE filings 16-Dec-2025 and 27-Feb-2026 (Hyderabad sale); Q4FY25/Q4FY26 decks (service mix).*
+
+**1. Ten-year fixed-asset history (consolidated, ₹ Cr; Screener basis = PPE + ROU + intangibles + goodwill)**
+| FY | Revenue | Gross block (all fixed assets) | Accum. dep & amort. | Net block (BS "fixed assets") | CWIP | PPE+ROU gross (land / bldg / plant) | Gross AT on PPE+ROU (×) | Net AT on net fixed assets (×) | Accum. dep ÷ gross | D&A | Capex | Capex ÷ D&A |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY17 | 353 | 69 | 8 | 61 | 2 | 54 (0 / 22 / 25) | 6.54 | 5.79 | 11.6% | 8 | 14 | 1.75 |
+| FY18 | 406 | 88 | 18 | 70 | 7 | 72 (0 / 24 / 37) | 5.64 | 5.80 | 20.5% | 10 | 24 | 2.40 |
+| FY19 | 503 | 103 | 26 | 77 | 5 | 82 (0 / 28 / 40) | 6.13 | 6.53 | 25.2% | 11 | 16 | 1.45 |
+| FY20 | 591 | 177 | 44 | 133 | 2 | 146 (0 / 66 / 64) | 4.05 | 4.44 | 24.9% | 21 | 36 | 1.71 |
+| FY21 | 1,001 | 1,137 | 94 | 1,043 | 4 | 587 (193 / 153 / 200) | 1.71* | 0.96* | 8.3% | 50 | 79 | 1.58 |
+| FY22 | 2,541 | 1,260 | 258 | 1,002 | 13 | 701 (237 / 176 / 238) | 3.62 | 2.54 | 20.5% | 133 | 132 | 0.99 |
+| FY23 | 3,178 | 1,551 | 338 | 1,213 | 13 | 829 (296 / 167 / 294) | 3.83 | 2.62 | 21.8% | 119 | 69 | 0.58 |
+| FY24 | 3,446 | 1,701 | 450 | 1,251 | 27 | 903 (342 / 177 / 295) | 3.82 | 2.75 | 26.5% | 150 | 64 | 0.43 |
+| FY25 | 3,199 | 1,712 | 547 | 1,165 | 12 | 910 (352 / 171 / 290) | 3.52 | 2.75 | 31.9% | 144 | 63 | 0.44 |
+| FY26 | 3,524 | 2,235 | 738 | 1,497 | 20 | 1,081 (405 / 207 / 349) | 3.26 | 2.35 | 33.0% | 158 | 78 | 0.49 |
+| **10-yr avg** | | | | | | | **4.21** (4.49 ex-FY21) | 3.65 | | | | |
+*FY21 includes only ~1 quarter of Pfaudler revenue against full year-end assets, so it is not comparable. Screener "land" includes leased land and buildings (ROU) from FY20: FY26 owned freehold land is only ₹25.23 Cr (AR Note 6) vs Screener land ₹405 Cr. FY17 gross block reset to deemed cost on Ind AS transition (FY16 ₹125 Cr → FY17 ₹69 Cr). D&A from FY22 includes ROU depreciation (~₹45–50 Cr) and acquisition-intangible amortisation (~₹39–44 Cr), neither of which needs capex.*
+
+**Exact owned PPE vs leased ROU (AR FY26 Notes 6–7, ₹ Cr)**
+| Block | Gross 1-Apr-24 | Gross FY25 | Gross FY26 | Accum. dep FY26 | Net FY26 | Dep FY26 | Accum ÷ gross | Remaining book life (net ÷ dep) |
+|---|---|---|---|---|---|---|---|---|
+| Owned PPE, consolidated | 579.06 | 535.04 | 648.86 | 238.14 | 410.72 | 62.83 | 36.7% (FY25 31.6%, Apr-24 29.2%) | **6.5 yrs** (avg total life 10.3 yrs) |
+|  of which freehold land | 55.60 | 19.42 | 25.23 | 0.36 | 24.87 | — | — | — |
+|  of which buildings | 137.15 | 128.50 | 160.92 | 26.70 | 134.22 | 6.67 | 16.6% | ~20 yrs |
+|  of which leasehold improvements | 39.68 | 42.32 | 45.59 | 19.97 | 25.62 | 3.06 | 43.8% | ~8 yrs |
+|  of which plant & machinery | 288.28 | 282.72 | 343.12 | 154.96 | 188.16 | 42.41 | 45.2% | **4.4 yrs** |
+| ROU (leased land & buildings, vehicles, etc.) | 323.90 | 375.31 | 432.54 | 198.55 | 233.99 | 50.40 | 45.9% | 4.6 yrs (lease renewals) |
+|  of which leased land & buildings | 286.41 | 332.73 | 379.61 | 170.45 | 209.16 | 37.68 | 44.9% | 5.6 yrs |
+| Owned PPE, **India standalone** | 244.39 | 203.68 | 215.78 | 116.98 | 98.80 | 19.83 | **54.2%** (FY25 49.6%) | **5.0 yrs** |
+|  India plant & machinery | 112.33 | 119.77 | 129.30 | ~80.0 | 49.30 | 13.90 | **~62%** | ~3.5 yrs |
+FY24→FY25 drop = Hyderabad assets moved to held-for-sale (land ₹38.29 Cr, buildings ₹7.66 Cr). FY26 owned-PPE additions ₹61.3 Cr; FX translation +₹51.9 Cr (PPE) and +₹43.1 Cr (ROU); SEMCO/Inox added further assets through business combinations. **Measurement: cost model** (deemed cost at Ind AS transition; acquired Pfaudler assets at Jan-2021 fair value). No revaluation reserve exists. Buildings are depreciated over 5–50 years; acquired technology, trademark and customer relationships over 20 years (AR accounting policies).
+
+**India standalone vs the Pfaudler acquisition (asset turnover)**
+| FY | FY17 | FY18 | FY19 | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Standalone revenue (₹ Cr) | 266 | 312 | 419 | 516 | 641 | 815 | 1,075 | 1,031 | 921 | 1,034 |
+| Standalone gross block (incl. ROU/intangibles) | 55 | 72 | 85 | 167 | 243 | 323 | 363 | 382 | 356 | 356 |
+| Standalone net block | 48 | 57 | 62 | 127 | 177 | 227 | 232 | 230 | 183 | 169 |
+| Standalone gross AT (×) | 4.84 | 4.33 | 4.93 | 3.09 | 2.64 | 2.52 | 2.96 | 2.70 | 2.59 | 2.90 |
+| Standalone net AT (×) | 5.5 | 5.5 | 6.8 | 4.1 | 3.6 | 3.6 | 4.6 | 4.5 | 5.0 | **6.1** |
+| Standalone accum. dep ÷ gross | 12.7% | 20.8% | 27.1% | 24.0% | 27.2% | 29.7% | 36.1% | 39.8% | 48.6% | **52.5%** |
+| Overseas gross AT on PPE+ROU (consolidated − standalone, est.) | — | — | — | — | — | ~4.6 | ~4.5 | ~4.6 | ~4.1 | ~3.4 |
+*Standalone gross block jumped in FY20–FY22 on the De Dietrich Hyderabad acquisition and Ind AS 116 ROU. India net-block AT is back above 6× because the asset base is old and largely depreciated, not because it is newly efficient. Overseas estimate = (consolidated − standalone revenue) ÷ (consolidated PPE+ROU gross − standalone gross); inter-company eliminations ignored.*
 
 ```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #6b7280"}}}}%%
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#f59e0b, #6b7280, #16a34a"}}}}%%
 xychart-beta
-    title "Asset Turnover - Revenue / Tangible PPE GB (x)"
-    x-axis [FY22, FY23, FY24, FY25, FY26]
-    y-axis "x" 0 --> 4.5
-    line [3.62, 3.83, 3.82, 3.52, 3.26]
-    line [3.61, 3.61, 3.61, 3.61, 3.61]
+    title "Fixed Assets FY17-FY26 Gross vs AccDep vs Net (Rs Cr)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "Rs Cr" 0 --> 2400
+    line [69, 88, 103, 177, 1137, 1260, 1551, 1701, 1712, 2235]
+    line [8, 18, 26, 44, 94, 258, 338, 450, 547, 738]
+    line [61, 70, 77, 133, 1043, 1002, 1213, 1251, 1165, 1497]
 ```
-🟦 Asset turnover · ⬜ 5-yr average 3.61×
+**FA-1.** 🟧 Gross block (all fixed assets incl. goodwill/intangibles/ROU) · ⬜ Accumulated depreciation & amortisation · 🟩 Net block (BS fixed assets). Source: table above (Screener).
 
-**Read:** AT fell from 3.83× (FY23) to 3.26× (FY26), 0.35× below its 5-yr average.
+**Read:** Gross block rose 32× over the decade, but most of it arrived in one step (FY21 Pfaudler: ₹177 → ₹1,137 Cr). Since FY22, accumulated depreciation has almost tripled (₹258 → ₹738 Cr) while net block grew only 49% (₹1,002 → ₹1,497 Cr), and much of that is FX and the FY26 acquisitions.
 
-**Business inference:** Much of the drop is translation and acquisition accounting rather than idle plant. GMM is not capacity-constrained: getting back to 3.6× needs only volume recovery, not capex. Revenue growth is cheap in capital terms; the scarce input is margin. (Base AT 3.4×, bull 3.8×, bear 3.2×.)
+**Business inference:** The capital base is a one-off acquisition stock that is depreciating faster than it is replaced (capex below total D&A every year since FY22). That supports cash flow today, but the acquired plants, valued at Jan-2021 fair value, age every year. About ₹852 Cr of the ₹1,497 Cr net block is goodwill and intangibles, not machines.
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #16a34a, #9333ea, #6b7280"}}}}%%
+xychart-beta
+    title "Asset Turnover FY17-FY26 (x)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "x" 0 --> 7
+    line [6.54, 5.64, 6.13, 4.05, 1.71, 3.62, 3.83, 3.82, 3.52, 3.26]
+    line [5.79, 5.80, 6.53, 4.44, 0.96, 2.54, 2.62, 2.75, 2.75, 2.35]
+    line [4.84, 4.33, 4.93, 3.09, 2.64, 2.52, 2.96, 2.70, 2.59, 2.90]
+    line [4.21, 4.21, 4.21, 4.21, 4.21, 4.21, 4.21, 4.21, 4.21, 4.21]
+```
+**FA-2 (replaces C6).** 🟦 Consolidated gross-block AT (revenue ÷ PPE+ROU gross) · 🟩 Consolidated net-block AT (revenue ÷ net fixed assets incl. goodwill/intangibles) · 🟪 India standalone gross-block AT · ⬜ 10-yr average consolidated gross AT 4.21× (FY21 is a part-year distortion).
+
+**Read:** Before the acquisition, GMM turned its fixed assets 5.6–6.5× on gross and 5.8–6.5× on net. Since FY22 the group runs at 3.3–3.8× gross and only 2.4–2.8× net, and both have fallen since FY23 (gross 3.83× → 3.26×, net 2.62× → 2.35×), now 1.0× below the 10-year gross average. India standalone gross AT sits at 2.5–3.0× on a block that includes ROU and the Hyderabad purchase.
+
+**Business inference:** The Pfaudler deal roughly halved capital turns for good. Paying goodwill and intangibles for a lower-turn, lower-margin business is the main reason ROCE fell from about 30% to about 14%. Getting back to the FY23–24 level of 3.8× needs volume recovery, not capex. The pre-deal 6× cannot come back without shedding overseas capital. **Module 11 anchors unchanged:** bear 3.2×, base 3.4×, bull 3.8×.
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#f59e0b, #9333ea"}}}}%%
+xychart-beta
+    title "Asset Age - Accum Dep / Gross Block (%)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "%" 0 --> 60
+    line [11.6, 20.5, 25.2, 24.9, 8.3, 20.5, 21.8, 26.5, 31.9, 33.0]
+    line [12.7, 20.8, 27.1, 24.0, 27.2, 29.7, 36.1, 39.8, 48.6, 52.5]
+```
+**FA-3.** 🟧 Consolidated (all fixed assets) · 🟪 India standalone. Source: Screener schedules (table above).
+
+**Read:** India's asset-age ratio has risen every year since FY20, from 24% to 52.5%, and India P&M is about 62% depreciated (AR Note 6). The consolidated ratio rose from 20.5% (FY22) to 33%. Owned consolidated P&M is 45% depreciated with about 4.4 years of book life left.
+
+**Business inference:** These ratios understate true age, because India's book was reset to deemed cost in 2016 (Karamsad has operated since 1962) and Pfaudler's was reset to fair value in 2021. Historical-cost ROCE in India is therefore flattered by an old, written-down base. A replacement cycle for India plant, and later the acquired plants, is likely within 3–5 years.
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#f59e0b, #6b7280"}}}}%%
+xychart-beta
+    title "Capex vs D&A FY17-FY26 (Rs Cr)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "Rs Cr" 0 --> 170
+    bar [14, 24, 16, 36, 79, 132, 69, 64, 63, 78]
+    line [8, 10, 11, 21, 50, 133, 119, 150, 144, 158]
+```
+**FA-4.** 🟧 Capex (PPE purchased, cash; bars) · ⬜ Total D&A (incl. ROU depreciation and intangible amortisation). Source: Screener cash flow and P&L.
+
+**Read:** Capex was above D&A every year up to FY21. Since FY23 capex has held at about ₹63–78 Cr while total D&A runs at ₹119–158 Cr.
+
+**Business inference:** The gap is mostly non-cash D&A (PPA amortisation and leased-site depreciation), not neglect of physical plant. Leased sites are paid for in cash through lease payments (₹55 Cr in FY26), which sit in financing cash flow and were missing from the FCF forecast (now corrected).
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#f59e0b, #dc2626"}}}}%%
+xychart-beta
+    title "Capex / D&A FY17-FY26 (x)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "x" 0 --> 2.6
+    line [1.75, 2.40, 1.45, 1.71, 1.58, 0.99, 0.58, 0.43, 0.44, 0.49]
+    line [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+```
+**FA-5.** 🟧 Capex ÷ total D&A · 🟥 1.0× replacement line
+
+**Read:** Before the acquisition, capex ran 1.5–2.4× D&A. Since FY23 it has run 0.43–0.58× total D&A. Against **owned-PPE depreciation only** (FY25 ₹59.75 Cr, FY26 ₹62.83 Cr) it is 1.05× and 1.24×. Counting lease cash (₹55 Cr) against PPE + ROU depreciation (₹113 Cr), FY26 is 1.18×.
+
+**Business inference:** On a like-for-like basis GMM reinvests just above replacement. That is adequate for upkeep but not for the coming India P&M renewal plus growth, which is why the maintenance-capex test below matters.
+
+**2. Asset age and maintenance-capex adequacy (verdict)**
+- **Remaining book life:** owned PPE 6.5 yrs; consolidated P&M 4.4 yrs; India PPE 5.0 yrs; India P&M ~3.5 yrs; leased sites 5.6 yrs (renewals at market rents).
+- **Model check:** Module 11 assumes ₹65–75 Cr maintenance + ₹35 Cr growth capex (₹100–110 Cr in total) against owned-PPE depreciation of ₹63 Cr. That is 1.6–1.7× PPE depreciation, enough to absorb an India P&M catch-up of about ₹10–15 Cr a year *(est.: replacing about ₹80 Cr of fully depreciated India P&M over 5–8 years at ~1.3× historical cost)*. **Total capex is unchanged.** I moved ₹10 Cr a year of the growth bucket to India renewal, which trims FY29 revenue upside only marginally, within the base case.
+- **What the model did miss was lease cash.** Leased land and buildings (₹380 Cr gross) cost about ₹55 Cr a year in lease payments, which the FCF line ignored. FCF is corrected below (−₹55 Cr a year), and the DCF re-run in Module 9 gives a base of ₹713 (was ₹744).
+- **Historical cost flatters India's ROCE.** India's 37% pre-tax return on segment net assets is overstated. Restating India net PPE to an estimated replacement value (gross ₹216 Cr × ~1.5–2.0, about 50% depreciated ≈ ₹160–215 Cr net vs book ₹99 Cr) lifts India net assets from ₹306 Cr to about ₹370–420 Cr. **India's return is then about 27–31%**, still far above WACC. Overseas assets were reset to fair value in 2021 and goodwill sits in capital employed, so consolidated ROCE (14%) is **not** materially flattered. **The ROCE vs WACC conclusion is unchanged.**
+
+**3. Historical-cost and hidden asset value**
+| Item | Book (₹ Cr) | Market evidence | Estimated market value (₹ Cr) |
+|---|---|---|---|
+| Owned freehold land (consolidated; India only Bhogat ₹0.10 Cr, held for sale) | 24.87 | Bhogat: "proceeds expected to exceed carrying value" (AR Note 6) | ~32–50 |
+| Owned buildings (excl. leasehold improvements) | 134.22 | Hyderabad multiple below | ~170–268 |
+| **Hyderabad facility (proof point)** | 46.47 (held for sale) | Agreed at ₹54.5 Cr (BSE 16-Dec-2025), closed at **₹58.93 Cr** (BSE 27-Feb-2026) = **1.27× book**; buyer Topsun Power (Bhagyanagar Properties group; not a related party) | realised |
+| Leven, UK (closed FY25–26) | Impaired ₹29.49 Cr (PPE, goodwill, intangibles; AR Notes 9/47) | No sale proceeds disclosed (data gap) | nil surplus assumed |
+| Leased sites (ROU land & buildings; India GIDC-type leaseholds and European leases) | 209.16 net ROU, matched by lease liability | No ownership value | nil |
+| **Owned land + buildings** | **159.1** | 1.27× (Hyderabad) to 2.0× (est.) | **~202–318** |
+- **Estimated surplus over book: ₹43–159 Cr, or ₹10–35 per share.** The low end applies the 1.27× Hyderabad multiple; the high end assumes 2× (est.). GMM does **not** use the revaluation model. The earlier "FX revaluation" wording was wrong: it is translation.
+- **Floor test:** tangible book = equity ₹1,204.5 Cr − goodwill ₹229.6 Cr − intangibles ₹622.7 Cr = ₹352 Cr = **₹78/share**. Adding the land surplus gives **₹88–113/share**, **well below the ₹495 bear case**. Asset value provides **no floor** and does not change SVAR (62%).
+
+**4. Long-life installed base (aftermarket)**
+| Services share of revenue (company decks) | FY25 | FY26 | Q4FY25 | Q4FY26 |
+|---|---|---|---|---|
+| Consolidated | 29% | 29% | 31% | 28% |
+| India standalone | 8% | 9% | 8% | 9% |
+| International | 37% | 37% | 40% | 37% |
+- **Size:** about ₹1,020 Cr of FY26 revenue (29% × ₹3,524 Cr) is service, spares and re-glassing on a 10–30-year installed base. CRISIL notes 70% of top customers have been served for 20+ years. Acquired customer relationships are amortised over **20 years** (AR policy), the auditor-accepted life of that asset.
+- **Margin:** **not disclosed** (data gap). Management calls services a growth area whose rising share lifts margin (Q3FY26 call), but admits to **losing service share in Europe** (Q1FY27 call). The share has been flat at about 29% for two years. There are fewer than 4 data points, so no chart.
+- **Valuation implication:** long-lived, recurring service revenue justifies a longer explicit DCF horizon. A 12-year explicit period lifts the base DCF to ₹746; 12 years with 7% terminal growth gives ₹869 (Module 9). Even that most generous installed-base case is **34% below CMP**: it narrows the gap but does not change the verdict.
+
+**5. Re-test of conclusions**
+| Conclusion | Before addendum | After | Changed? |
+|---|---|---|---|
+| ROCE vs WACC | 14% pre-tax / ~9.6% post-tax vs 12% | Same; India ~27–31% on replacement cost (37% on book) | No (India figure refined) |
+| Incremental ROIC FY22→26 | ~9% post-tax | Same (capital includes goodwill and FX translation) | No |
+| DCF base (8-yr) | ₹744 | ₹713 (lease cash explicit) / ₹746 (12-yr) / ₹869 (12-yr, g 7%) | Minor |
+| FY29 scenarios (EPS-based) | ₹495 / ₹1,364 / ₹2,448 | Same (EPS unaffected; total capex unchanged) | No |
+| Upside/downside | 1.36:1 / 1.47:1 | Same | No |
+| SVAR | 62% | 62% (asset floor ₹88–113/share is far below the bear case) | No |
+| FCF FY27–29E | ₹171 / ₹217 / ₹263 Cr | ₹116 / ₹162 / ₹208 Cr (after lease cash) | **Yes (❌ corrected)** |
+| Buy-below | ₹550–610 | ₹550–610 (consensus base ₹860–870 × 0.64–0.71) | No |
+| Verdict / conviction | AVOID / 4.5 | AVOID / 4.5 | No |
 
 **Incremental ROIC:** FY22→FY26 ≈ 9% post-tax vs WACC 12% → **value-neutral to slightly destroying** (flagged in Module 4). Forward incremental ROIC on growth capex (₹35 Cr/yr) is high. The question is the return on the existing ₹927 Cr of overseas capital.
 **Capex-model implied revenue CAGR (FY26→FY29):** GB ~₹1,180 Cr × AT 3.4× ≈ ₹4,000 Cr plus pricing/FX → base **₹4,600 Cr = 9.3% CAGR** (vs PIE 14–18%) → **market is too optimistic**. It prices unannounced margin expansion more than capacity.
@@ -696,7 +856,8 @@ xychart-beta
 | PAT (after ~₹5 Cr minority) | 129 | 173 | 219 |
 | **EPS (₹)** | **28.7** | **38.5** | **48.7** |
 | ΔWorking capital (6% of Δrevenue) | 23 | 21 | 21 |
-| **FCF (PAT + D&A − capex − ΔWC)** | **~171** | **~217** | **~263** |
+| Lease payments (cash; ROU sites) | ~55 | ~55 | ~55 |
+| **FCF (PAT + D&A − capex − leases − ΔWC)** | **~116** | **~162** | **~208** |
 **FCF inflection:** already past (FCF positive since FY21). **Debt ceiling:** gross debt incl. pension 3.6× EBITDA in FY26 (> 3.0× flag) falling to about 2× by FY29. Net borrowings-only stays below 0.5×, so **within safe zone** (pension is long-dated).
 
 ### Key catalysts
@@ -736,7 +897,7 @@ xychart-beta
 - Section 8 Valuation: 24/26. Owner-earnings cross-check only partial; no full 3-stage DCF (2-stage used).
 - Section 9 Technical: complete.
 - Order Book Tracker: **Run** (first ledger; 1 order; 10 snapshots).
-- Charts (Section I): C1, C2, C4, C5/CY7, C6, C7, C8, C12, C13, CY1, CY2, CY4, OB-1, OB-2, OB-4. Pre-save check passed: every series traces to a table, x-axis counts match, palettes and keys present, no illustrative numbers.
+- Charts (Section I): C1 (rebased FY17, full decade), C2, C4, C5/CY7, FA-1, FA-2 (replaces C6, FY17–26), FA-3, FA-4, FA-5, C7, C8, C12, C13, CY1, CY2, CY4, OB-1, OB-2, OB-4. Land-at-market and service-share charts omitted (< 4 data points). Pre-save check passed: every series traces to a table, x-axis counts match, palettes and keys present, no illustrative numbers.
 
 **Checklist B (pre-buy-final-check.md):**
 1. **Falsifiability:** Downgrade further if Q2/Q3 FY27 EBITDA margin < 11%, any goodwill impairment, or tax rate stays > 40% through FY27. Upgrade if two quarters ≥ 13% margin *and* finance cost < ₹20 Cr/quarter.
@@ -778,7 +939,7 @@ xychart-beta
 **One-line thesis:** A world-leading glass-lined equipment franchise whose Indian core earns about 37% pre-tax, inside a global group that earns roughly its cost of capital. The 35% rally since August prices a margin and tax turnaround that is still a promise, so wait for the numbers or a much lower price.
 
 ---
-**Key data gaps:** Q2FY27 results not yet released (due 4-Nov-2026). Divisional margins not disclosed. The India vs international split was dropped from quarterly decks (FY27 geography economics now only via standalone). No TAM source. 5-yr market-share history not available. FY25 current-liability split for Piotroski (approximated). Identity of Petunia Investments (8.25%) not found. Capital Markets Day ROCE target value not found. HLE latest order book not re-sourced. Debt maturity and covenant schedule not disclosed.
+**Key data gaps (incl. addendum b):** Leven UK disposal proceeds; service/aftermarket margin; asset-wise market values (only the Hyderabad proof point); pre-FY24 owned-PPE vs ROU split (older ARs not parsed).  Q2FY27 results not yet released (due 4-Nov-2026). Divisional margins not disclosed. The India vs international split was dropped from quarterly decks (FY27 geography economics now only via standalone). No TAM source. 5-yr market-share history not available. FY25 current-liability split for Piotroski (approximated). Identity of Petunia Investments (8.25%) not found. Capital Markets Day ROCE target value not found. HLE latest order book not re-sourced. Debt maturity and covenant schedule not disclosed.
 
 *Primary sources: BSE filings for scrip 505255 (results, investor presentations Q2FY25–Q1FY27, earnings-call transcripts Q4FY25–Q1FY27, Reg 30 order 19-Jun-2025, SEMCO/Inox acquisition filings, CFO/KMP changes May/Sep-2026, debt repayment 31-Aug-2026, DGFT order 18-Feb-2026, reclassification of Pfaudler Inc 2-Apr-2024); Annual Report FY2025-26 (consolidated BS, cash flow, Notes 9, 18, 40, 41, 43, 45, 47; auditor's report); CRISIL rating rationale 17-Sep-2026; Screener.in consolidated/standalone 10-yr data and schedules (accessed 13-Oct-2026); Yahoo Finance weekly prices and FX; news on FII flows (PTI/newkerala 10-Oct-2026, Free Press Journal 11-Oct-2026), VIX (hdfcsky 30-Sep/1-Oct-2026), DBAG/Pfaudler Inc stake sales (Business Standard Dec-2022; DBAG press releases). Estimates are labelled (est.); no figures fabricated.*
 
