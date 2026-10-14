@@ -12,10 +12,25 @@
 
 | Version | Date | Recommendation | Conviction | Price | Key change |
 |---|---|---|---|---|---|
+| Addendum | 2026-10-14 | AVOID (unchanged) | 4/10 (unchanged) | ₹411.7 | **10-year fixed-asset addendum** (Module 11, "Long-Term Fixed Assets"): gross/net block, age and reinvestment, organic-India vs acquired split, land/hidden value, installed base. Charts: asset turnover extended to FY17–26 (gross and net AT plus a 10-yr average); headline growth index now uses tangible gross block; new charts for gross vs accumulated depreciation vs net block, asset age, capex vs D&A, capex÷D&A, India vs consolidated AT, and land & buildings at book. Targets, ratio, buy-below and verdict unchanged. |
 | Current | 2026-10-14 | AVOID (re-entry watchlist ₹300) | 4/10 | ₹411.7 | Q1FY27 collapse: EBITDA margin 7.5%, PAT ₹2.1 Cr. WACC corrected up to ~12.9%, so ROCE has now been below WACC for 3 years. Margin guidance missed again. Upside/downside is 1.8:1, below the 2:1 minimum. Offset: the €20.6 m Fehmarnbelt order (~₹228 Cr) for Omeras/HST, and the CFO slot is filled. |
 | Previous | 2026-08-07 | WATCHLIST (Quality at Wrong Price) | 5/10 | ₹466 | Margin-trough thesis; buy-below ₹350–380 (full text in git history) |
 
 **What changed in the thesis.** (1) The margin recovery the August report was waiting for went backwards. Q1FY27 EBITDA (incl. other income) fell to ₹22.6 Cr, a 7.5% margin, against 14.0% a year earlier. PAT was ₹2.1 Cr (−88.5% YoY), driven by dispatch deferrals in Heat Transfer (segment revenue −72.6%, EBIT −₹4.1 Cr) and weak GLE profitability (Q1FY27 investor release, 10-Aug-2026; ICRA material-event update, 19-Aug-2026). (2) Re-computing WACC with market-value weights gives ~12.9%, not ~11.5%. Consolidated ROCE (12–13% for FY24–FY26, Screener) is therefore below WACC, not "at" it. (3) The FY26 annual report shows that India GLE revenue has been flat at ~₹200–250 Cr since FY22 even though dispatch volumes rose 30–40%. Realisation per unit has fallen (Q4FY26 concall, 25-May-2026). Glass-lining pricing power is weaker than the duopoly framing implied. (4) On the positive side, HLE Surface Technologies (the Omeras business) won a €20.56 m vitreous-enamel panel order for the Fehmarnbelt tunnel, executable to Apr-2030 (BSE, 8-Sep-2026). This alone is about 3× Omeras' March order book. The stock rallied 306 → 483 on it and has since given back to ₹412.
+
+**Addendum validation (2026-10-14, 10-year fixed-asset review):**
+
+| Item | Before addendum | Now | Status |
+|---|---|---|---|
+| Gross-block history | FY23–FY26 only (listed as a data gap) | FY17–FY26 from AR PPE notes (FY17–18 Swiss Glascoat pre-merger; FY19–FY26 merged/consolidated) | ❌ Gap closed |
+| Headline growth index (C1) | Used Screener net fixed assets incl. goodwill/intangibles as a proxy | Tangible PPE gross block, FY19 = 100: gross block CAGR 28.8% vs revenue 20.9% | ❌ Corrected (proxy replaced) |
+| Asset-turnover anchor | 4-yr average 2.36× | 10-yr average gross AT 3.08× (net 3.81×); 5-yr average 2.34×; FY26 2.46× | 🔄 Updated |
+| Organic India returns | Not separated | India standalone AT fell from 3.81× (FY20) to 2.09× (FY26). India operating profit +₹5 Cr FY21→26 on +₹223 Cr gross block, a ~2% pre-tax incremental return | 🔄 New finding (negative) |
+| Maintenance capex | Not tested | Capex ÷ D&A ≥ 1.5× in 9 of 10 years (FY26 1.53×); average asset age 5.6 yrs | ✅ Adequate |
+| Hidden asset value | Not assessed | Land surplus est. ₹19 Cr (₹2.7/sh), at most ~₹5/sh. FY25 investment property valued below book (₹1.42 vs ₹3.69 Cr) | 🔄 New: no asset floor |
+| Aftermarket share | Not disclosed (gap) | Spares & service 15.4% of revenue (FY25 AR) vs ~6–7% (FY26 AR). Consolidated "sale of services" ₹80.7 / 78.7 Cr (7.9% / 5.8%) | ⚠️ Partly closed; disclosures inconsistent |
+| Customer concentration | F&D top-10 = 69% of segment | Also one customer > 10% of consolidated revenue: ₹160.9 Cr (11.9%) FY26, ₹120.4 Cr FY25 (AR geographic note) | 🔄 New risk |
+| Targets / ratio / buy-below / verdict | ₹225 / 440 / 745; 1.8:1; ₹300; AVOID 4/10 | Unchanged after re-test | ✅ Validated |
 
 **Validation of previous report (2026-08-07):**
 
@@ -73,19 +88,19 @@ HLE Glascoat is the smaller half of India's glass-lined-equipment duopoly. It ha
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b, #16a34a, #9333ea"}}}}%%
 xychart-beta
-    title "Growth Index FY19 = 100 (net fixed assets)"
+    title "Growth Index FY19 = 100 (tangible gross block)"
     x-axis [FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
-    y-axis "Index" 0 --> 800
+    y-axis "Index" 0 --> 650
     line [100, 119, 135, 182, 260, 270, 286, 377]
-    line [100, 111, 141, 288, 374, 636, 698, 738]
+    line [100, 116, 139, 301, 398, 441, 517, 587]
     line [100, 155, 198, 236, 296, 243, 289, 302]
     line [100, 205, 279, 305, 368, 216, 326, 300]
 ```
-🟦 Revenue (CAGR 20.9%) · 🟧 Net fixed assets incl. goodwill/intangibles, Screener (33.0%) · 🟩 EBITDA excl. OI (17.1%) · 🟪 PAT incl. NCI (17.0%). Tangible gross-block version (FY23 base) is in Module 10. Source: Screener consolidated P&L/BS.
+🟦 Revenue (CAGR 20.9%) · 🟧 Tangible PPE gross block, AR PPE notes (28.8%) · 🟩 EBITDA excl. OI (17.1%) · 🟪 PAT incl. NCI (17.0%). FY19 is the first merged year (Swiss Glascoat + HLE Engineers); FY17–18 pre-merger data are in Module 11, "Long-Term Fixed Assets". Goodwill (₹40 Cr) and acquired intangibles (₹155 Cr) come on top of this tangible block. Sources: Screener consolidated P&L; gross block from the FY20/FY21/FY23/FY26 annual-report PPE notes.
 
-**Read:** Since FY22 the fixed-asset base (🟧, swollen by Thaletec/Kinam/Omeras goodwill and intangibles plus plant) grew 7.4× against revenue 3.8× and EBITDA 3.0×. EBITDA and PAT have been flat since FY23 while revenue rose 45%.
+**Read:** Tangible gross block grew 5.9× from FY19 to FY26, against revenue 3.8×, EBITDA 3.0× and PAT 3.0×. The gap opened in FY22 with the Thaletec buildings and plant (+₹109 Cr) and the FY23 Silvassa plant and Anand land, and it has not closed since.
 
-**Business inference:** Growth since FY22 has been bought with acquisitions and capital, and none of that incremental capital has earned a return yet. EBIT fell from ₹124 Cr (FY23) to ₹112 Cr (FY26) while ~₹380 Cr more capital was employed, which is negative incremental ROIC. This is the core reason the ROCE fell from 43% to 12% and why a premium multiple is hard to justify until utilisation and Omeras repair it.
+**Business inference:** Growth since FY22 has been bought with capital, both acquired and greenfield, and that incremental capital has not yet earned a return. EBIT fell from ₹124 Cr (FY23) to ₹112 Cr (FY26) while ~₹380 Cr more capital was employed. Inside India, operating profit rose just ₹5 Cr on ₹223 Cr of new gross block (Module 11). This is the core reason ROCE fell from 43% to 12%, and why a premium multiple is hard to justify until utilisation and Omeras repair it.
 
 **Order book:** ₹662 Cr at 30-Jun-26 (0.48× TTM revenue); ₹713.8 Cr at 31-Jul-26. Implied book-to-bill TTM is **0.94** (vs 1.24 a year earlier). The tracked order book today is ≤ ₹890 Cr (662 + Fehmarnbelt ~₹228 Cr est., before execution). Framework share is 0%; the largest single order is 34% of the disclosed book.
 
@@ -171,6 +186,7 @@ xychart-beta
 ## Module 3 — Business Quality & Moat
 **Greenwald barriers.** (1) Supply/cost: partial (process know-how, robotic welding, captive glass-lining), but GLE EBIT margin fell to 4.2% in FY26, so there is no cost advantage visible in the numbers. (2) Customer captivity: moderate. Approvals and reglassing/aftermarket help, but customers dual-source; the aftermarket share is not disclosed (data gap). (3) Local scale: yes, duopoly economics in Indian GLE and leadership in Indian F&D.
 **Moat verdict: NARROW, and eroding in GLE.** F&D (12% EBIT margin, leadership) is the stronger franchise today.
+**Long-life asset lens (see Module 11, "Long-Term Fixed Assets"):** The organic India plant base has been renewed (average asset age ~5.6 yrs; capex ≥ 1.5× D&A in 9 of 10 years). Underinvestment is not the problem. India asset turnover has halved (3.8× → 2.1×), so new capacity is not earning legacy returns. The installed base is long-lived (reactors last 10–30 yrs), but the disclosed aftermarket (spares & service ~6–15% of revenue, inconsistently reported) is too small to count as a captive annuity moat.
 **Durability tests:** ROIC vs WACC is below for 3 years (fail, cyclical-plus-structural). Market share is stable (no data showing loss). Pricing power fails: India GLE value per unit fell while volume rose 30–40% (concall). Buffett 10% price test fails.
 
 **Fisher 15-point (1–3):** market potential 3; new products 3; R&D→revenue 2; sales org 2; profit margin 1; active margin management 1 (16% then 14–15% targets missed); labour 2; executive relations 2; management depth 2 (new CFO Amit Kalra, VP Ops Maroli appointed Jun-26); cost/accounting controls 2; industry advantage 2; long-range orientation 3; dilution 3 (one 1.7% issue on the Kinam merger); candour 2 (concedes misses but reframes to "adjusted" margins); **integrity 3, Pass** (zero pledge, clean audit, no SEBI actions found). **Total 33/45 (vs 37 in August). No veto.**
@@ -223,7 +239,8 @@ xychart-beta
 
 ## Module 6 — Earnings Quality & Financial Statements
 **ROIC (FY26, post-tax):** NOPAT ₹89.7 Cr (pre-exceptional EBIT 112.1 × 0.80) ÷ invested capital ₹908 Cr (equity incl. NCI 618 + debt incl. leases 348 − cash/bank 58) = **9.9%**. Ex-goodwill/intangibles (₹196 Cr) = 12.6%. **WACC 12.9%.** **ROCE (Screener pre-tax): 12% FY26 vs 10-yr avg 25.3%.** **Spread: −3pp post-tax, so Value Destroying** (third year).
-**ROIC trend:** Declining (43% FY21 → 12%). **Driver:** both margin (EBIT 15% → 8%) and capital base (acquisitions). **Economic profit:** ₹908 Cr × (9.9% − 12.9%) ≈ **−₹27 Cr**.
+**ROIC trend:** Declining (43% FY21 → 12%). **Driver:** both margin (EBIT 15% → 8%) and capital base: acquisitions plus organic India capex (see Module 11, "Long-Term Fixed Assets").
+**Historical-cost check:** The Ind AS deemed-cost reset at 1-Apr-2016 (FY18 AR) carried the legacy Swiss Glascoat plants at depreciated value (₹22.7 Cr gross). That flattered FY19–FY21 ROCE (40%+). Today 83% of the tangible block (₹457 Cr of ₹551 Cr) was added after FY19, so the current ROCE is a near-current-cost return, and the early-ramp Silvassa plant and idle Anand land depress it rather than flatter it. **Economic profit:** ₹908 Cr × (9.9% − 12.9%) ≈ **−₹27 Cr**.
 
 | Year | FY19 | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
 |---|---|---|---|---|---|---|---|---|
@@ -323,7 +340,7 @@ xychart-beta
 *Screener consolidated; EBIT = PBT + interest; ROE on owners' equity using PAT incl. NCI (slight overstatement).*
 **Operating contribution (EBIT margin × AT):** 0.129 → 0.079, Declining. **Financing contribution:** Falling (equity multiplier down, interest burden worse).
 **DuPont verdict:** The ROE decline is purely operational (EBIT margin halved). Leverage is not masking it; debt has been reduced. AT recovered in FY26 on Omeras/Kinam revenue.
-**AT trend → Module 10 base:** Revenue/tangible gross block 2.46× FY26 (4-yr avg 2.36×), stable-to-rising.
+**AT trend → Module 11 base:** Revenue/tangible gross block is 2.46× in FY26, against a 5-yr average of 2.34× and a 10-yr average of 3.08×. It broke structurally lower in FY22 (see Module 11, "Long-Term Fixed Assets").
 
 ---
 
@@ -340,7 +357,7 @@ xychart-beta
 | Export % (India ops) | 5–7% | n/a | 20–40% | Below |
 | ROCE | 12% | 14% | > 18% | **Below** |
 | Net debt / EBITDA | 289/142 = 2.0× (TTM 2.3×) | — | < 1.5–2.0× | Borderline |
-| Aftermarket / reglassing % | Not disclosed | Not disclosed | Rising | Data gap |
+| Aftermarket / reglassing % | Spares & service 15.4% (FY25 AR) vs ~6–7% (FY26 AR); services ₹78.7 Cr = 5.8% (FY26) | Not disclosed | Rising | Small / inconsistent |
 
 **Peer Comparison** (Screener consolidated, 13-Oct-2026):
 
@@ -526,6 +543,7 @@ xychart-beta
 | EV/EBITDA cross-check / P/B | ₹255 (3.0× trough P/B on BV ~₹85) | ₹465 (16× FY29E EBITDA ₹224 Cr, less debt+NCI ₹350 Cr) | ₹707 (18× ₹290 Cr, less ₹310 Cr) |
 | **Consensus value** | **₹225** | **₹440** | **₹745** |
 
+**Asset floor check (Module 11, "Long-Term Fixed Assets"):** Tangible book is ~₹49/sh. Tangible net PPE plus an estimated land surplus, less net debt, is ~₹18/sh. Hidden land value is only ₹3–5/sh. There is **no asset floor near the ₹225 bear case**, so the bear value rests on earnings and P/B multiples, not on assets. The installed base does not justify a longer-duration DCF or a higher terminal value (aftermarket ≤ 7–15% of revenue, margin undisclosed), so the terminal assumptions are unchanged.
 **Residual income cross-check:** With ROE ~10–11% below Ke 13.6%, residual income is negative and the RI value is below book value (₹77). Any value above book is a bet on ROE recovering above 13.6%.
 **Current price ₹411.7 vs base ₹440 → MoS 6.4%: Inadequate.** The required MoS for a small-cap cyclical with integration risk and a sector headwind is 35–40%. **Buy-below ₹300** (32% below base; bull/bear asymmetry 5.9:1 at that price).
 **Upside/Downside (bull vs bear):** (745 − 412)/(412 − 225) = **1.8:1**. That is acceptable against the 1.5:1 hard stop but fails the 2:1 minimum. Base-vs-bear is only 0.3:1.
@@ -652,53 +670,203 @@ xychart-beta
 
 *FY26 actual capex ₹55.7 Cr; FY25 ₹66.4 Cr (AR cash flow).*
 
-### Tangible PPE Gross Block & Asset Turnover
-**Current CWIP balance:** ₹3.7 Cr. Plus the ₹35 Cr Silvassa (Omeras India tanks) brownfield, COD Q4FY27 (ICRA 19-Aug-2026). WTT-adjusted: assume Q1FY28.
+### Long-Term Fixed Assets — 10-Year View (FY17–FY26)
+*Addendum 2026-10-14. Cross-referenced from Modules 3, 6 and 9.*
 
-| Year | Tangible PPE Gross Block (₹cr) | Revenue (₹cr) | Asset Turnover (×) |
-|---|---|---|---|
-| FY23 | 373.5 | 932 | 2.50 |
-| FY24 | 413.8 | 968 | 2.34 |
-| FY25 | 485.3 | 1,028 | 2.12 |
-| FY26 | 550.9 | 1,353 | 2.46 |
-| **4-yr Avg AT** | | | **2.36** |
-| **AT Trend (DuPont)** | | | Stable-to-rising (FY26 lift from Omeras/Kinam) |
+**Current CWIP balance:** ₹3.7 Cr (Mar-26). Plus the ₹35 Cr Silvassa (Omeras India tanks) brownfield, COD Q4FY27 (ICRA 19-Aug-2026); WTT-adjusted, assume Q1FY28.
 
-*Source: AR FY26 consolidated Note 2(a) PPE gross block (opening Apr-23 ₹37,350 lakh; FY24 ₹41,385; FY25 ₹48,527; FY26 ₹55,093 lakh). Earlier years not extracted (data gap).*
+**Sources and basis.**
+- FY17–FY18 are **Swiss Glascoat Equipments Ltd (SGEL) standalone**, the listed entity before it absorbed HLE Engineers in 2019 and was renamed HLE Glascoat. These rows are on the Ind AS deemed-cost basis, under which carrying value at 1-Apr-2016 became gross cost (FY18 and FY19 ARs, Note 2(a)). On the earlier IGAAP basis, FY17 historical gross block was ₹39.4 Cr with ₹18.7 Cr accumulated depreciation (FY17 AR, Note 11).
+- FY19–FY20 are merged and consolidated with the H.L. Equipment partnership (FY20 and FY21 ARs, consolidated Note 2(a), restated).
+- FY21–FY26 are consolidated: FY21 AR; FY23 AR for FY22–23; FY26 AR for FY24–26.
+- Revenue for FY17–18 is Screener standalone; for FY19–26, Screener consolidated.
+- Capex is "purchase of PPE incl. CWIP & capital advances" from the cash-flow statements (FY17–18 SGEL; FY19–26 consolidated).
+- D&A is total depreciation and amortisation. Depreciation on PPE alone is used for remaining life.
+
+| Year | Basis | Gross block (₹ Cr) | Acc. dep (₹ Cr) | Net block (₹ Cr) | CWIP (₹ Cr) | Revenue (₹ Cr) | AT gross (×) | AT net (×) | PPE dep (₹ Cr) | Total D&A (₹ Cr) | Capex (₹ Cr) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY17 | SGEL, deemed cost | 22.7 | 2.3 | 20.3 | 0.4 | 81 | 3.57 | 3.98 | 2.3 | 2.5 | 6.3* |
+| FY18 | SGEL, deemed cost | 23.9 | 4.7 | 19.2 | 2.0 | 97 | 4.06 | 5.05 | 2.4 | 3.0 | 1.3 |
+| FY19 | Merged | 93.9 | 14.0 | 79.9 | 4.1 | 359 | 3.82 | 4.49 | 5.8 | 6.5 | 16.7 |
+| FY20 | Merged | 109.2 | 19.8 | 89.4 | 10.0 | 426 | 3.90 | 4.77 | 6.7 | 7.4 | 22.7 |
+| FY21 | Consol. | 130.5 | 21.9 | 108.6 | 3.1 | 484 | 3.71 | 4.46 | 7.5 | 9 | 32.2 |
+| FY22 | Consol. (+Thaletec) | 282.7 | 57.7 | 225.0 | 31 | 652 | 2.31 | 2.90 | 9.4 | 11 | 69.4 (+₹112.6 Cr Thaletec) |
+| FY23 | Consol. | 373.5 | 74.5 | 299.0 | 3 | 932 | 2.50 | 3.12 | 19.3 | 23 | 48.5 |
+| FY24 | Consol. (+Kinam) | 413.9 | 99.2 | 314.7 | 19.4 | 968 | 2.34 | 3.08 | 21.3 | 26 | 55.2 (+₹82.1 Cr Kinam) |
+| FY25 | Consol. | 485.3 | 122.3 | 363.0 | 5.0 | 1,028 | 2.12 | 2.83 | 22.5 | 30 | 66.4 |
+| FY26 | Consol. (+Omeras) | 550.9 | 155.3 | 395.6 | 3.7 | 1,353 | 2.46 | 3.42 | 27.7 | 36.5 | 55.7 (+₹30.0 Cr Omeras) |
+| **10-yr avg** | | | | | | | **3.08** | **3.81** | | | |
+| **5-yr avg (FY22–26)** | | | | | | | **2.34** | **3.07** | | | |
+
+\*FY17 capex includes ₹5.86 Cr spent on a patent (an intangible).
+
+**Land / buildings / plant split (gross, ₹ Cr; same AR notes):**
+
+| | FY19 | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|---|---|
+| Freehold land | 2.5 | 2.5 | 16.9 | 20.9 | 56.8 | 61.6 | 66.1 | 72.6 |
+| Buildings | 26.3 | 28.3 | 36.3 | 117.8 | 145.3 | 152.0 | 180.6 | 191.5 |
+| Plant & equipment | 47.3 | 56.4 | 53.1 | 94.2 | 108.9 | 126.3 | 150.8 | 180.1 |
+| Other (windmill, tools, electricals, vehicles, office, computers) | 17.8 | 22.0 | 24.2 | 49.8 | 62.5 | 73.9 | 87.9 | 106.7 |
+
+*Leasehold land sits in right-of-use assets (₹9.1 Cr gross, FY23 AR Note 2(b)). FY23 freehold-land additions of ₹37.8 Cr match the disclosed purchase of ~1.30 lakh m² near Anand for a new GLE plant (FY23 AR, operational highlights). No construction on it is reported in the FY24–FY26 ARs.*
 
 ```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #6b7280"}}}}%%
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#f59e0b, #dc2626, #16a34a"}}}}%%
 xychart-beta
-    title "Revenue / Tangible Gross Block (x)"
-    x-axis [FY23, FY24, FY25, FY26]
-    y-axis "x" 0 --> 3
-    line [2.50, 2.34, 2.12, 2.46]
-    line [2.36, 2.36, 2.36, 2.36]
+    title "Gross Block vs Acc Dep vs Net Block (Rs Cr)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "Rs Cr" 0 --> 600
+    line [22.7, 23.9, 93.9, 109.2, 130.5, 282.7, 373.5, 413.9, 485.3, 550.9]
+    line [2.3, 4.7, 14.0, 19.8, 21.9, 57.7, 74.5, 99.2, 122.3, 155.3]
+    line [20.3, 19.2, 79.9, 89.4, 108.6, 225.0, 299.0, 314.7, 363.0, 395.6]
 ```
-🟦 Asset turnover · ⬜ 4-yr average 2.36×
+🟧 Tangible gross block · 🟥 Accumulated depreciation · 🟩 Net block. The FY18→FY19 step is the HLE Engineers merger; FY22, FY24 and FY26 include acquired assets (Thaletec ₹109 Cr gross / ₹82.5 Cr net; Kinam ₹14.5 Cr; Omeras asset deal ₹16.7 Cr).
 
-**Read:** AT dipped from 2.50× to 2.12× during the FY24–25 capex and Kinam phase, then recovered to 2.46× in FY26.
+**Read:** Gross block rose 24× in ten years (₹22.7 → 551 Cr; 5.9× since the FY19 merger) while accumulated depreciation stayed under 30% of gross. The asset base is young and was mostly bought or built after FY21.
 
-**Business inference:** Tangible plant is being sweated adequately. The return problem sits in margin and the ₹196 Cr of acquired goodwill/intangibles, not in plant efficiency. Base AT 2.55× (utilisation ~85%), bull 2.95× (near-full utilisation plus Omeras ramp), bear 2.36× (average).
+**Business inference:** HLE is not a business sweating an old, written-down plant. About 83% of today's block was added after FY19, so there is no historical-cost cushion behind returns. Every rupee in the block is recent money that has to earn ~13% to cover WACC, and today it earns ~10% post-tax.
+
+**Asset age and reinvestment:**
+
+| Year | Acc. dep ÷ gross | Net ÷ gross | Avg age, yrs (acc. dep ÷ PPE dep) | Remaining life, yrs (net ÷ PPE dep) | Capex ÷ total D&A (×) |
+|---|---|---|---|---|---|
+| FY17 | 10.4% | 89.6% | 1.0 | 8.7 | 2.47 |
+| FY18 | 19.8% | 80.2% | 2.0 | 8.0 | 0.43 |
+| FY19 | 14.9% | 85.1% | 2.4 | 13.7 | 2.56 |
+| FY20 | 18.1% | 81.9% | 2.9 | 13.3 | 3.05 |
+| FY21 | 16.8% | 83.2% | 2.9 | 14.4 | 3.58 |
+| FY22 | 20.4% | 79.6% | 6.1 | 23.9 | 6.31 |
+| FY23 | 19.9% | 80.1% | 3.9 | 15.5 | 2.11 |
+| FY24 | 24.0% | 76.0% | 4.7 | 14.8 | 2.12 |
+| FY25 | 25.2% | 74.8% | 5.4 | 16.1 | 2.21 |
+| FY26 | 28.2% | 71.8% | 5.6 | 14.3 | 1.53 |
+
+*The deemed-cost reset at 1-Apr-2016 zeroed accumulated depreciation, so FY17–FY21 ages understate the true age of the legacy plants. The FY22 spike reflects Thaletec's acquired buildings, which carry long remaining lives.*
 
 ```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b, #16a34a, #9333ea"}}}}%%
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#dc2626"}}}}%%
 xychart-beta
-    title "Growth Index FY23 = 100 (tangible gross block)"
-    x-axis [FY23, FY24, FY25, FY26]
-    y-axis "Index" 0 --> 160
-    line [100, 104, 110, 145]
-    line [100, 111, 130, 147]
-    line [100, 82, 98, 102]
-    line [100, 59, 89, 81]
+    title "Asset Age: Acc Dep / Gross Block (%)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "%" 0 --> 35
+    line [10.4, 19.8, 14.9, 18.1, 16.8, 20.4, 19.9, 24.0, 25.2, 28.2]
 ```
-🟦 Revenue (CAGR 13.2%) · 🟧 Tangible PPE gross block (13.8%) · 🟩 EBITDA excl. OI (0.7%) · 🟪 PAT (−6.6%)
+🟥 Accumulated depreciation ÷ gross block
 
-**Read:** Revenue and tangible gross block grew in step (+45% / +47% since FY23), but EBITDA is flat (+2%) and PAT is down 19%.
+**Read:** The age ratio crept up from 15% (FY19) to 28% (FY26). Average asset age is now ~5.6 years, against a ~20-year implied useful life (gross ÷ PPE depreciation).
 
-**Business inference:** Every rupee of new capacity and acquired revenue has come at near-zero incremental profit, the signature of price/mix erosion and sub-scale acquired units. This is why incremental ROIC is negative (below).
+**Business inference:** The plant is still young, so no catch-up replacement spike is due within the 2–3 year horizon. Maintenance capex can stay near PPE depreciation (~₹28–35 Cr/yr), which supports the Module 11 capex plan of ₹50–60 Cr.
 
-**Incremental ROIC (FY23 → FY26):** ΔEBIT −₹12 Cr on ~₹380 Cr of added capital = **negative → Value-destroying** (flagged in Module 4). Forward (base FY26 → FY29): ΔEBIT (173.6 − 112.1) × 0.75 = ₹46 Cr on ~₹160 Cr capex + ~₹76 Cr NWC = **~19%**, above WACC, but it depends entirely on margin recovery.
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#f59e0b, #16a34a"}}}}%%
+xychart-beta
+    title "Capex vs Depreciation & Amortisation (Rs Cr)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "Rs Cr" 0 --> 80
+    bar [6.3, 1.3, 16.7, 22.7, 32.2, 69.4, 48.5, 55.2, 66.4, 55.7]
+    line [2.5, 3.0, 6.5, 7.4, 9, 11, 23, 26, 30, 36.5]
+```
+🟧 Capex (excludes acquisitions) · 🟩 Total D&A
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #dc2626"}}}}%%
+xychart-beta
+    title "Capex / D&A (x)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "x" 0 --> 7
+    line [2.47, 0.43, 2.56, 3.05, 3.58, 6.31, 2.11, 2.12, 2.21, 1.53]
+    line [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+```
+🟦 Capex ÷ D&A · 🟥 1.0× replacement line
+
+**Read:** Capex beat D&A in 9 of 10 years (average 2.6×), peaking at 6.3× in FY22 (Silvassa greenfield). It has eased to 1.5× in FY26 as D&A caught up with the larger base.
+
+**Business inference:** Maintenance capex is adequate and there is no underinvestment flattering FCF. The opposite risk applies: ₹367 Cr of organic capex over FY19–FY26 (on top of ~₹225 Cr of acquisitions) has gone into capacity that runs at 70–75% utilisation. Growth capex should stay modest until AT recovers. A new plant on the idle Anand land would be value-destructive at today's India returns.
+
+**Organic India vs acquired businesses:**
+
+| Year | India gross block (standalone) | India revenue (standalone) | India AT (×) | India op. profit (₹ Cr) | Subsidiaries gross block (consol − standalone) | Subsidiaries revenue (consol − standalone) | Subsidiaries AT (×) |
+|---|---|---|---|---|---|---|---|
+| FY20 | 101.5 | 387 | 3.81 | 64 | — | — | — |
+| FY21 | 122.5 | 421 | 3.44 | 80 | — | — | — |
+| FY22 | 165.2 | 508 | 3.08 | 89 | 117.6 | 144 (Thaletec ~1 qtr) | 1.22 |
+| FY23 | 253.0 | 649 | 2.57 | 96 | 120.5 | 283 | 2.35 |
+| FY24 | 273.5 | 591 | 2.16 | 66 | 140.3 | 377 | 2.69 |
+| FY25 | 326.0 | 551 | 1.69 | 53 | 159.3 | 477 | 2.99 |
+| FY26 | 345.2 | 723 | 2.09 | 85 | 205.7 | 630 | 3.06 |
+
+*Sources: standalone gross block from AR standalone Note 2(a) (FY21 AR for FY20–21; FY23 AR for FY22–23; FY26 AR for FY24–26). Standalone revenue and operating profit from Screener standalone. Standalone = HLE India (F&D + India GLE). Subsidiaries = Thaletec Germany, Kinam Engineering (70%; only the holding entity Kinam Enterprise was merged into HLE), HST/Omeras and the H.L. Equipment/Thaletec LLP partnership. Before FY22 the difference was only the H.L. Equipment partnership, so it is not shown. Inter-company sales are not eliminated, so subsidiary revenue is approximate.*
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b, #6b7280"}}}}%%
+xychart-beta
+    title "Asset Turnover FY17-FY26 - Gross & Net (x)"
+    x-axis [FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "x" 0 --> 5.5
+    line [3.57, 4.06, 3.82, 3.90, 3.71, 2.31, 2.50, 2.34, 2.12, 2.46]
+    line [3.98, 5.05, 4.49, 4.77, 4.46, 2.90, 3.12, 3.08, 2.83, 3.42]
+    line [3.08, 3.08, 3.08, 3.08, 3.08, 3.08, 3.08, 3.08, 3.08, 3.08]
+```
+🟦 Revenue ÷ tangible gross block · 🟧 Revenue ÷ net block · ⬜ 10-yr average gross AT 3.08×. FY17–18 are SGEL pre-merger.
+
+**Read:** Gross AT held at 3.6–4.1× through FY21 and then stepped down to 2.1–2.5× from FY22. FY26's 2.46× is 20% below the 10-yr average and 37% below the FY20 merged peak of 3.90×. Net AT follows the same path (4.8× → 3.4×).
+
+**Business inference:** The FY22 break is structural, not a short ramp. Thaletec's building-heavy German base, the Silvassa greenfield, and ₹38 Cr of idle Anand land all brought assets that generate far less revenue per rupee than the legacy plants. A return to ~3.9× would need both higher realisations and full utilisation. That is why the bull case uses 2.95×, not the 10-yr peak, and the base 2.55× sits between the 5-yr average (2.34×) and FY26.
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #9333ea"}}}}%%
+xychart-beta
+    title "India (Standalone) vs Consolidated Gross AT (x)"
+    x-axis [FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "x" 0 --> 4.5
+    line [3.90, 3.71, 2.31, 2.50, 2.34, 2.12, 2.46]
+    line [3.81, 3.44, 3.08, 2.57, 2.16, 1.69, 2.09]
+```
+🟦 Consolidated gross AT · 🟪 India standalone gross AT (organic HLE)
+
+**Read:** India's own asset turnover fell from 3.81× to 2.09× (FY25 trough 1.69×). The India gross block grew 3.4× (₹101 → 345 Cr) while India revenue grew 1.9× (₹387 → 723 Cr). Since FY23 the acquired subsidiaries have turned assets faster than India (3.06× vs 2.09× in FY26).
+
+**Business inference:** The return problem is organic as well as acquired. India operating profit rose only ₹5 Cr (₹80 → 85 Cr) over FY21–FY26 on +₹223 Cr of gross block, a **~2% pre-tax incremental return**. Lower India GLE realisations (Module 1c), the Silvassa ramp (65–70% utilisation, FY23 AR) and the idle Anand land explain it. Excluding the Anand land, India FY26 AT is 2.35×. Each rupee of India revenue now needs ₹0.48 of gross block, against ₹0.26 in FY20. Capacity-led growth now costs about twice as much capital as it used to.
+
+**Land & buildings at book, and hidden asset value:**
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#f59e0b, #16a34a"}}}}%%
+xychart-beta
+    title "Land and Buildings at Book - Gross (Rs Cr)"
+    x-axis [FY19, FY20, FY21, FY22, FY23, FY24, FY25, FY26]
+    y-axis "Rs Cr" 0 --> 220
+    line [2.5, 2.5, 16.9, 20.9, 56.8, 61.6, 66.1, 72.6]
+    line [26.3, 28.3, 36.3, 117.8, 145.3, 152.0, 180.6, 191.5]
+```
+🟧 Freehold land (no revaluation; Ind AS cost/deemed cost) · 🟩 Buildings (gross)
+
+**Read:** Freehold land rose from ₹2.5 Cr to ₹72.6 Cr. The jumps were FY21 (+₹14.5 Cr) and FY23 (+₹37.8 Cr, Anand ~1.30 lakh m²). Buildings went from ₹26 Cr to ₹192 Cr, including Thaletec's German buildings (₹62 Cr gross at acquisition, FY23 AR).
+
+**Business inference:** Most land is recent purchase at near-market cost, so the book value is close to market and there is little hidden value. The one sizeable lever is the Anand plot, an undeveloped option that could be sold if the planned GLE plant is never needed.
+
+**Market-value proof points and estimate.**
+- No PPE revaluation has been made (cost model; FY26 AR accounting policy).
+- **FY25 investment-property fair value was ₹1.42 Cr against book ₹3.69 Cr**, i.e. below book. FY26 shows "Nil" fair value after reclassification (FY26 AR Note 2(d)).
+- The Anand land cost ~₹2,910/m² (₹37.8 Cr ÷ 1.30 lakh m²). GIDC's FY2026-27 allotment price for V.U. Nagar estate, Anand district, is ₹4,360/m² (gidc.gujarat.gov.in/allotmentprice). At that rate the plot would be worth ~₹56.7 Cr, a **surplus of ~₹19 Cr (₹2.7/share)**. This is an estimate: the plot may lie outside a GIDC estate.
+- Marking all freehold land up 50% gives ~₹36 Cr (₹5.2/share).
+- Thaletec's German land and buildings: no fair value is disclosed (data gap).
+
+**Estimated hidden asset value: ₹3–5 per share (~1% of CMP).** Tangible book (ex-goodwill/intangibles) is ~₹49/share. Tangible net PPE plus the land surplus, less net debt, is ~₹18/share. **This gives no floor under the ₹225 bear case**, which is ~4.6× tangible book. The downside is set by earnings multiples.
+
+**Long-life installed base and aftermarket:**
+- Glass-lined reactors and filter-dryers run 10–30 years and need periodic re-glassing and spares. HLE markets an "After Sales & Service" network (FY26 AR, presence map).
+- Disclosed aftermarket:
+  - FY25 AR product split: **Spares & Service 15.38%** of revenue (~₹158 Cr).
+  - FY26 AR product split: ~6–7% (the chart labels are ambiguous; either 6.1% or 6.7%, ~₹83–91 Cr).
+  - Consolidated "sale of services": FY24 (restated) ₹65.9 Cr, FY25 ₹80.7 Cr, FY26 ₹78.7 Cr, i.e. 6.8% / 7.9% / 5.8% of revenue (AR Note 20).
+- Aftermarket margin is not disclosed.
+- The FY25→FY26 drop is unexplained and only three consistent points exist, so there is no chart.
+
+**Installed-base verdict:** The aftermarket is real but small (~6–8% of revenue on the consistent "services" line) and flat in rupees while equipment revenue rose 32%. It does not justify a longer-duration DCF or a higher terminal value. Terminal growth (7%) and RONIC = WACC stay unchanged. If HLE disclosed a stable 10%+ aftermarket share at above-average margins, a 0.5–1pp lower discount rate on that stream would be defensible (bull-case sensitivity only).
+
+**Incremental ROIC (FY23 → FY26):** ΔEBIT −₹12 Cr on ~₹380 Cr of added capital = **negative → Value-destroying** (flagged in Module 4). Organic India FY21→FY26: ~2% pre-tax on +₹223 Cr gross block (above). Forward (base FY26 → FY29): ΔEBIT (173.6 − 112.1) × 0.75 = ₹46 Cr on ~₹160 Cr capex + ~₹76 Cr NWC = **~19%**, above WACC, but it depends entirely on margin recovery.
 **Capex-model implied revenue CAGR:** **8.4%** (₹1,353 → ₹1,720 Cr FY29) vs PIE-implied ~23–25%. **The market is pricing unannounced expansion.**
 
 ### Capex-to-Earnings Model (Base)
@@ -736,14 +904,14 @@ xychart-beta
 2. **De-rating** (High). At 80× trough EPS, a P/E reversion to the mid-30s (Anup/GMM-like) implies ~₹200–260 on current earnings.
 3. **Credit/coverage** (Medium). Debt/OPBDITA above ICRA's 2.0× trigger; bear-case ICR 1.9×.
 4. **Integration/acquisition** (Medium). Omeras turnaround; possible further M&A to chase the ₹2,000 Cr target with a negative incremental-ROIC track record.
-5. **Customer concentration in F&D** (Medium). Top-10 = 69% of segment revenue (ICRA).
+5. **Customer concentration** (Medium). F&D top-10 = 69% of segment revenue (ICRA). One customer = ₹160.9 Cr, 11.9% of consolidated FY26 revenue (AR geographic note).
 
 ### Scenario Analysis (AT-Driven, FY29E)
 | Scenario | AT Assumption | Revenue FY29E | EBITDA Margin | EPS FY29E | Target Multiple | Target Price | Probability |
 |---|---|---|---|---|---|---|---|
 | Bull | 2.95× (near-full utilisation, Omeras ramp, mgmt targets ~1 yr late) | ₹2,000 Cr | 14.5% | ₹22.46 | 35× P/E / 18× EV/EBITDA | ₹745 | 20% |
 | Base | 2.55× (utilisation ~85%) | ₹1,720 Cr | 13.0% | ₹14.86 | 28× / 16× | ₹440 | 50% |
-| Bear | 2.36× (4-yr avg; deferrals persist) | ₹1,590 Cr | 10.0% | ₹7.63 | 25× / 3.0× P/B | ₹225 | 30% |
+| Bear | 2.36× (≈ 5-yr avg 2.34×; deferrals persist) | ₹1,590 Cr | 10.0% | ₹7.63 | 25× / 3.0× P/B | ₹225 | 30% |
 | **Expected Value** | | | | | | **₹437** | |
 
 **Return from current price (Expected Value):** +6.0%, far short of the 35–40% required MoS.
@@ -761,8 +929,8 @@ xychart-beta
 - **Section E (Market Size & Share):** 5/7. No independent TAM or 5-yr share series.
 - **Section F (Valuation):** 10/10.
 - **Section G (Technical):** 8/8. Sector index proxied by Midcap 100.
-- **Section H (Forward View):** 29/31. Segment-level capex attribution and 7–10-yr gross block not available.
-- **Section I (Charts):** 5/5. C1 ×2, C2, C4/CY7, C5/CY7, C6, C7, C8, C12, C13, CY1, CY2 + ROE, CY4, OB-1, OB-2, OB-4. OB-3 omitted with reason.
+- **Section H (Forward View):** 30/31. A 10-yr gross block and an India-vs-subsidiary split are now built (addendum); segment-level capex attribution is still not disclosed.
+- **Section I (Charts):** 5/5. C1 (tangible gross block, FY19 base), C6 FY17–26 (gross + net AT, 10-yr avg), India-vs-consolidated AT, gross/acc-dep/net block, asset age, capex vs D&A, capex÷D&A, land & buildings at book, C2, C4/CY7, C5/CY7, C6, C7, C8, C12, C13, CY1, CY2 + ROE, CY4, OB-1, OB-2, OB-4. OB-3 omitted with reason.
 - **Order Book Tracker:** Run (first ledger; carried forward from here).
 - **Hard Stops Triggered:** **None.** Integrity pass; earnings quality clean; forensic flags 2; M −2.47; pledge 0%; no ICD; auditor unchanged; stock not in Stage 4; ROIC < WACC 3 yrs (< 5); U/D 1.8:1 (≥ 1.5).
 
@@ -812,9 +980,9 @@ xychart-beta
 ### Data Gaps (this run)
 - Q1FY27 earnings-call transcript not found on BSE/NSE (no call filed after 1-Jun-2026). Q2FY27 results not yet announced (due ~Nov-2026).
 - Sep-2026 shareholding pattern not yet published. SAST Reg 10(6)/29 PDFs for Aalap N. Patel are scanned images; quantities unverified.
-- Aftermarket/reglassing revenue share not disclosed.
+- Aftermarket share disclosed inconsistently (15.4% FY25 vs ~6–7% FY26 product split); aftermarket margin not disclosed.
 - No independent India GLE/F&D TAM or 5-yr market-share data.
-- Tangible PPE gross block before FY23 not extracted, so AT history is 4 yrs.
+- Gross block FY17–18 covers Swiss Glascoat only (pre-merger), and the Ind AS deemed-cost reset (2016) understates legacy asset age. No market valuation for land or buildings except the FY25 investment property; Anand land value is estimated from the GIDC V.U. Nagar allotment rate. No Thaletec Germany property fair value.
 - No Nifty capital-goods sector index series; Midcap 100 used as proxy. Nifty P/E not retrieved.
 - Fehmarnbelt order INR value is estimated (filing gives EUR only). Thaletec acquisition price (€12 m) not re-verified.
 - No sell-side consensus found.
@@ -823,6 +991,7 @@ xychart-beta
 *Report generated by Stock Fundamental Analysis Skill v3.3 | Indian Markets Context*
 *Primary sources:*
 - *BSE filings for scrip 522215: Q1FY27 investor release and results (10-Aug-2026); Q4FY26 investor release (19-May-2026); Q4FY26 earnings-call transcript (25-May-2026, filed 1-Jun-2026); FY26 Annual Report (filed 7-Sep-2026: consolidated P&L, BS, cash flow, PPE note, RPT note, auditor KAMs, remuneration annexure); award of order (8-Sep-2026); CFO resignation (4-Jul-2026) and appointment (25-Sep-2026); group restructuring (5-Oct-2026); SAST disclosures (Aug/Sep-2026); quarterly investor releases Q4FY24–Q3FY26 for order-book history*
+- *Annual reports FY2017–FY2025 (Swiss Glascoat / HLE Glascoat, BSE): PPE notes, capex, standalone and consolidated; GIDC FY2026-27 industrial allotment price table (gidc.gujarat.gov.in/allotmentprice)*
 - *ICRA rationale (17-Jul-2026) and material-event update (19-Aug-2026)*
 - *Screener.in consolidated financials for HLE, GMM Pfaudler, Anup, Thermax and Praj (13-Oct-2026)*
 - *Yahoo Finance weekly/daily prices (HLEGLAS.NS, ^NSEI, ^NSMIDCP, ^INDIAVIX, EURINR=X)*
