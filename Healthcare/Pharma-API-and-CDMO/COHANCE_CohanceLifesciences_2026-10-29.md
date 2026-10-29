@@ -1,16 +1,47 @@
 # Stock Analysis Report — Cohance Lifesciences Ltd (NSE: COHANCE · BSE: 543064)
-**Date:** 2026-10-10
+**Date:** 2026-10-29
 **Analyst:** Claude (Stock Fundamental Analysis Skill v3.3)
 **Investment Horizon:** 2–3 Years
-**Recommendation:** AVOID (hard stops: U/D < 1.5:1 and SVAR > 40%). Kept on the watchlist; buy-below ₹365 only after a Stage-2 breakout
-**Conviction Score:** 4.0 / 10
-**CMP:** ₹441 (NSE close 9-Oct-2026) · MCap ₹16,873 Cr · EV ≈ ₹17,441 Cr (incl. ₹696 Cr NCI buy-out obligation)
+**Recommendation:** AVOID (hard stops: U/D 0.88:1 and SVAR 55%, both worse after the price rise). Kept on the watchlist; buy-below ₹365 unchanged. **Re-run after Q2 FY27 results (board meeting and call: 6-Nov-2026)**
+**Conviction Score:** 3.8 / 10
+**CMP:** ₹491 (NSE, 29-Oct-2026, Screener.in) · MCap ₹18,784 Cr · EV ≈ ₹19,352 Cr (incl. ₹696 Cr NCI buy-out obligation)
+**Filed under:** Healthcare / Pharma API and CDMO · Themes: Specialty chemicals China+1; Pharma, CDMO & healthcare
 
 ## Revision Log
 | Version | Date | Recommendation | Conviction | Price | Key change |
 |---|---|---|---|---|---|
-| **Current** | 2026-10-10 | **AVOID** (watchlist, buy-below ₹365) | **4.0/10** | ₹441 | The previous report's own numbers already breached the U/D hard stop, so the verdict is corrected. Walk-the-Talk is now built from 5 transcripts: 0.20, UNRELIABLE. New issues since the last report: two more USFDA 483s (Shamshabad, Jaggaiahpet), the CFO has left, ~$28m more is going into loss-making NJ Bio plus a preclinical biotech (Aruka), and CRISIL migrated its rating to "Issuer Not Cooperating" before withdrawing it. ₹696 Cr NCI put liability surfaced. Nifty is in Stage 4. Stock RS has improved and its 30-wk MA has turned up. |
-| Previous | 2026-08-26 | WATCHLIST (Quality/wrong price) | 4.5/10 | ₹462 | Initial report. Full text is in git history (`git log --follow`). |
+| **Current** | 2026-10-29 | **AVOID** (watchlist, buy-below ₹365) | **3.8/10** | ₹491 | **Interim update ahead of Q2 FY27 (6-Nov-2026).** No new fundamentals: Q2 results are not out and there are no new USFDA outcomes. Price +11% (₹441 → ₹491), so asymmetry worsened: U/D 1.30 → **0.88:1**, SVAR 50% → **55%**, and the probability-weighted value (₹441) now sits **10% below** CMP. Positives: CFO seat filled (Abhimanyu Ojha, from 12-Oct-2026); MCA approved Umang Vohra as Chairman & Group CEO (8-Oct); Nifty Pharma still Stage 2; the stock is testing the ₹490 pivot, but on low volume and without a weekly close above it yet. Negatives: Nifty still Stage 4; DII holding fell again (20.1% → 18.9%); new ESOP grants (8.7 lakh options) |
+| Previous | 2026-10-10 | **AVOID** (watchlist, buy-below ₹365) | **4.0/10** | ₹441 | The previous report's own numbers already breached the U/D hard stop, so the verdict is corrected. Walk-the-Talk is now built from 5 transcripts: 0.20, UNRELIABLE. New issues since the last report: two more USFDA 483s (Shamshabad, Jaggaiahpet), the CFO has left, ~$28m more is going into loss-making NJ Bio plus a preclinical biotech (Aruka), and CRISIL migrated its rating to "Issuer Not Cooperating" before withdrawing it. ₹696 Cr NCI put liability surfaced. Nifty is in Stage 4. Stock RS has improved and its 30-wk MA has turned up. |
+| Earlier | 2026-08-26 | WATCHLIST (Quality/wrong price) | 4.5/10 | ₹462 | Initial report. Full text is in git history (`git log --follow`). |
+
+### What changed (Oct-10 → Oct-29), interim update
+1. **Price, not fundamentals.** The stock rose 11% to ₹491 in three weeks with Nifty roughly flat. Scenario values are unchanged (no new results). U/D on the unchanged set is (730 − 491)/(491 − 219) = **0.88:1** and SVAR = (491 − 219)/491 = **55%**, so the hard stops are more firmly triggered than on 10-Oct.
+2. **Management continuity improved.** Abhimanyu Ojha was appointed CFO and KMP effective 12-Oct-2026 (BSE, 9-Oct), closing the vacancy flagged on 10-Oct. MCA approved Umang Vohra as Chairman & Group CEO (8-Oct-2026). This marginally improves Fisher #9 (management depth) but does not change the WTT score, which depends on delivery.
+3. **No regulatory change found.** No EIR/classification was found for the Pashamylaram, Shamshabad or Jaggaiahpet 483s. The VAI headlines circulating in search results are from May-2025 (Nacharam Unit-IV) and are not new. The Nacharam FDF warning letter (FDA, dated 30-Jan-2026) stands.
+4. **Ownership flows.** Sep-2026 SHP: promoters 57.48% (flat; pledge 94.6% per Screener, unchanged), FIIs 6.50% → **7.71%**, DIIs 20.09% → **18.86%** (DIIs selling into the rally). ESOP grants of 2.6 lakh (ESOP 2026) + 6.1 lakh (ESOP 2023) options on 9-Oct: dilution ~0.2%.
+5. **Technicals.** The price is testing the ₹490 pivot (intraday ₹492.8 on 29-Oct) above a rising 30-wk MA of ₹442.5 (₹394.7 ten weeks ago). Volume is **drying up** (10-wk avg 4.4m vs 30-wk avg 11.5m weekly), so a confirmed Stage-2 breakout (weekly close > ₹490 on ≥1.5× average volume) has **not** happened yet.
+6. **Next decisive data:** Q2 FY27 results on **6-Nov-2026** (board meeting; call at 6:30 pm IST). Q2 needs sequential growth and EBITDA recovery for the turnaround thesis to start, per the 10-Oct re-entry conditions.
+
+### Validation of the 10-Oct report (Oct-29)
+| # | Item | 10-Oct | 29-Oct | Status |
+|---|---|---|---|---|
+| 1 | CMP / MCap / EV | ₹441 / ₹16,873 Cr / ₹17,441 Cr | ₹491 / ₹18,784 Cr / ₹19,352 Cr | 🔄 Updated |
+| 2 | TTM P/E | 158.6× (TTM EPS ₹2.78) | ~174× (Screener; TTM EPS ~₹2.82) | 🔄 Updated |
+| 3 | EV / FY26 adj EBITDA | 36.5× | 40.5× | 🔄 Updated |
+| 4 | 52-wk high/low | ₹918 / ₹267 | ₹715 / ₹267 (Yahoo; window rolled past the Oct-2025 highs; Screener shows ₹799) | 🔄 Updated |
+| 5 | Quarterly financials to Jun-2026 | as tabled | Unchanged (Screener) | ✅ Validated |
+| 6 | Scenario set (₹730 / ₹407 / ₹219; EV ₹441) | as stated | Unchanged pending Q2 FY27 | ✅ Carried (re-run after 6-Nov) |
+| 7 | U/D and SVAR | 1.30:1 / 50% | **0.88:1 / 55%** | 🔄 Updated (worse) |
+| 8 | CFO | Vacant (Agarwal left 13-Sep) | **Abhimanyu Ojha, CFO & KMP from 12-Oct-2026** | 🔄 Updated |
+| 9 | Exec Chair / CEO | Vohra (Exec Chair/CEO) | MCA approval as Chairman & Group CEO, 8-Oct-2026 | ✅ Validated + 🔄 |
+| 10 | USFDA status | 1 WL + 3 open 483s | Unchanged; no EIRs found as of 29-Oct | ✅ Validated |
+| 11 | Shareholding | Promoter 57.49%, FII 6.5%, DII 20.1% (Jun-26) | 57.48% / **7.71%** / **18.86%** (Sep-26) | 🔄 Updated |
+| 12 | Pledge | 94.6% of promoter holding | 94.6% (Screener) | ✅ Validated |
+| 13 | Nifty 50 stage | 22,520, Stage 4 | 22,756 < falling 30-wk MA 23,688 → Stage 4 | ✅ Validated |
+| 14 | Nifty Pharma stage | Stage 2 | 26,671 > rising 30-wk MA 25,429; +20% YoY → Stage 2 | ✅ Validated |
+| 15 | Stock stage | Late Stage 1, pivot ₹490 | At the pivot; weekly close above not yet confirmed; volume weak | 🔄 Updated |
+| 16 | Peer multiples (10-Oct) | as tabled | Not refreshed (fundamental read unchanged) | ⚠️ Carried, dated 10-Oct |
+| 17 | Q2 FY27 | Due "late Oct/Nov" | **Board meeting 6-Nov-2026** | 🔄 Updated |
 
 ### What changed in the thesis (Aug-26 → Oct-10)
 1. **Verdict correction (process error).** The previous scenarios were Bull ₹585, Base ₹360 and Bear ₹160 against a ₹462 CMP. That gives U/D = (585−462)/(462−160) = **0.41:1** and SVAR = 65%, so two hard stops were triggered and the report should have read AVOID, not WATCHLIST. The new scenario set gives U/D 1.30:1 and SVAR 50%, so it is still AVOID.
@@ -20,7 +51,7 @@
 5. **Hidden debt-like item.** The ₹696 Cr *"liability towards obligation to acquire non-controlling interest"* (put options, NJ Bio and Sapala; FY26 AR Note 22) more than offsets the ₹251 Cr headline net cash. On an adjusted basis the company has ~₹445 Cr net financial obligations.
 6. **Offsets.** The stock fell only 4.6% while Nifty fell ~7%, so RS vs Nifty is +20pp over 26 weeks. The 30-week MA has turned up (₹389 → ₹428). The new Exec Chairman/CEO Umang Vohra (ex-Cipla) is reorganising the business, and a restocking order plus two newly commercial molecules give some H2 FY27 visibility.
 
-### Validation of previous report
+### Validation of the 26-Aug report (done 10-Oct)
 | # | Item | Previous (26-Aug) | Now (10-Oct) | Status |
 |---|---|---|---|---|
 | 1 | CMP / MCap | ₹462 / ₹17,689 Cr | ₹441 / ₹16,873 Cr (Screener; 38.26 Cr sh) | 🔄 Updated |
@@ -60,6 +91,8 @@
 ## Executive Summary
 Cohance is an Advent-controlled Indian CDMO/API platform (Suven Pharma + Cohance merger, effective 1-May-2025) with niche CNS/controlled-substance APIs, small-molecule CDMO, ADC payloads (NJ Bio) and oligonucleotide building blocks (Sapala). Management called Q1 FY27 its trough (adj EBITDA margin 2.2%, net loss) and promises H2 FY27 growth. However, its guidance record is very poor (Walk-the-Talk 0.20). USFDA findings are spreading across sites. Cash is being redirected into loss-making NJ Bio and a preclinical ADC biotech, and the ₹441 price (158× TTM EPS, 36.5× FY26 adj EBITDA) already requires a ~29% 5-year revenue CAGR at a 25% EBIT margin, which is about three times what current capacity can produce. **Verdict: AVOID on hard stops (U/D 1.30:1, SVAR 50%).** It stays on the watchlist with a buy-below of ₹365, valid only with a Stage-2 breakout above ₹490 and a delivered H2 FY27.
 
+> **29-Oct-2026 update:** the price has risen to **₹491** (~174× TTM EPS, 40.5× FY26 adj EBITDA) with no new fundamentals. Q2 FY27 results are due **6-Nov-2026**. On the unchanged scenario set, U/D is **0.88:1** and SVAR **55%**, so AVOID is reinforced. A new CFO (Abhimanyu Ojha, from 12-Oct) closes one governance gap. The ₹490 pivot is being tested on weak volume, and a breakout is not confirmed.
+
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #f59e0b, #16a34a, #9333ea"}}}}%%
 xychart-beta
@@ -92,7 +125,7 @@ This is an **asset-heavy specialty-chemistry business currently behaving like a 
 ---
 
 ## Module 1 — Broad Market Cycle (Marks)
-- **Nifty 50:** 22,520 (9-Oct-2026), −12.4% YoY, below a **declining** 30-wk MA of 23,718 (23,895 four weeks ago). India VIX is rising. *(Yahoo ^NSEI weekly; user-supplied context)*
+- **Nifty 50:** 22,756 (29-Oct-2026), −10.7% YoY, below a **declining** 30-wk MA of 23,688 (24,098 ten weeks ago). *(Yahoo ^NSEI weekly; 10-Oct reading: 22,520 vs MA 23,718)*
 - **Assessment: Cautious → Fearful.** The pendulum has swung from complacency to fear. Fear is usually the better long-term entry zone, but in Stage 4 the rule is no new longs until the index base completes.
 - Sizing implication: market fear argues for larger eventual sizing, but the Stage-4 tape argues against acting now. For this name, the stock-specific hard stops dominate.
 
@@ -381,7 +414,7 @@ xychart-beta
 **Classification: optimistic gap.** The market pays for a successful USD 1bn-style plan that management itself has just downgraded to "aspiration".
 **Expectations treadmill:** To merely earn the cost of capital from ₹441, Cohance must compound revenue ~25–29% for five years *and* lift EBIT margin from 11% to 25–28%.
 **Triggers.** Positive: (1) Q2–Q3 FY27 sequential growth with EBITDA >20%; (2) December strategy update with a credible, funded FY30 plan; (3) a large ADC/oligo commercial award or NJ Bio breakeven. Negative: (1) a Q2 miss of the "stable/improving" guide; (2) a 483 escalating to OAI/WL at an API site (Jaggaiahpet/Pashamylaram serve CDMO/API exports); (3) NJ Bio goodwill impairment, or Advent block supply.
-**SVAR:** Bear target ₹219 (below), so SVAR = (441 − 219)/441 = **50% > 40% → hard stop.**
+**SVAR:** Bear target ₹219 (below), so SVAR = (441 − 219)/441 = **50% > 40% → hard stop.** At the 29-Oct CMP of ₹491: (491 − 219)/491 = **55%**.
 
 ### 9B. Own Model — Intrinsic Value (three methods)
 | Method | Bear | Base | Bull | Notes |
@@ -402,7 +435,7 @@ xychart-beta
 | Bear | Stays ~0.80× (FY27E trough) | ₹2,550 Cr | 17% | ₹4.1 | 22× EV/EBITDA | **₹219** | 25% |
 | **Expected value** | | | | | | **₹441** | |
 
-**Expected value ₹441 = CMP (0% return). U/D:** simple (730 − 441)/(441 − 219) = **1.30:1**; probability-weighted 72.3 / 72.5 = **1.0:1**. Both are below 1.5, so **hard stop → AVOID.** **Buy-below:** U/D ≥ 2:1 at ≤ ₹389 and SVAR ≤ 40% at ≤ ₹365, so the binding level is **₹365**.
+**Expected value ₹441 = 10-Oct CMP (0% return); at ₹491 it is −10%. U/D:** simple (730 − 441)/(441 − 219) = **1.30:1** on 10-Oct; **(730 − 491)/(491 − 219) = 0.88:1 on 29-Oct**. Both are below 1.5, so **hard stop → AVOID.** **Buy-below:** U/D ≥ 2:1 at ≤ ₹389 and SVAR ≤ 40% at ≤ ₹365, so the binding level is **₹365**.
 
 ```mermaid
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2563eb, #dc2626"}}}}%%
@@ -497,15 +530,16 @@ xychart-beta
 ---
 
 ## Module 10 — Technical Stage (Weinstein + CANSLIM)
-| Item | Reading (Yahoo weekly/daily, close 9-Oct-2026) |
+| Item | Reading (Yahoo weekly/daily, 29-Oct-2026; 10-Oct values in brackets) |
 |---|---|
-| **Nifty 50** | 22,520 < 30-wk MA 23,718 (declining) → **Stage 4** |
-| **Nifty Pharma** | 25,962 > 30-wk MA 25,035 (rising); +16.7% YoY; 4% below high → **Stage 2** |
-| **Stock** | ₹441 vs 30-wk MA **₹427.5, rising** (₹389 → ₹407 → ₹428 over 10 weeks); 200-DMA ₹415 (still declining); 50-DMA ₹448 |
+| **Nifty 50** | 22,756 < 30-wk MA 23,688 (declining) → **Stage 4** [22,520 / 23,718] |
+| **Nifty Pharma** | 26,671 > 30-wk MA 25,429 (rising); +20.3% YoY → **Stage 2** [25,962 / 25,035] |
+| **Stock** | ₹492 vs 30-wk MA **₹442.5, rising** (₹394.7 ten weeks ago); 200-DMA ₹410 (still declining: ₹418 twenty days ago); 50-DMA ₹454 [₹441 vs MA ₹427.5] |
+| **Pivot test (29-Oct)** | Intraday high ₹492.8 vs ₹490 pivot; weekly closes since Sep: 459, 451, 441, 464, 450, 476. **No weekly close above ₹490 yet.** Daily volume 0.4–1.2m vs ~2.3m/day 30-wk average → breakout volume absent |
 | Base | Sideways **₹417–₹488 weekly-close range since May-2026** (~22 weeks) after the 280 → 488 thrust. Pivot ≈ ₹490 |
 | Volume | 10-wk avg 6.0m vs 30-wk avg 11.4m, so volume is drying up in the base (constructive). 11.5m spike in the week of 21-Sep (+4.8%) |
-| RS vs Nifty | 4-wk +0.7% vs −3.5%; 13-wk −0.2% vs −7.5%; 26-wk +12.9% vs −7.5%; 52-wk −50.4% vs −12.4% → **short-term RS strongly positive; long-term negative** |
-| 52-wk H/L | ₹918 / ₹267 |
+| RS vs Nifty | 29-Oct: 13-wk +10.4% vs −7.4%; 26-wk +0.8% vs −5.9%; 52-wk −30.5% vs −10.7% → **short-term RS strongly positive; long-term negative** |
+| 52-wk H/L | ₹715 / ₹267 (Yahoo, 29-Oct; ₹918 on 10-Oct before the window rolled) |
 
 **Stock stage: late Stage 1 (base with a rising 30-wk MA). It is not Stage 4**, so the Stage-4 hard stop is not triggered. **Stage 2 is not confirmed** without a weekly close above ~₹490 on ≥1.5× average volume. The market is Stage 4, which overrides individual-stock strength, so there are no new longs. The previous report's "below a falling 200-DMA" was wrong (see validation #24).
 **CANSLIM 2/7:** C ✗ (EPS −149% YoY), A ✗, N ½ (new CEO), S ½ (pledged float, drying volume), L ✗ (ROCE/growth laggard), I ✗ (FII 6.5%, DII down 21.8% → 20.1%; DSP crossed a Reg 29(2) threshold on 12-Aug-26 ⚠️ direction unreadable), M ✗ (Nifty Stage 4) ≈ 2/7.
@@ -567,7 +601,7 @@ xychart-beta
 ---
 
 ## Checklist Summary
-**Section 0 (Existing report protocol):** 3/3 (git mv done; validation table with 31 items; one file remains)
+**Section 0 (Existing report protocol):** 5/5 (29-Oct: git mv 2026-10-10 → 2026-10-29 within Healthcare/Pharma-API-and-CDMO; 17-item validation table; one file remains; README rebuilt)
 **Section A (Business Quality):** 16/18 (scuttlebutt beyond filings ⚠️; KMP remuneration ⚠️)
 **Section B (Forensics):** 9/9
 **Section C (Financial Statements):** 11/12 (Ind AS 116 pre-lease EBITDA not rebuilt ⚠️)
@@ -578,7 +612,7 @@ xychart-beta
 **Section H (Forward View):** 26/32 (segment-level capex/AT not disclosed; single-segment reporting under Ind AS 108)
 **Section I (Charts):** 12 charts. Pre-save check passed (python validator: series lengths, axis ranges, bar rules, Read and Business inference present). C6 and C10 omitted (<4 data points)
 **Order Book Tracker:** not applicable (no order book or Reg 30 order filings)
-**Hard stops triggered:** **(1) Upside/downside 1.30:1 < 1.5:1; (2) SVAR 50% > 40%.** Borderline, not triggered: pledge > 60% (94.6%, re-created as a refinancing, not increased in encumbrance terms); forensic flags 2 unresolved (< 3). Not triggered: ROIC < WACC 5+ yrs (1 year only), Stage 4 (stock is late Stage 1), Beneish, auditor, integrity.
+**Hard stops triggered (29-Oct):** **(1) Upside/downside 0.88:1 < 1.5:1 (1.30:1 on 10-Oct); (2) SVAR 55% > 40% (50% on 10-Oct).** Borderline, not triggered: pledge > 60% (94.6%, re-created as a refinancing, not increased in encumbrance terms); forensic flags 2 unresolved (< 3). Not triggered: ROIC < WACC 5+ yrs (1 year only), Stage 4 (stock is late Stage 1), Beneish, auditor, integrity.
 **Previous report's hard-stop application:** **incorrect.** Its own numbers gave U/D 0.41:1 and SVAR ~65%, so it should have been AVOID.
 
 ### Conviction Score
@@ -587,17 +621,18 @@ xychart-beta
 | Market + sector + stock cycle | 1 | 0.5 | Nifty Stage 4/fearful; sector tailwind; stock trough |
 | Industry structure | 1 | 0.7 | Attractive at the complex end |
 | Business quality & moat | 2 | 1.0 | Narrow moat; losing share |
-| Management | 1 | 0.2 | WTT 0.20; CFO exit; CRISIL non-cooperation |
+| Management | 1 | 0.3 | WTT 0.20; CFO seat filled (12-Oct); CRISIL non-cooperation |
 | Financial + earnings quality | 2 | 1.0 | Clean accruals; goodwill/NCI/pledge risks |
-| Valuation & PIE asymmetry | 2 | 0.2 | Optimistic gap; EV = CMP |
-| Technical + CANSLIM | 1 | 0.4 | Stock RS improving; market Stage 4; CANSLIM 2/7 |
-| **Total** | **10** | **4.0** | |
+| Valuation & PIE asymmetry | 2 | 0.0 | Optimistic gap widened; EV 10% below CMP; U/D 0.88:1 |
+| Technical + CANSLIM | 1 | 0.5 | At the pivot with rising 30-wk MA and Stage-2 sector; market Stage 4; low volume; CANSLIM 2/7 |
+| **Total** | **10** | **3.8** | (4.0 on 10-Oct) |
 
 ---
 
 ## Investment Decision
-**Recommendation:** **AVOID** (hard stops: U/D 1.30:1, SVAR 50%). It remains on the **watchlist** because the CNS API franchise and the new CEO are real assets.
-**Conviction Score:** 4.0 / 10 (was 4.5)
+**Recommendation:** **AVOID** (hard stops: U/D 0.88:1, SVAR 55% at ₹491). It remains on the **watchlist** because the CNS API franchise and the new CEO/CFO team are real assets.
+**Conviction Score:** 3.8 / 10 (4.0 on 10-Oct; 4.5 on 26-Aug)
+**Next action:** re-run this report after the **6-Nov-2026** Q2 FY27 results and call. Scenario values will be rebuilt on actual H2 delivery.
 **Suggested position size:** 0%.
 **Re-entry conditions (all three):**
 1. Price ≤ **₹365** (U/D ≥ 2:1 and SVAR ≤ 40% on the current scenario set), **or** scenario values rise because delivery improves.
@@ -606,11 +641,11 @@ xychart-beta
 
 **Stop-loss (if held):** weekly close below ₹415.
 **Target (base, ~2.5 yr):** ₹407.
-**Review triggers:** Q2 FY27 results; Dec-2026 strategy/guidance reset; CFO appointment; USFDA 483 classifications; any Advent block or pledge change; NJ Bio impairment test (Mar-2027).
+**Review triggers:** Q2 FY27 results (6-Nov-2026); Dec-2026 strategy/guidance reset; new CFO's first call; USFDA 483 classifications; any Advent block or pledge change; NJ Bio impairment test (Mar-2027).
 
 ---
 ### Sources
-BSE filings (scrip 543064), harvested 1-Jan-2024 → 10-Oct-2026 (336 announcements): Q1 FY27 transcript (11-Aug-2026); Q4 FY26 (15-May-2026), Q3 FY26 (16-Feb-2026), Q2 FY26 (17-Nov-2025), Q1 FY26 (19-Aug-2025) and Q4 FY25 (02-Jun-2025) transcripts; FY26 Annual Report (26-Aug-2026: consolidated BS/P&L, Notes 3a, 6, 22, 40, 43, MD&A, auditor's report); NJ Bio/Aruka press release and Reg 30 (3-Sep-2026); NJ Bio CCPS (18-Sep-2026); USFDA filings (4/6-Feb-2026 WL; 5-Aug, 5-Sep, 21-Sep-2026 483s); CRISIL rationale (12/13-Aug-2026); CFO resignation (17-Jun-2026); SAST Reg 29/31 (17–19-Jun-2026); Vohra press release (27-Apr-2026); AGM outcome (17-Sep-2026). Screener.in consolidated (10-Oct-2026) for the company and peers. Yahoo Finance (COHANCE.NS, ^NSEI, ^CNXPHARMA, INR=X). [Business Standard: Advent 8.9% sale](https://www.business-standard.com/amp/markets/news/advent-international-sells-8-9-stake-in-cohance-lifesciences-for-3-094-cr-125091801454_1.html) · [Greenberg Traurig BIOSECURE update, Sep-2026](https://www.gtlaw.com/en/insights/2026/9/biosecure-act-update-court-enjoins-wuxi-apptecs-1260h-designation-but-strategic-and-compliance-clocks-keep-running) · [DLA Piper US-China life sciences, Aug-2026](https://www.dlapiper.com/en/insights/publications/2026/08/us-china-life-sciences-policy-developments-top-points-for-companies).
+**29-Oct update sources:** Screener.in consolidated (29-Oct-2026: price, Sep-26 SHP, Oct-2026 announcements: CFO appointment 9-Oct, MCA approval 12-Oct, ESOP grants 9-Oct, board meeting/analyst call intimations 26/27-Oct); Yahoo Finance (COHANCE.NS, ^NSEI, ^CNXPHARMA weekly/daily, 29-Oct); [FDA warning letter 30-Jan-2026](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/cohance-lifesciences-limited-718812-01302026); [SAHI on 2026 483s](https://www.sahi.com/news/cohance-lifesciences-finishes-usfda-plant-inspection-with-four-observations-on-form-483-4960-PE1_COR). **10-Oct sources:** BSE filings (scrip 543064), harvested 1-Jan-2024 → 10-Oct-2026 (336 announcements): Q1 FY27 transcript (11-Aug-2026); Q4 FY26 (15-May-2026), Q3 FY26 (16-Feb-2026), Q2 FY26 (17-Nov-2025), Q1 FY26 (19-Aug-2025) and Q4 FY25 (02-Jun-2025) transcripts; FY26 Annual Report (26-Aug-2026: consolidated BS/P&L, Notes 3a, 6, 22, 40, 43, MD&A, auditor's report); NJ Bio/Aruka press release and Reg 30 (3-Sep-2026); NJ Bio CCPS (18-Sep-2026); USFDA filings (4/6-Feb-2026 WL; 5-Aug, 5-Sep, 21-Sep-2026 483s); CRISIL rationale (12/13-Aug-2026); CFO resignation (17-Jun-2026); SAST Reg 29/31 (17–19-Jun-2026); Vohra press release (27-Apr-2026); AGM outcome (17-Sep-2026). Screener.in consolidated (10-Oct-2026) for the company and peers. Yahoo Finance (COHANCE.NS, ^NSEI, ^CNXPHARMA, INR=X). [Business Standard: Advent 8.9% sale](https://www.business-standard.com/amp/markets/news/advent-international-sells-8-9-stake-in-cohance-lifesciences-for-3-094-cr-125091801454_1.html) · [Greenberg Traurig BIOSECURE update, Sep-2026](https://www.gtlaw.com/en/insights/2026/9/biosecure-act-update-court-enjoins-wuxi-apptecs-1260h-designation-but-strategic-and-compliance-clocks-keep-running) · [DLA Piper US-China life sciences, Aug-2026](https://www.dlapiper.com/en/insights/publications/2026/08/us-china-life-sciences-policy-developments-top-points-for-companies).
 
 *Report generated by Stock Fundamental Analysis Skill v3.3 | Indian Markets Context. Not investment advice. Post-merger financials (eff. 1-May-2025; FY25 restated under common-control accounting) are discontinuous with FY20–FY24 legacy Suven data.*
-*Save path: C:\Users\anubh\Documents\Anubhav\Stock Analysis\Stock Analysis\COHANCE_CohanceLifesciences_2026-10-10.md*
+*Save path: C:\Users\anubh\Documents\Anubhav\Stock Analysis\Stock Analysis\Healthcare\Pharma-API-and-CDMO\COHANCE_CohanceLifesciences_2026-10-29.md*
